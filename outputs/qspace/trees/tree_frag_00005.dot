@@ -1,0 +1,17 @@
+digraph T {
+  rankdir=TB;
+  node [shape=box, style=rounded, fontsize=10];
+  "root" [label="Root", shape=box];
+  "h0_0" [label="rule: Reallocations over $20,000 require FP&A…", shape=ellipse];
+  "hg1" [label="Co-demanded: approver, amount_threshold", shape=box];
+  "hg1_approver_0" [label="approver: Department Head", shape=ellipse];
+  "hg1_approver_1" [label="approver: CFO", shape=ellipse];
+  "hg1_amount_threshold_0" [label="amount_threshold: $20,000", shape=ellipse];
+  "hg1_amount_threshold_1" [label="amount_threshold: $100,000", shape=ellipse];
+  "root" -> "h0_0";
+  "root" -> "hg1";
+  "hg1" -> "hg1_approver_0";
+  "hg1" -> "hg1_approver_1";
+  "hg1" -> "hg1_amount_threshold_0";
+  "hg1" -> "hg1_amount_threshold_1";
+}

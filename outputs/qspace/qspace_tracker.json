@@ -1,0 +1,334 @@
+{
+  "counts": {
+    "prototypes": 17,
+    "fragments": 1006,
+    "evidence_roles": 17,
+    "classes": 5,
+    "documents": 234
+  },
+  "edge_counts": {
+    "prototype_fragment": 1023,
+    "prototype_evidence": 29,
+    "prototype_class": 17,
+    "fragment_evidence": 1525,
+    "fragment_document": 768
+  },
+  "prototypes": [
+    {
+      "prototype_id": "qproto_001_threshold_lookup",
+      "canonical_name": "threshold_lookup(amount_threshold)",
+      "intent": "threshold_lookup",
+      "density": 0.9737,
+      "class": "class_005",
+      "support_fragments": 234,
+      "support_documents": 123,
+      "example_raw_questions": [
+        "What is the threshold of $2,046,000 and what condition applies?",
+        "What is the threshold of $1,400,000 and what condition applies?",
+        "What is the threshold of $1,792,000 and what condition applies?",
+        "What is the threshold of $62,028,117 and what condition applies?",
+        "What is the threshold of $29.66 and what condition applies?",
+        "What is the threshold of $ 1,264 and what condition applies?",
+        "What is the threshold of $40,000 and what condition applies?",
+        "What is the threshold of $2.00 and what condition applies?"
+      ]
+    },
+    {
+      "prototype_id": "qproto_002_metric_lookup",
+      "canonical_name": "metric_lookup(metric)",
+      "intent": "metric_lookup",
+      "density": 0.8208,
+      "class": "class_003",
+      "support_fragments": 212,
+      "support_documents": 105,
+      "example_raw_questions": [
+        "What was revenue?",
+        "What was Revenue?",
+        "What was forecast?",
+        "What was operating expenses?",
+        "What was Gross margin?",
+        "What was Operating expenses?",
+        "What was Gross Margin?",
+        "What was gross margin?"
+      ]
+    },
+    {
+      "prototype_id": "qproto_003_rule_lookup",
+      "canonical_name": "rule_lookup(subject)",
+      "intent": "rule_lookup",
+      "density": 0.648,
+      "class": "class_001",
+      "support_fragments": 154,
+      "support_documents": 73,
+      "example_raw_questions": [
+        "What rule applies to These APMs?",
+        "What rule applies to Participants?",
+        "What rule applies to Significant management judgment?",
+        "What rule applies to Although we believe our underlying assu…?",
+        "What rule applies to the subject?",
+        "What rule applies to The objective?",
+        "What rule applies to A reassessment of the credit rating for…?",
+        "What rule applies to We perform ongoing credit evaluations o…?"
+      ]
+    },
+    {
+      "prototype_id": "qproto_004_exception_lookup",
+      "canonical_name": "exception_lookup(condition)",
+      "intent": "exception_lookup",
+      "density": 0.5197,
+      "class": "class_001",
+      "support_fragments": 99,
+      "support_documents": 66,
+      "example_raw_questions": [
+        "What is the exception to this rule?"
+      ]
+    },
+    {
+      "prototype_id": "qproto_005_variance_explanation",
+      "canonical_name": "variance_explanation(metric)",
+      "intent": "variance_explanation",
+      "density": 0.3878,
+      "class": "class_004",
+      "support_fragments": 85,
+      "support_documents": 37,
+      "example_raw_questions": [
+        "What drove the variance and by how much?"
+      ]
+    },
+    {
+      "prototype_id": "qproto_006_applicability_check",
+      "canonical_name": "applicability_check(audience)",
+      "intent": "applicability_check",
+      "density": 0.3466,
+      "class": "class_001",
+      "support_fragments": 63,
+      "support_documents": 38,
+      "example_raw_questions": [
+        "Does this apply to the stated audience?",
+        "Does this apply to its Chief Executive Officer, Chief Financial Officer and Ch…?",
+        "Does this apply to all employees who travel for business purposes?",
+        "Does this apply to all new vendor engagements?"
+      ]
+    },
+    {
+      "prototype_id": "qproto_007_effective_date_lookup",
+      "canonical_name": "effective_date_lookup(document)",
+      "intent": "effective_date_lookup",
+      "density": 0.2694,
+      "class": "class_001",
+      "support_fragments": 48,
+      "support_documents": 35,
+      "example_raw_questions": [
+        "When did this document become effective?"
+      ]
+    },
+    {
+      "prototype_id": "qproto_008_threshold_lookup",
+      "canonical_name": "threshold_lookup(amount_threshold, region)",
+      "intent": "threshold_lookup",
+      "density": 0.3137,
+      "class": "class_005",
+      "support_fragments": 39,
+      "support_documents": 33,
+      "example_raw_questions": [
+        "What is the threshold of $64,000 in Global and what condition applies?",
+        "What is the threshold of $ 5.99 in Global and what condition applies?",
+        "What is the threshold of $000 in US and what condition applies?",
+        "What is the threshold of $ 91.30 in Global and what condition applies?",
+        "What is the threshold of $328.8 in Global and what condition applies?",
+        "What is the threshold of $62,899 in Global and what condition applies?",
+        "What is the threshold of $862 in us and what condition applies?",
+        "What is the threshold of $2.9 million in United States and what condition applies?"
+      ]
+    },
+    {
+      "prototype_id": "qproto_009_metric_lookup",
+      "canonical_name": "metric_lookup(metric, period)",
+      "intent": "metric_lookup",
+      "density": 0.141,
+      "class": "class_003",
+      "support_fragments": 17,
+      "support_documents": 6,
+      "example_raw_questions": [
+        "What was Gross margin in full year 2018?",
+        "What was gross margin in full year 2017?",
+        "What was Revenue in FY 2019?",
+        "What was revenue in FY 2019?",
+        "What was operating expenses in Q4 2019?",
+        "What was revenue in Q4 2018?",
+        "What was revenue in Q4 2019?",
+        "What was Revenue in Q2 2026?"
+      ]
+    },
+    {
+      "prototype_id": "qproto_010_variance_explanation",
+      "canonical_name": "variance_explanation(metric)",
+      "intent": "variance_explanation",
+      "density": 0.1603,
+      "class": "class_004",
+      "support_fragments": 15,
+      "support_documents": 9,
+      "example_raw_questions": [
+        "What drove the variance and by how much?"
+      ]
+    },
+    {
+      "prototype_id": "qproto_011_owner_lookup",
+      "canonical_name": "owner_lookup(object)",
+      "intent": "owner_lookup",
+      "density": 0.1375,
+      "class": "class_001",
+      "support_fragments": 10,
+      "support_documents": 8,
+      "example_raw_questions": [
+        "Who owns this item?",
+        "Who owns this policy?",
+        "Who owns this SOP?"
+      ]
+    },
+    {
+      "prototype_id": "qproto_012_sla_lookup",
+      "canonical_name": "sla_lookup(step)",
+      "intent": "sla_lookup",
+      "density": 0.143,
+      "class": "class_001",
+      "support_fragments": 9,
+      "support_documents": 6,
+      "example_raw_questions": [
+        "What is the SLA for this step?"
+      ]
+    },
+    {
+      "prototype_id": "qproto_013_approval_lookup",
+      "canonical_name": "approval_lookup(region, transaction_type)",
+      "intent": "approval_lookup",
+      "density": 0.1787,
+      "class": "class_002",
+      "support_fragments": 8,
+      "support_documents": 1,
+      "example_raw_questions": [
+        "Who approves purchases in India?",
+        "Who approves purchases in United States?",
+        "Who approves purchases in Global?",
+        "Who approves expenses in India?",
+        "Who approves transactions in United States?",
+        "Who approves transactions in Global?"
+      ]
+    },
+    {
+      "prototype_id": "qproto_014_approval_lookup",
+      "canonical_name": "approval_lookup(transaction_type)",
+      "intent": "approval_lookup",
+      "density": 0.1805,
+      "class": "class_002",
+      "support_fragments": 6,
+      "support_documents": 4,
+      "example_raw_questions": [
+        "Who approves transactions?"
+      ]
+    },
+    {
+      "prototype_id": "qproto_015_approval_lookup",
+      "canonical_name": "approval_lookup(amount_threshold, transaction_type)",
+      "intent": "approval_lookup",
+      "density": 0.1781,
+      "class": "class_002",
+      "support_fragments": 5,
+      "support_documents": 4,
+      "example_raw_questions": [
+        "Who approves transactions over $ 707,299?",
+        "Who approves transactions over $20,000?",
+        "Who approves transactions over $100,000?",
+        "Who approves purchases over $2,000?",
+        "Who approves expenses over $2,500?",
+        "Who approves expenses over $500?"
+      ]
+    },
+    {
+      "prototype_id": "qproto_016_escalation_lookup",
+      "canonical_name": "escalation_lookup(trigger)",
+      "intent": "escalation_lookup",
+      "density": 0.1526,
+      "class": "class_001",
+      "support_fragments": 4,
+      "support_documents": 3,
+      "example_raw_questions": [
+        "Who is the escalation contact if the SLA is missed?"
+      ]
+    },
+    {
+      "prototype_id": "qproto_017_approval_lookup",
+      "canonical_name": "approval_lookup(amount_threshold, region, transaction_type)",
+      "intent": "approval_lookup",
+      "density": 0.1621,
+      "class": "class_002",
+      "support_fragments": 1,
+      "support_documents": 1,
+      "example_raw_questions": [
+        "Who approves purchases over $10,000 in India?",
+        "Who approves purchases over $25,000 in United States?",
+        "Who approves purchases over $50,000 in any region?"
+      ]
+    }
+  ],
+  "highest_degree_prototypes": [
+    {
+      "prototype_id": "qproto_001_threshold_lookup",
+      "name": "threshold_lookup(amount_threshold)",
+      "fragment_degree": 236
+    },
+    {
+      "prototype_id": "qproto_002_metric_lookup",
+      "name": "metric_lookup(metric)",
+      "fragment_degree": 214
+    },
+    {
+      "prototype_id": "qproto_003_rule_lookup",
+      "name": "rule_lookup(subject)",
+      "fragment_degree": 160
+    },
+    {
+      "prototype_id": "qproto_004_exception_lookup",
+      "name": "exception_lookup(condition)",
+      "fragment_degree": 100
+    },
+    {
+      "prototype_id": "qproto_005_variance_explanation",
+      "name": "variance_explanation(metric)",
+      "fragment_degree": 85
+    },
+    {
+      "prototype_id": "qproto_006_applicability_check",
+      "name": "applicability_check(audience)",
+      "fragment_degree": 63
+    },
+    {
+      "prototype_id": "qproto_007_effective_date_lookup",
+      "name": "effective_date_lookup(document)",
+      "fragment_degree": 48
+    },
+    {
+      "prototype_id": "qproto_008_threshold_lookup",
+      "name": "threshold_lookup(amount_threshold, region)",
+      "fragment_degree": 39
+    },
+    {
+      "prototype_id": "qproto_009_metric_lookup",
+      "name": "metric_lookup(metric, period)",
+      "fragment_degree": 17
+    },
+    {
+      "prototype_id": "qproto_010_variance_explanation",
+      "name": "variance_explanation(metric)",
+      "fragment_degree": 15
+    }
+  ],
+  "missing_evidence_regions": [
+    {
+      "prototype_id": "qproto_017_approval_lookup",
+      "canonical_name": "approval_lookup(amount_threshold, region, transaction_type)",
+      "support_fragments": 1,
+      "note": "thin support; candidate coverage gap"
+    }
+  ]
+}

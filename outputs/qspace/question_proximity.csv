@@ -1,0 +1,137 @@
+prototype_a,name_a,prototype_b,name_b,intent_similarity,evidence_role_jaccard,slot_jaccard,answer_shape_jaccard,fragment_overlap,class_overlap,similarity
+qproto_005_variance_explanation,variance_explanation(metric),qproto_010_variance_explanation,variance_explanation(metric),1.0,0.5,1.0,1.0,0.01,1.0,0.801
+qproto_015_approval_lookup,"approval_lookup(amount_threshold, transaction_type)",qproto_017_approval_lookup,"approval_lookup(amount_threshold, region, transaction_type)",1.0,0.667,0.667,1.0,0.2,1.0,0.7867
+qproto_013_approval_lookup,"approval_lookup(region, transaction_type)",qproto_017_approval_lookup,"approval_lookup(amount_threshold, region, transaction_type)",1.0,0.667,0.667,1.0,0.0,1.0,0.7667
+qproto_002_metric_lookup,metric_lookup(metric),qproto_009_metric_lookup,"metric_lookup(metric, period)",1.0,0.667,0.5,1.0,0.013,1.0,0.7347
+qproto_001_threshold_lookup,threshold_lookup(amount_threshold),qproto_008_threshold_lookup,"threshold_lookup(amount_threshold, region)",1.0,0.5,0.5,1.0,0.0,1.0,0.7
+qproto_013_approval_lookup,"approval_lookup(region, transaction_type)",qproto_014_approval_lookup,approval_lookup(transaction_type),1.0,0.5,0.5,1.0,0.0,1.0,0.7
+qproto_014_approval_lookup,approval_lookup(transaction_type),qproto_015_approval_lookup,"approval_lookup(amount_threshold, transaction_type)",1.0,0.5,0.5,1.0,0.0,1.0,0.7
+qproto_013_approval_lookup,"approval_lookup(region, transaction_type)",qproto_015_approval_lookup,"approval_lookup(amount_threshold, transaction_type)",1.0,0.333,0.333,1.0,0.0,1.0,0.6333
+qproto_014_approval_lookup,approval_lookup(transaction_type),qproto_017_approval_lookup,"approval_lookup(amount_threshold, region, transaction_type)",1.0,0.333,0.333,1.0,0.0,1.0,0.6333
+qproto_008_threshold_lookup,"threshold_lookup(amount_threshold, region)",qproto_017_approval_lookup,"approval_lookup(amount_threshold, region, transaction_type)",0.0,0.667,0.667,0.5,0.0,0.0,0.3417
+qproto_001_threshold_lookup,threshold_lookup(amount_threshold),qproto_015_approval_lookup,"approval_lookup(amount_threshold, transaction_type)",0.0,0.5,0.5,0.5,0.004,0.0,0.2754
+qproto_002_metric_lookup,metric_lookup(metric),qproto_005_variance_explanation,variance_explanation(metric),0.0,0.0,1.0,0.333,0.076,0.0,0.2576
+qproto_002_metric_lookup,metric_lookup(metric),qproto_010_variance_explanation,variance_explanation(metric),0.0,0.0,1.0,0.333,0.051,0.0,0.2551
+qproto_003_rule_lookup,rule_lookup(subject),qproto_004_exception_lookup,exception_lookup(condition),0.0,0.333,0.0,0.5,0.059,1.0,0.2475
+qproto_001_threshold_lookup,threshold_lookup(amount_threshold),qproto_017_approval_lookup,"approval_lookup(amount_threshold, region, transaction_type)",0.0,0.333,0.333,0.5,0.0,0.0,0.2083
+qproto_008_threshold_lookup,"threshold_lookup(amount_threshold, region)",qproto_013_approval_lookup,"approval_lookup(region, transaction_type)",0.0,0.333,0.333,0.5,0.0,0.0,0.2083
+qproto_008_threshold_lookup,"threshold_lookup(amount_threshold, region)",qproto_015_approval_lookup,"approval_lookup(amount_threshold, transaction_type)",0.0,0.333,0.333,0.5,0.0,0.0,0.2083
+qproto_003_rule_lookup,rule_lookup(subject),qproto_012_sla_lookup,sla_lookup(step),0.0,0.0,0.0,0.5,0.025,1.0,0.1775
+qproto_004_exception_lookup,exception_lookup(condition),qproto_012_sla_lookup,sla_lookup(step),0.0,0.0,0.0,0.5,0.009,1.0,0.1759
+qproto_012_sla_lookup,sla_lookup(step),qproto_016_escalation_lookup,escalation_lookup(trigger),0.0,0.0,0.0,0.2,0.3,1.0,0.16
+qproto_005_variance_explanation,variance_explanation(metric),qproto_009_metric_lookup,"metric_lookup(metric, period)",0.0,0.0,0.5,0.333,0.03,0.0,0.153
+qproto_009_metric_lookup,"metric_lookup(metric, period)",qproto_010_variance_explanation,variance_explanation(metric),0.0,0.0,0.5,0.333,0.0,0.0,0.15
+qproto_006_applicability_check,applicability_check(audience),qproto_007_effective_date_lookup,effective_date_lookup(document),0.0,0.0,0.0,0.25,0.088,1.0,0.1463
+qproto_007_effective_date_lookup,effective_date_lookup(document),qproto_011_owner_lookup,owner_lookup(object),0.0,0.0,0.0,0.25,0.074,1.0,0.1449
+qproto_003_rule_lookup,rule_lookup(subject),qproto_007_effective_date_lookup,effective_date_lookup(document),0.0,0.0,0.0,0.25,0.01,1.0,0.1385
+qproto_004_exception_lookup,exception_lookup(condition),qproto_007_effective_date_lookup,effective_date_lookup(document),0.0,0.0,0.0,0.25,0.007,1.0,0.1382
+qproto_007_effective_date_lookup,effective_date_lookup(document),qproto_012_sla_lookup,sla_lookup(step),0.0,0.0,0.0,0.25,0.0,1.0,0.1375
+qproto_007_effective_date_lookup,effective_date_lookup(document),qproto_016_escalation_lookup,escalation_lookup(trigger),0.0,0.0,0.0,0.25,0.0,1.0,0.1375
+qproto_003_rule_lookup,rule_lookup(subject),qproto_006_applicability_check,applicability_check(audience),0.0,0.0,0.0,0.2,0.069,1.0,0.1369
+qproto_006_applicability_check,applicability_check(audience),qproto_011_owner_lookup,owner_lookup(object),0.0,0.0,0.0,0.2,0.028,1.0,0.1328
+qproto_003_rule_lookup,rule_lookup(subject),qproto_016_escalation_lookup,escalation_lookup(trigger),0.0,0.0,0.0,0.2,0.019,1.0,0.1319
+qproto_004_exception_lookup,exception_lookup(condition),qproto_006_applicability_check,applicability_check(audience),0.0,0.0,0.0,0.2,0.019,1.0,0.1319
+qproto_003_rule_lookup,rule_lookup(subject),qproto_011_owner_lookup,owner_lookup(object),0.0,0.0,0.0,0.2,0.012,1.0,0.1312
+qproto_004_exception_lookup,exception_lookup(condition),qproto_011_owner_lookup,owner_lookup(object),0.0,0.0,0.0,0.2,0.009,1.0,0.1309
+qproto_004_exception_lookup,exception_lookup(condition),qproto_016_escalation_lookup,escalation_lookup(trigger),0.0,0.0,0.0,0.2,0.0,1.0,0.13
+qproto_006_applicability_check,applicability_check(audience),qproto_012_sla_lookup,sla_lookup(step),0.0,0.0,0.0,0.2,0.0,1.0,0.13
+qproto_006_applicability_check,applicability_check(audience),qproto_016_escalation_lookup,escalation_lookup(trigger),0.0,0.0,0.0,0.2,0.0,1.0,0.13
+qproto_011_owner_lookup,owner_lookup(object),qproto_012_sla_lookup,sla_lookup(step),0.0,0.0,0.0,0.2,0.0,1.0,0.13
+qproto_011_owner_lookup,owner_lookup(object),qproto_016_escalation_lookup,escalation_lookup(trigger),0.0,0.0,0.0,0.2,0.0,1.0,0.13
+qproto_003_rule_lookup,rule_lookup(subject),qproto_008_threshold_lookup,"threshold_lookup(amount_threshold, region)",0.0,0.0,0.0,0.5,0.049,0.0,0.0799
+qproto_001_threshold_lookup,threshold_lookup(amount_threshold),qproto_003_rule_lookup,rule_lookup(subject),0.0,0.0,0.0,0.5,0.037,0.0,0.0787
+qproto_001_threshold_lookup,threshold_lookup(amount_threshold),qproto_004_exception_lookup,exception_lookup(condition),0.0,0.0,0.0,0.5,0.034,0.0,0.0784
+qproto_003_rule_lookup,rule_lookup(subject),qproto_014_approval_lookup,approval_lookup(transaction_type),0.0,0.0,0.0,0.5,0.026,0.0,0.0776
+qproto_003_rule_lookup,rule_lookup(subject),qproto_015_approval_lookup,"approval_lookup(amount_threshold, transaction_type)",0.0,0.0,0.0,0.5,0.026,0.0,0.0776
+qproto_004_exception_lookup,exception_lookup(condition),qproto_014_approval_lookup,approval_lookup(transaction_type),0.0,0.0,0.0,0.5,0.01,0.0,0.076
+qproto_004_exception_lookup,exception_lookup(condition),qproto_015_approval_lookup,"approval_lookup(amount_threshold, transaction_type)",0.0,0.0,0.0,0.5,0.01,0.0,0.076
+qproto_003_rule_lookup,rule_lookup(subject),qproto_017_approval_lookup,"approval_lookup(amount_threshold, region, transaction_type)",0.0,0.0,0.0,0.5,0.006,0.0,0.0756
+qproto_001_threshold_lookup,threshold_lookup(amount_threshold),qproto_012_sla_lookup,sla_lookup(step),0.0,0.0,0.0,0.5,0.0,0.0,0.075
+qproto_001_threshold_lookup,threshold_lookup(amount_threshold),qproto_013_approval_lookup,"approval_lookup(region, transaction_type)",0.0,0.0,0.0,0.5,0.0,0.0,0.075
+qproto_001_threshold_lookup,threshold_lookup(amount_threshold),qproto_014_approval_lookup,approval_lookup(transaction_type),0.0,0.0,0.0,0.5,0.0,0.0,0.075
+qproto_003_rule_lookup,rule_lookup(subject),qproto_013_approval_lookup,"approval_lookup(region, transaction_type)",0.0,0.0,0.0,0.5,0.0,0.0,0.075
+qproto_004_exception_lookup,exception_lookup(condition),qproto_008_threshold_lookup,"threshold_lookup(amount_threshold, region)",0.0,0.0,0.0,0.5,0.0,0.0,0.075
+qproto_004_exception_lookup,exception_lookup(condition),qproto_013_approval_lookup,"approval_lookup(region, transaction_type)",0.0,0.0,0.0,0.5,0.0,0.0,0.075
+qproto_004_exception_lookup,exception_lookup(condition),qproto_017_approval_lookup,"approval_lookup(amount_threshold, region, transaction_type)",0.0,0.0,0.0,0.5,0.0,0.0,0.075
+qproto_008_threshold_lookup,"threshold_lookup(amount_threshold, region)",qproto_012_sla_lookup,sla_lookup(step),0.0,0.0,0.0,0.5,0.0,0.0,0.075
+qproto_008_threshold_lookup,"threshold_lookup(amount_threshold, region)",qproto_014_approval_lookup,approval_lookup(transaction_type),0.0,0.0,0.0,0.5,0.0,0.0,0.075
+qproto_012_sla_lookup,sla_lookup(step),qproto_013_approval_lookup,"approval_lookup(region, transaction_type)",0.0,0.0,0.0,0.5,0.0,0.0,0.075
+qproto_012_sla_lookup,sla_lookup(step),qproto_014_approval_lookup,approval_lookup(transaction_type),0.0,0.0,0.0,0.5,0.0,0.0,0.075
+qproto_012_sla_lookup,sla_lookup(step),qproto_015_approval_lookup,"approval_lookup(amount_threshold, transaction_type)",0.0,0.0,0.0,0.5,0.0,0.0,0.075
+qproto_012_sla_lookup,sla_lookup(step),qproto_017_approval_lookup,"approval_lookup(amount_threshold, region, transaction_type)",0.0,0.0,0.0,0.5,0.0,0.0,0.075
+qproto_001_threshold_lookup,threshold_lookup(amount_threshold),qproto_007_effective_date_lookup,effective_date_lookup(document),0.0,0.0,0.0,0.25,0.029,0.0,0.0404
+qproto_007_effective_date_lookup,effective_date_lookup(document),qproto_008_threshold_lookup,"threshold_lookup(amount_threshold, region)",0.0,0.0,0.0,0.25,0.012,0.0,0.0387
+qproto_007_effective_date_lookup,effective_date_lookup(document),qproto_013_approval_lookup,"approval_lookup(region, transaction_type)",0.0,0.0,0.0,0.25,0.0,0.0,0.0375
+qproto_007_effective_date_lookup,effective_date_lookup(document),qproto_014_approval_lookup,approval_lookup(transaction_type),0.0,0.0,0.0,0.25,0.0,0.0,0.0375
+qproto_007_effective_date_lookup,effective_date_lookup(document),qproto_015_approval_lookup,"approval_lookup(amount_threshold, transaction_type)",0.0,0.0,0.0,0.25,0.0,0.0,0.0375
+qproto_007_effective_date_lookup,effective_date_lookup(document),qproto_017_approval_lookup,"approval_lookup(amount_threshold, region, transaction_type)",0.0,0.0,0.0,0.25,0.0,0.0,0.0375
+qproto_011_owner_lookup,owner_lookup(object),qproto_015_approval_lookup,"approval_lookup(amount_threshold, transaction_type)",0.0,0.0,0.0,0.2,0.071,0.0,0.0371
+qproto_011_owner_lookup,owner_lookup(object),qproto_014_approval_lookup,approval_lookup(transaction_type),0.0,0.0,0.0,0.2,0.067,0.0,0.0367
+qproto_001_threshold_lookup,threshold_lookup(amount_threshold),qproto_002_metric_lookup,metric_lookup(metric),0.0,0.0,0.0,0.167,0.104,0.0,0.0354
+qproto_006_applicability_check,applicability_check(audience),qproto_008_threshold_lookup,"threshold_lookup(amount_threshold, region)",0.0,0.0,0.0,0.2,0.041,0.0,0.0341
+qproto_001_threshold_lookup,threshold_lookup(amount_threshold),qproto_006_applicability_check,applicability_check(audience),0.0,0.0,0.0,0.2,0.021,0.0,0.0321
+qproto_002_metric_lookup,metric_lookup(metric),qproto_007_effective_date_lookup,effective_date_lookup(document),0.0,0.0,0.0,0.2,0.02,0.0,0.032
+qproto_005_variance_explanation,variance_explanation(metric),qproto_007_effective_date_lookup,effective_date_lookup(document),0.0,0.0,0.0,0.2,0.008,0.0,0.0308
+qproto_002_metric_lookup,metric_lookup(metric),qproto_008_threshold_lookup,"threshold_lookup(amount_threshold, region)",0.0,0.0,0.0,0.167,0.055,0.0,0.0305
+qproto_002_metric_lookup,metric_lookup(metric),qproto_004_exception_lookup,exception_lookup(condition),0.0,0.0,0.0,0.167,0.051,0.0,0.0301
+qproto_001_threshold_lookup,threshold_lookup(amount_threshold),qproto_011_owner_lookup,owner_lookup(object),0.0,0.0,0.0,0.2,0.0,0.0,0.03
+qproto_001_threshold_lookup,threshold_lookup(amount_threshold),qproto_016_escalation_lookup,escalation_lookup(trigger),0.0,0.0,0.0,0.2,0.0,0.0,0.03
+qproto_006_applicability_check,applicability_check(audience),qproto_013_approval_lookup,"approval_lookup(region, transaction_type)",0.0,0.0,0.0,0.2,0.0,0.0,0.03
+qproto_006_applicability_check,applicability_check(audience),qproto_014_approval_lookup,approval_lookup(transaction_type),0.0,0.0,0.0,0.2,0.0,0.0,0.03
+qproto_006_applicability_check,applicability_check(audience),qproto_015_approval_lookup,"approval_lookup(amount_threshold, transaction_type)",0.0,0.0,0.0,0.2,0.0,0.0,0.03
+qproto_006_applicability_check,applicability_check(audience),qproto_017_approval_lookup,"approval_lookup(amount_threshold, region, transaction_type)",0.0,0.0,0.0,0.2,0.0,0.0,0.03
+qproto_007_effective_date_lookup,effective_date_lookup(document),qproto_009_metric_lookup,"metric_lookup(metric, period)",0.0,0.0,0.0,0.2,0.0,0.0,0.03
+qproto_007_effective_date_lookup,effective_date_lookup(document),qproto_010_variance_explanation,variance_explanation(metric),0.0,0.0,0.0,0.2,0.0,0.0,0.03
+qproto_008_threshold_lookup,"threshold_lookup(amount_threshold, region)",qproto_011_owner_lookup,owner_lookup(object),0.0,0.0,0.0,0.2,0.0,0.0,0.03
+qproto_008_threshold_lookup,"threshold_lookup(amount_threshold, region)",qproto_016_escalation_lookup,escalation_lookup(trigger),0.0,0.0,0.0,0.2,0.0,0.0,0.03
+qproto_011_owner_lookup,owner_lookup(object),qproto_013_approval_lookup,"approval_lookup(region, transaction_type)",0.0,0.0,0.0,0.2,0.0,0.0,0.03
+qproto_011_owner_lookup,owner_lookup(object),qproto_017_approval_lookup,"approval_lookup(amount_threshold, region, transaction_type)",0.0,0.0,0.0,0.2,0.0,0.0,0.03
+qproto_013_approval_lookup,"approval_lookup(region, transaction_type)",qproto_016_escalation_lookup,escalation_lookup(trigger),0.0,0.0,0.0,0.2,0.0,0.0,0.03
+qproto_014_approval_lookup,approval_lookup(transaction_type),qproto_016_escalation_lookup,escalation_lookup(trigger),0.0,0.0,0.0,0.2,0.0,0.0,0.03
+qproto_015_approval_lookup,"approval_lookup(amount_threshold, transaction_type)",qproto_016_escalation_lookup,escalation_lookup(trigger),0.0,0.0,0.0,0.2,0.0,0.0,0.03
+qproto_016_escalation_lookup,escalation_lookup(trigger),qproto_017_approval_lookup,"approval_lookup(amount_threshold, region, transaction_type)",0.0,0.0,0.0,0.2,0.0,0.0,0.03
+qproto_002_metric_lookup,metric_lookup(metric),qproto_003_rule_lookup,rule_lookup(subject),0.0,0.0,0.0,0.167,0.046,0.0,0.0296
+qproto_009_metric_lookup,"metric_lookup(metric, period)",qproto_014_approval_lookup,approval_lookup(transaction_type),0.0,0.0,0.0,0.167,0.045,0.0,0.0295
+qproto_009_metric_lookup,"metric_lookup(metric, period)",qproto_011_owner_lookup,owner_lookup(object),0.0,0.0,0.0,0.167,0.038,0.0,0.0288
+qproto_004_exception_lookup,exception_lookup(condition),qproto_010_variance_explanation,variance_explanation(metric),0.0,0.0,0.0,0.167,0.027,0.0,0.0277
+qproto_001_threshold_lookup,threshold_lookup(amount_threshold),qproto_005_variance_explanation,variance_explanation(metric),0.0,0.0,0.0,0.167,0.026,0.0,0.0276
+qproto_005_variance_explanation,variance_explanation(metric),qproto_008_threshold_lookup,"threshold_lookup(amount_threshold, region)",0.0,0.0,0.0,0.167,0.016,0.0,0.0266
+qproto_003_rule_lookup,rule_lookup(subject),qproto_010_variance_explanation,variance_explanation(metric),0.0,0.0,0.0,0.167,0.012,0.0,0.0262
+qproto_002_metric_lookup,metric_lookup(metric),qproto_006_applicability_check,applicability_check(audience),0.0,0.0,0.0,0.167,0.011,0.0,0.0261
+qproto_001_threshold_lookup,threshold_lookup(amount_threshold),qproto_009_metric_lookup,"metric_lookup(metric, period)",0.0,0.0,0.0,0.167,0.008,0.0,0.0258
+qproto_001_threshold_lookup,threshold_lookup(amount_threshold),qproto_010_variance_explanation,variance_explanation(metric),0.0,0.0,0.0,0.167,0.008,0.0,0.0258
+qproto_005_variance_explanation,variance_explanation(metric),qproto_006_applicability_check,applicability_check(audience),0.0,0.0,0.0,0.167,0.007,0.0,0.0257
+qproto_002_metric_lookup,metric_lookup(metric),qproto_014_approval_lookup,approval_lookup(transaction_type),0.0,0.0,0.0,0.167,0.005,0.0,0.0255
+qproto_003_rule_lookup,rule_lookup(subject),qproto_005_variance_explanation,variance_explanation(metric),0.0,0.0,0.0,0.167,0.004,0.0,0.0254
+qproto_002_metric_lookup,metric_lookup(metric),qproto_011_owner_lookup,owner_lookup(object),0.0,0.0,0.0,0.167,0.0,0.0,0.025
+qproto_002_metric_lookup,metric_lookup(metric),qproto_012_sla_lookup,sla_lookup(step),0.0,0.0,0.0,0.167,0.0,0.0,0.025
+qproto_002_metric_lookup,metric_lookup(metric),qproto_013_approval_lookup,"approval_lookup(region, transaction_type)",0.0,0.0,0.0,0.167,0.0,0.0,0.025
+qproto_002_metric_lookup,metric_lookup(metric),qproto_015_approval_lookup,"approval_lookup(amount_threshold, transaction_type)",0.0,0.0,0.0,0.167,0.0,0.0,0.025
+qproto_002_metric_lookup,metric_lookup(metric),qproto_016_escalation_lookup,escalation_lookup(trigger),0.0,0.0,0.0,0.167,0.0,0.0,0.025
+qproto_002_metric_lookup,metric_lookup(metric),qproto_017_approval_lookup,"approval_lookup(amount_threshold, region, transaction_type)",0.0,0.0,0.0,0.167,0.0,0.0,0.025
+qproto_003_rule_lookup,rule_lookup(subject),qproto_009_metric_lookup,"metric_lookup(metric, period)",0.0,0.0,0.0,0.167,0.0,0.0,0.025
+qproto_004_exception_lookup,exception_lookup(condition),qproto_005_variance_explanation,variance_explanation(metric),0.0,0.0,0.0,0.167,0.0,0.0,0.025
+qproto_004_exception_lookup,exception_lookup(condition),qproto_009_metric_lookup,"metric_lookup(metric, period)",0.0,0.0,0.0,0.167,0.0,0.0,0.025
+qproto_005_variance_explanation,variance_explanation(metric),qproto_011_owner_lookup,owner_lookup(object),0.0,0.0,0.0,0.167,0.0,0.0,0.025
+qproto_005_variance_explanation,variance_explanation(metric),qproto_012_sla_lookup,sla_lookup(step),0.0,0.0,0.0,0.167,0.0,0.0,0.025
+qproto_005_variance_explanation,variance_explanation(metric),qproto_013_approval_lookup,"approval_lookup(region, transaction_type)",0.0,0.0,0.0,0.167,0.0,0.0,0.025
+qproto_005_variance_explanation,variance_explanation(metric),qproto_014_approval_lookup,approval_lookup(transaction_type),0.0,0.0,0.0,0.167,0.0,0.0,0.025
+qproto_005_variance_explanation,variance_explanation(metric),qproto_015_approval_lookup,"approval_lookup(amount_threshold, transaction_type)",0.0,0.0,0.0,0.167,0.0,0.0,0.025
+qproto_005_variance_explanation,variance_explanation(metric),qproto_016_escalation_lookup,escalation_lookup(trigger),0.0,0.0,0.0,0.167,0.0,0.0,0.025
+qproto_005_variance_explanation,variance_explanation(metric),qproto_017_approval_lookup,"approval_lookup(amount_threshold, region, transaction_type)",0.0,0.0,0.0,0.167,0.0,0.0,0.025
+qproto_006_applicability_check,applicability_check(audience),qproto_009_metric_lookup,"metric_lookup(metric, period)",0.0,0.0,0.0,0.167,0.0,0.0,0.025
+qproto_006_applicability_check,applicability_check(audience),qproto_010_variance_explanation,variance_explanation(metric),0.0,0.0,0.0,0.167,0.0,0.0,0.025
+qproto_008_threshold_lookup,"threshold_lookup(amount_threshold, region)",qproto_009_metric_lookup,"metric_lookup(metric, period)",0.0,0.0,0.0,0.167,0.0,0.0,0.025
+qproto_008_threshold_lookup,"threshold_lookup(amount_threshold, region)",qproto_010_variance_explanation,variance_explanation(metric),0.0,0.0,0.0,0.167,0.0,0.0,0.025
+qproto_009_metric_lookup,"metric_lookup(metric, period)",qproto_012_sla_lookup,sla_lookup(step),0.0,0.0,0.0,0.167,0.0,0.0,0.025
+qproto_009_metric_lookup,"metric_lookup(metric, period)",qproto_013_approval_lookup,"approval_lookup(region, transaction_type)",0.0,0.0,0.0,0.167,0.0,0.0,0.025
+qproto_009_metric_lookup,"metric_lookup(metric, period)",qproto_015_approval_lookup,"approval_lookup(amount_threshold, transaction_type)",0.0,0.0,0.0,0.167,0.0,0.0,0.025
+qproto_009_metric_lookup,"metric_lookup(metric, period)",qproto_016_escalation_lookup,escalation_lookup(trigger),0.0,0.0,0.0,0.167,0.0,0.0,0.025
+qproto_009_metric_lookup,"metric_lookup(metric, period)",qproto_017_approval_lookup,"approval_lookup(amount_threshold, region, transaction_type)",0.0,0.0,0.0,0.167,0.0,0.0,0.025
+qproto_010_variance_explanation,variance_explanation(metric),qproto_011_owner_lookup,owner_lookup(object),0.0,0.0,0.0,0.167,0.0,0.0,0.025
+qproto_010_variance_explanation,variance_explanation(metric),qproto_012_sla_lookup,sla_lookup(step),0.0,0.0,0.0,0.167,0.0,0.0,0.025
+qproto_010_variance_explanation,variance_explanation(metric),qproto_013_approval_lookup,"approval_lookup(region, transaction_type)",0.0,0.0,0.0,0.167,0.0,0.0,0.025
+qproto_010_variance_explanation,variance_explanation(metric),qproto_014_approval_lookup,approval_lookup(transaction_type),0.0,0.0,0.0,0.167,0.0,0.0,0.025
+qproto_010_variance_explanation,variance_explanation(metric),qproto_015_approval_lookup,"approval_lookup(amount_threshold, transaction_type)",0.0,0.0,0.0,0.167,0.0,0.0,0.025
+qproto_010_variance_explanation,variance_explanation(metric),qproto_016_escalation_lookup,escalation_lookup(trigger),0.0,0.0,0.0,0.167,0.0,0.0,0.025
+qproto_010_variance_explanation,variance_explanation(metric),qproto_017_approval_lookup,"approval_lookup(amount_threshold, region, transaction_type)",0.0,0.0,0.0,0.167,0.0,0.0,0.025

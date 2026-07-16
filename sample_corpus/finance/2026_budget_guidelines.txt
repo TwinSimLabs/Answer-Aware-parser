@@ -1,0 +1,18 @@
+# 2026 Departmental Budget Guidelines
+
+## Budget Ownership
+Each department head owns their departmental budget. The FP&A team owns the
+consolidated budget model. These guidelines are effective February 1, 2026.
+
+## Spending Authority
+Budget line reallocations under $20,000 may be approved by the Department Head.
+Reallocations over $20,000 require FP&A Director approval. Reallocations over
+$100,000 require CFO approval.
+
+## Variance Reporting
+Any budget variance over 10 percent must be explained in the monthly variance
+report. The variance driver and corrective action must be documented.
+
+## Source Tables
+All budget figures are traced to the Workday budget source table. The metric
+owner for headcount cost is the FP&A team.

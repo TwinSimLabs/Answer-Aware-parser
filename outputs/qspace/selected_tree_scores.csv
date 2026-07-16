@@ -1,0 +1,769 @@
+tree_id,fragment_id,class_id,selected_candidate_type,optimized_for,expected_path_length,expected_context_tokens,trace_clarity,citation_locality,total_cost,objective_J
+tree_frag_00004_v1,frag_00004,class_003,question_intent_tree,"[""metric_lookup""]",2.0,20.0,0.75,1.0,0.2217,-0.0333
+tree_frag_00005_v1,frag_00005,class_001,hybrid_optimized_tree,"[""rule_lookup""]",1.0,28.0,0.857,1.0,0.1788,-0.1201
+tree_frag_00006_v1,frag_00006,class_003,question_intent_tree,"[""metric_lookup""]",2.0,21.0,0.75,1.0,0.2227,-0.0323
+tree_frag_00025_v1,frag_00025,class_001,question_intent_tree,"[""exception_lookup""]",2.0,19.0,0.75,1.0,0.2207,-0.0343
+tree_frag_00027_v1,frag_00027,class_001,question_intent_tree,"[""exception_lookup""]",2.0,39.0,0.75,1.0,0.2407,-0.0143
+tree_frag_00028_v1,frag_00028,class_001,question_intent_tree,"[""exception_lookup""]",2.0,19.0,0.75,1.0,0.2207,-0.0343
+tree_frag_00029_v1,frag_00029,class_005,hybrid_optimized_tree,"[""threshold_lookup""]",1.0,10.0,0.857,1.0,0.1108,-0.1881
+tree_frag_00034_v1,frag_00034,class_005,hybrid_optimized_tree,"[""threshold_lookup""]",1.0,10.0,0.857,1.0,0.1108,-0.1881
+tree_frag_00037_v1,frag_00037,class_005,hybrid_optimized_tree,"[""threshold_lookup""]",1.0,10.0,0.857,1.0,0.1108,-0.1881
+tree_frag_00041_v1,frag_00041,class_001,hybrid_optimized_tree,"[""rule_lookup""]",1.0,28.0,0.857,1.0,0.1788,-0.1201
+tree_frag_00043_v1,frag_00043,class_005,hybrid_optimized_tree,"[""threshold_lookup""]",1.0,11.0,0.857,1.0,0.1118,-0.1871
+tree_frag_00047_v1,frag_00047,class_001,question_intent_tree,"[""exception_lookup""]",2.0,52.0,0.75,1.0,0.2537,-0.0013
+tree_frag_00048_v1,frag_00048,class_005,hybrid_optimized_tree,"[""threshold_lookup""]",1.0,10.0,0.857,1.0,0.1108,-0.1881
+tree_frag_00049_v1,frag_00049,class_005,hybrid_optimized_tree,"[""threshold_lookup""]",1.0,10.0,0.857,1.0,0.1108,-0.1881
+tree_frag_00066_v1,frag_00066,class_001,question_intent_tree,"[""exception_lookup""]",2.0,19.0,0.75,1.0,0.2207,-0.0343
+tree_frag_00071_v1,frag_00071,class_001,hybrid_optimized_tree,"[""rule_lookup""]",1.0,28.0,0.857,1.0,0.1788,-0.1201
+tree_frag_00072_v1,frag_00072,class_001,hybrid_optimized_tree,"[""metric_lookup"", ""rule_lookup""]",1.559,23.5,0.75,1.0,0.2123,-0.0352
+tree_frag_00084_v1,frag_00084,class_005,hybrid_optimized_tree,"[""effective_date_lookup"", ""threshold_lookup""]",1.0,10.4,0.857,1.0,0.1138,-0.1777
+tree_frag_00085_v1,frag_00085,class_005,hybrid_optimized_tree,"[""threshold_lookup""]",1.0,10.0,0.857,1.0,0.1108,-0.1881
+tree_frag_00092_v1,frag_00092,class_005,question_intent_tree,"[""metric_lookup"", ""threshold_lookup""]",2.0,21.0,0.75,1.0,0.2302,-0.0023
+tree_frag_00099_v1,frag_00099,class_003,question_intent_tree,"[""metric_lookup""]",2.0,20.0,0.75,1.0,0.2217,-0.0333
+tree_frag_00104_v1,frag_00104,class_003,question_intent_tree,"[""metric_lookup""]",2.0,22.0,0.75,1.0,0.2237,-0.0313
+tree_frag_00110_v1,frag_00110,class_001,hybrid_optimized_tree,"[""effective_date_lookup""]",1.0,12.0,0.857,1.0,0.1128,-0.1861
+tree_frag_00125_v1,frag_00125,class_003,question_intent_tree,"[""metric_lookup""]",2.0,20.0,0.75,1.0,0.2217,-0.0333
+tree_frag_00129_v1,frag_00129,class_001,hybrid_optimized_tree,"[""rule_lookup""]",1.0,28.0,0.857,1.0,0.1788,-0.1201
+tree_frag_00131_v1,frag_00131,class_001,hybrid_optimized_tree,"[""metric_lookup"", ""rule_lookup""]",1.559,25.2,0.75,1.0,0.2139,-0.0336
+tree_frag_00133_v1,frag_00133,class_001,hybrid_optimized_tree,"[""rule_lookup""]",1.0,28.0,0.857,1.0,0.1788,-0.1201
+tree_frag_00137_v1,frag_00137,class_001,question_intent_tree,"[""exception_lookup"", ""metric_lookup""]",2.0,33.0,0.75,1.0,0.2422,0.0097
+tree_frag_00139_v1,frag_00139,class_001,question_intent_tree,"[""exception_lookup""]",2.0,19.0,0.75,1.0,0.2207,-0.0343
+tree_frag_00140_v1,frag_00140,class_005,hybrid_optimized_tree,"[""threshold_lookup""]",1.0,9.0,0.857,1.0,0.1098,-0.1891
+tree_frag_00150_v1,frag_00150,class_004,question_intent_tree,"[""variance_explanation""]",2.0,28.0,0.75,1.0,0.2297,-0.0253
+tree_frag_00157_v1,frag_00157,class_004,hybrid_optimized_tree,"[""variance_explanation""]",1.0,22.0,0.857,1.0,0.1728,-0.1261
+tree_frag_00160_v1,frag_00160,class_003,question_intent_tree,"[""metric_lookup""]",2.0,22.0,0.75,1.0,0.2237,-0.0313
+tree_frag_00164_v1,frag_00164,class_003,question_intent_tree,"[""metric_lookup"", ""variance_explanation""]",2.0,23.2,0.75,1.0,0.2324,-0.0001
+tree_frag_00170_v1,frag_00170,class_005,hybrid_optimized_tree,"[""threshold_lookup""]",1.0,9.0,0.857,1.0,0.1098,-0.1891
+tree_frag_00171_v1,frag_00171,class_005,hybrid_optimized_tree,"[""threshold_lookup""]",1.0,11.0,0.857,1.0,0.1118,-0.1871
+tree_frag_00174_v1,frag_00174,class_001,hybrid_optimized_tree,"[""effective_date_lookup"", ""exception_lookup""]",1.659,37.7,0.75,1.0,0.2128,-0.0347
+tree_frag_00177_v1,frag_00177,class_005,question_intent_tree,"[""threshold_lookup""]",2.0,21.0,0.75,1.0,0.2227,-0.0323
+tree_frag_00181_v1,frag_00181,class_005,question_intent_tree,"[""threshold_lookup""]",2.0,19.0,0.75,1.0,0.2207,-0.0343
+tree_frag_00192_v1,frag_00192,class_005,hybrid_optimized_tree,"[""threshold_lookup""]",1.0,10.0,0.857,1.0,0.1108,-0.1881
+tree_frag_00196_v1,frag_00196,class_001,hybrid_optimized_tree,"[""effective_date_lookup""]",1.0,12.0,0.857,1.0,0.1128,-0.1861
+tree_frag_00198_v1,frag_00198,class_001,hybrid_optimized_tree,"[""effective_date_lookup""]",1.0,12.0,0.857,1.0,0.1128,-0.1861
+tree_frag_00199_v1,frag_00199,class_005,hybrid_optimized_tree,"[""metric_lookup"", ""threshold_lookup""]",1.457,14.0,0.75,1.0,0.1721,-0.0754
+tree_frag_00200_v1,frag_00200,class_001,question_intent_tree,"[""exception_lookup"", ""metric_lookup""]",2.0,20.2,0.75,1.0,0.2294,-0.0031
+tree_frag_00204_v1,frag_00204,class_001,hybrid_optimized_tree,"[""rule_lookup""]",1.0,28.0,0.857,1.0,0.1788,-0.1201
+tree_frag_00208_v1,frag_00208,class_005,hybrid_optimized_tree,"[""threshold_lookup""]",1.0,11.0,0.857,1.0,0.1118,-0.1871
+tree_frag_00210_v1,frag_00210,class_005,hybrid_optimized_tree,"[""threshold_lookup""]",1.0,9.0,0.857,1.0,0.1098,-0.1891
+tree_frag_00211_v1,frag_00211,class_005,hybrid_optimized_tree,"[""threshold_lookup""]",1.0,10.0,0.857,1.0,0.1108,-0.1881
+tree_frag_00215_v1,frag_00215,class_004,question_intent_tree,"[""variance_explanation""]",2.0,35.0,0.75,1.0,0.2367,-0.0183
+tree_frag_00216_v1,frag_00216,class_003,question_intent_tree,"[""metric_lookup""]",2.0,29.0,0.75,1.0,0.2457,-0.0018
+tree_frag_00217_v1,frag_00217,class_003,question_intent_tree,"[""metric_lookup""]",2.0,31.0,0.75,1.0,0.2477,0.0002
+tree_frag_00218_v1,frag_00218,class_003,question_intent_tree,"[""metric_lookup""]",2.0,22.0,0.75,1.0,0.2237,-0.0313
+tree_frag_00227_v1,frag_00227,class_001,hybrid_optimized_tree,"[""rule_lookup""]",1.0,28.0,0.857,1.0,0.1788,-0.1201
+tree_frag_00228_v1,frag_00228,class_001,hybrid_optimized_tree,"[""rule_lookup""]",1.0,28.0,0.857,1.0,0.1788,-0.1201
+tree_frag_00240_v1,frag_00240,class_003,question_intent_tree,"[""metric_lookup""]",2.0,21.0,0.75,1.0,0.2227,-0.0323
+tree_frag_00247_v1,frag_00247,class_001,hybrid_optimized_tree,"[""sla_lookup""]",1.0,10.0,0.857,1.0,0.1108,-0.1881
+tree_frag_00253_v1,frag_00253,class_005,hybrid_optimized_tree,"[""threshold_lookup""]",1.0,9.0,0.857,1.0,0.1098,-0.1891
+tree_frag_00262_v1,frag_00262,class_003,question_intent_tree,"[""metric_lookup""]",2.0,27.0,0.75,1.0,0.2437,-0.0038
+tree_frag_00263_v1,frag_00263,class_003,question_intent_tree,"[""metric_lookup""]",2.0,26.0,0.75,1.0,0.2427,-0.0048
+tree_frag_00264_v1,frag_00264,class_004,hybrid_optimized_tree,"[""variance_explanation""]",1.0,26.0,0.857,1.0,0.1768,-0.1221
+tree_frag_00265_v1,frag_00265,class_003,question_intent_tree,"[""metric_lookup""]",2.0,26.0,0.75,1.0,0.2427,-0.0048
+tree_frag_00267_v1,frag_00267,class_003,question_intent_tree,"[""metric_lookup""]",2.0,26.0,0.75,1.0,0.2427,-0.0048
+tree_frag_00268_v1,frag_00268,class_003,question_intent_tree,"[""metric_lookup""]",2.0,20.0,0.75,1.0,0.2217,-0.0333
+tree_frag_00269_v1,frag_00269,class_003,question_intent_tree,"[""metric_lookup""]",2.0,26.0,0.75,1.0,0.2427,-0.0048
+tree_frag_00270_v1,frag_00270,class_003,question_intent_tree,"[""metric_lookup""]",2.0,20.0,0.75,1.0,0.2217,-0.0333
+tree_frag_00274_v1,frag_00274,class_001,question_intent_tree,"[""exception_lookup""]",2.0,19.0,0.75,1.0,0.2207,-0.0343
+tree_frag_00279_v1,frag_00279,class_005,hybrid_optimized_tree,"[""threshold_lookup""]",1.0,9.0,0.857,1.0,0.1098,-0.1891
+tree_frag_00281_v1,frag_00281,class_005,hybrid_optimized_tree,"[""threshold_lookup""]",1.0,11.0,0.857,1.0,0.1118,-0.1871
+tree_frag_00284_v1,frag_00284,class_003,question_intent_tree,"[""metric_lookup""]",2.0,20.0,0.75,1.0,0.2217,-0.0333
+tree_frag_00285_v1,frag_00285,class_004,hybrid_optimized_tree,"[""variance_explanation""]",1.0,23.0,0.857,1.0,0.1738,-0.1251
+tree_frag_00289_v1,frag_00289,class_004,hybrid_optimized_tree,"[""variance_explanation""]",1.0,9.0,0.857,1.0,0.1598,-0.1391
+tree_frag_00290_v1,frag_00290,class_004,hybrid_optimized_tree,"[""variance_explanation""]",1.0,12.0,0.857,1.0,0.1628,-0.1361
+tree_frag_00297_v1,frag_00297,class_001,question_intent_tree,"[""applicability_check""]",2.0,27.0,0.75,1.0,0.2287,-0.0263
+tree_frag_00300_v1,frag_00300,class_005,hybrid_optimized_tree,"[""threshold_lookup""]",1.0,10.0,0.857,1.0,0.2133,-0.0781
+tree_frag_00302_v1,frag_00302,class_005,hybrid_optimized_tree,"[""threshold_lookup""]",1.0,10.0,0.857,1.0,0.1108,-0.1881
+tree_frag_00309_v1,frag_00309,class_001,question_intent_tree,"[""exception_lookup""]",2.0,27.0,0.75,1.0,0.2287,-0.0263
+tree_frag_00316_v1,frag_00316,class_005,question_intent_tree,"[""threshold_lookup""]",2.0,21.0,0.75,1.0,0.2227,-0.0323
+tree_frag_00318_v1,frag_00318,class_001,question_intent_tree,"[""applicability_check""]",2.0,27.0,0.75,1.0,0.2287,-0.0263
+tree_frag_00320_v1,frag_00320,class_005,hybrid_optimized_tree,"[""threshold_lookup""]",1.0,12.0,0.857,1.0,0.1128,-0.1861
+tree_frag_00326_v1,frag_00326,class_001,question_intent_tree,"[""exception_lookup""]",2.0,19.0,0.75,1.0,0.2207,-0.0343
+tree_frag_00343_v1,frag_00343,class_004,hybrid_optimized_tree,"[""variance_explanation""]",1.0,18.0,0.857,1.0,0.1688,-0.1301
+tree_frag_00346_v1,frag_00346,class_005,hybrid_optimized_tree,"[""threshold_lookup""]",1.0,11.0,0.857,1.0,0.1118,-0.1871
+tree_frag_00347_v1,frag_00347,class_005,hybrid_optimized_tree,"[""threshold_lookup""]",1.0,9.0,0.857,1.0,0.1098,-0.1891
+tree_frag_00349_v1,frag_00349,class_001,hybrid_optimized_tree,"[""exception_lookup"", ""rule_lookup""]",1.777,29.5,0.75,0.703,0.2471,0.0441
+tree_frag_00359_v1,frag_00359,class_004,hybrid_optimized_tree,"[""variance_explanation""]",1.0,16.0,0.857,1.0,0.1668,-0.1321
+tree_frag_00360_v1,frag_00360,class_005,hybrid_optimized_tree,"[""metric_lookup"", ""threshold_lookup"", ""variance_explanation""]",1.554,19.8,0.75,1.0,0.1935,-0.0315
+tree_frag_00369_v1,frag_00369,class_005,hybrid_optimized_tree,"[""threshold_lookup""]",1.0,12.0,0.857,1.0,0.1128,-0.1861
+tree_frag_00374_v1,frag_00374,class_005,hybrid_optimized_tree,"[""threshold_lookup""]",1.0,11.0,0.857,1.0,0.1118,-0.1871
+tree_frag_00375_v1,frag_00375,class_005,hybrid_optimized_tree,"[""threshold_lookup""]",1.0,11.0,0.857,1.0,0.1118,-0.1871
+tree_frag_00380_v1,frag_00380,class_005,hybrid_optimized_tree,"[""threshold_lookup""]",1.0,9.0,0.857,1.0,0.1098,-0.1891
+tree_frag_00381_v1,frag_00381,class_005,hybrid_optimized_tree,"[""threshold_lookup""]",1.0,11.0,0.857,1.0,0.1118,-0.1871
+tree_frag_00382_v1,frag_00382,class_005,hybrid_optimized_tree,"[""threshold_lookup""]",1.0,11.0,0.857,1.0,0.1118,-0.1871
+tree_frag_00389_v1,frag_00389,class_001,question_intent_tree,"[""exception_lookup""]",2.0,48.0,0.75,1.0,0.2497,-0.0053
+tree_frag_00390_v1,frag_00390,class_005,hybrid_optimized_tree,"[""exception_lookup"", ""threshold_lookup""]",1.348,13.1,0.75,1.0,0.1619,-0.0856
+tree_frag_00393_v1,frag_00393,class_003,question_intent_tree,"[""metric_lookup""]",2.0,20.0,0.75,1.0,0.2217,-0.0333
+tree_frag_00397_v1,frag_00397,class_005,hybrid_optimized_tree,"[""threshold_lookup""]",1.0,11.0,0.857,1.0,0.1118,-0.1871
+tree_frag_00398_v1,frag_00398,class_005,hybrid_optimized_tree,"[""applicability_check"", ""effective_date_lookup"", ""threshold_lookup""]",1.218,14.0,0.75,1.0,0.1542,-0.0858
+tree_frag_00400_v1,frag_00400,class_003,question_intent_tree,"[""metric_lookup""]",2.0,21.0,0.75,1.0,0.2227,-0.0323
+tree_frag_00402_v1,frag_00402,class_005,hybrid_optimized_tree,"[""metric_lookup"", ""threshold_lookup""]",1.457,16.0,0.75,1.0,0.1741,-0.0734
+tree_frag_00408_v1,frag_00408,class_001,question_intent_tree,"[""exception_lookup""]",2.0,52.0,0.75,1.0,0.2537,-0.0013
+tree_frag_00409_v1,frag_00409,class_001,question_intent_tree,"[""exception_lookup""]",2.0,19.0,0.75,1.0,0.2207,-0.0343
+tree_frag_00415_v1,frag_00415,class_003,question_intent_tree,"[""metric_lookup""]",2.0,20.0,0.75,1.0,0.2217,-0.0333
+tree_frag_00416_v1,frag_00416,class_003,question_intent_tree,"[""metric_lookup""]",2.0,20.0,0.75,1.0,0.2217,-0.0333
+tree_frag_00417_v1,frag_00417,class_003,question_intent_tree,"[""metric_lookup""]",2.0,20.0,0.75,1.0,0.2217,-0.0333
+tree_frag_00418_v1,frag_00418,class_003,question_intent_tree,"[""metric_lookup""]",2.0,20.0,0.75,1.0,0.2217,-0.0333
+tree_frag_00419_v1,frag_00419,class_001,hybrid_optimized_tree,"[""rule_lookup""]",1.0,28.0,0.857,1.0,0.1788,-0.1201
+tree_frag_00422_v1,frag_00422,class_001,hybrid_optimized_tree,"[""metric_lookup"", ""rule_lookup""]",1.559,24.1,0.75,1.0,0.2128,-0.0347
+tree_frag_00424_v1,frag_00424,class_003,question_intent_tree,"[""metric_lookup""]",2.0,20.0,0.75,1.0,0.2217,-0.0333
+tree_frag_00425_v1,frag_00425,class_001,question_intent_tree,"[""applicability_check""]",2.0,27.0,0.75,1.0,0.2287,-0.0263
+tree_frag_00426_v1,frag_00426,class_001,question_intent_tree,"[""applicability_check"", ""variance_explanation""]",2.0,31.8,0.75,1.0,0.2409,0.0084
+tree_frag_00437_v1,frag_00437,class_001,hybrid_optimized_tree,"[""metric_lookup"", ""rule_lookup""]",1.559,24.1,0.75,1.0,0.2128,-0.0347
+tree_frag_00438_v1,frag_00438,class_003,question_intent_tree,"[""metric_lookup""]",2.0,22.0,0.75,1.0,0.2237,-0.0313
+tree_frag_00452_v1,frag_00452,class_005,hybrid_optimized_tree,"[""metric_lookup"", ""threshold_lookup""]",1.457,14.0,0.75,1.0,0.1721,-0.0754
+tree_frag_00454_v1,frag_00454,class_003,question_intent_tree,"[""metric_lookup""]",2.0,22.0,0.75,1.0,0.2237,-0.0313
+tree_frag_00455_v1,frag_00455,class_003,question_intent_tree,"[""metric_lookup""]",2.0,20.0,0.75,1.0,0.2217,-0.0333
+tree_frag_00456_v1,frag_00456,class_003,question_intent_tree,"[""metric_lookup""]",2.0,20.0,0.75,1.0,0.2217,-0.0333
+tree_frag_00457_v1,frag_00457,class_003,question_intent_tree,"[""metric_lookup""]",2.0,20.0,0.75,1.0,0.2217,-0.0333
+tree_frag_00458_v1,frag_00458,class_005,hybrid_optimized_tree,"[""metric_lookup"", ""threshold_lookup""]",1.457,14.0,0.75,1.0,0.1721,-0.0754
+tree_frag_00460_v1,frag_00460,class_005,hybrid_optimized_tree,"[""metric_lookup"", ""threshold_lookup""]",1.457,16.0,0.75,1.0,0.1741,-0.0734
+tree_frag_00468_v1,frag_00468,class_001,question_intent_tree,"[""applicability_check"", ""exception_lookup""]",2.0,22.2,0.75,1.0,0.2314,-0.0011
+tree_frag_00470_v1,frag_00470,class_005,hybrid_optimized_tree,"[""applicability_check"", ""metric_lookup"", ""threshold_lookup""]",1.545,17.0,0.75,1.0,0.19,-0.035
+tree_frag_00475_v1,frag_00475,class_001,question_intent_tree,"[""exception_lookup""]",2.0,19.0,0.75,1.0,0.2207,-0.0343
+tree_frag_00476_v1,frag_00476,class_005,hybrid_optimized_tree,"[""metric_lookup"", ""rule_lookup"", ""threshold_lookup""]",1.336,18.5,0.75,1.0,0.182,-0.058
+tree_frag_00479_v1,frag_00479,class_005,hybrid_optimized_tree,"[""rule_lookup"", ""threshold_lookup""]",1.0,17.2,0.857,1.0,0.1405,-0.1509
+tree_frag_00480_v1,frag_00480,class_005,hybrid_optimized_tree,"[""rule_lookup"", ""threshold_lookup""]",1.0,16.6,0.857,1.0,0.1399,-0.1515
+tree_frag_00486_v1,frag_00486,class_005,hybrid_optimized_tree,"[""metric_lookup"", ""threshold_lookup""]",1.457,15.1,0.75,1.0,0.1732,-0.0743
+tree_frag_00487_v1,frag_00487,class_005,hybrid_optimized_tree,"[""threshold_lookup""]",1.0,11.0,0.857,1.0,0.1118,-0.1871
+tree_frag_00490_v1,frag_00490,class_005,hybrid_optimized_tree,"[""threshold_lookup""]",1.0,11.0,0.857,1.0,0.1118,-0.1871
+tree_frag_00497_v1,frag_00497,class_003,question_intent_tree,"[""metric_lookup""]",2.0,22.0,0.75,1.0,0.2237,-0.0313
+tree_frag_00499_v1,frag_00499,class_005,question_intent_tree,"[""metric_lookup"", ""threshold_lookup""]",2.0,20.3,0.75,1.0,0.2294,-0.0031
+tree_frag_00502_v1,frag_00502,class_005,hybrid_optimized_tree,"[""metric_lookup"", ""threshold_lookup""]",1.457,16.0,0.75,1.0,0.1741,-0.0734
+tree_frag_00505_v1,frag_00505,class_003,question_intent_tree,"[""metric_lookup""]",2.0,22.0,0.75,1.0,0.2237,-0.0313
+tree_frag_00509_v1,frag_00509,class_005,hybrid_optimized_tree,"[""metric_lookup"", ""threshold_lookup""]",1.457,15.5,0.75,1.0,0.1735,-0.074
+tree_frag_00533_v1,frag_00533,class_001,question_intent_tree,"[""applicability_check""]",2.0,27.0,0.75,1.0,0.2287,-0.0263
+tree_frag_00540_v1,frag_00540,class_001,question_intent_tree,"[""exception_lookup""]",2.0,19.0,0.75,1.0,0.2207,-0.0343
+tree_frag_00545_v1,frag_00545,class_003,question_intent_tree,"[""metric_lookup""]",2.0,23.0,0.75,1.0,0.2247,-0.0303
+tree_frag_00546_v1,frag_00546,class_005,hybrid_optimized_tree,"[""threshold_lookup""]",1.0,10.0,0.857,1.0,0.1108,-0.1881
+tree_frag_00553_v1,frag_00553,class_001,hybrid_optimized_tree,"[""applicability_check"", ""rule_lookup""]",1.348,36.4,0.75,1.0,0.2177,-0.0298
+tree_frag_00554_v1,frag_00554,class_001,hybrid_optimized_tree,"[""rule_lookup""]",1.0,28.0,0.857,1.0,0.1788,-0.1201
+tree_frag_00576_v1,frag_00576,class_005,hybrid_optimized_tree,"[""threshold_lookup""]",1.0,11.0,0.857,1.0,0.1118,-0.1871
+tree_frag_00577_v1,frag_00577,class_005,hybrid_optimized_tree,"[""threshold_lookup""]",1.0,11.0,0.857,1.0,0.1118,-0.1871
+tree_frag_00579_v1,frag_00579,class_001,hybrid_optimized_tree,"[""effective_date_lookup""]",1.0,12.0,0.857,1.0,0.1128,-0.1861
+tree_frag_00581_v1,frag_00581,class_005,hybrid_optimized_tree,"[""exception_lookup"", ""metric_lookup"", ""threshold_lookup""]",1.579,15.9,0.75,1.0,0.1918,-0.0332
+tree_frag_00584_v1,frag_00584,class_005,hybrid_optimized_tree,"[""threshold_lookup""]",1.0,9.0,0.857,1.0,0.1098,-0.1891
+tree_frag_00585_v1,frag_00585,class_001,hybrid_optimized_tree,"[""rule_lookup""]",1.0,28.0,0.857,1.0,0.1788,-0.1201
+tree_frag_00586_v1,frag_00586,class_005,hybrid_optimized_tree,"[""rule_lookup"", ""threshold_lookup""]",1.0,16.6,0.857,1.0,0.1399,-0.1515
+tree_frag_00588_v1,frag_00588,class_001,hybrid_optimized_tree,"[""applicability_check"", ""rule_lookup""]",1.348,27.7,0.75,1.0,0.209,-0.0385
+tree_frag_00590_v1,frag_00590,class_001,question_intent_tree,"[""applicability_check""]",2.0,27.0,0.75,1.0,0.2287,-0.0263
+tree_frag_00592_v1,frag_00592,class_001,question_intent_tree,"[""applicability_check""]",2.0,27.0,0.75,1.0,0.2287,-0.0263
+tree_frag_00602_v1,frag_00602,class_004,hybrid_optimized_tree,"[""variance_explanation""]",1.0,28.0,0.857,1.0,0.1288,-0.1701
+tree_frag_00605_v1,frag_00605,class_004,hybrid_optimized_tree,"[""variance_explanation""]",1.0,26.0,0.857,1.0,0.1768,-0.1221
+tree_frag_00609_v1,frag_00609,class_004,hybrid_optimized_tree,"[""variance_explanation""]",1.0,26.0,0.857,1.0,0.1768,-0.1221
+tree_frag_00615_v1,frag_00615,class_004,question_intent_tree,"[""variance_explanation""]",2.0,36.0,0.75,1.0,0.2377,-0.0173
+tree_frag_00618_v1,frag_00618,class_001,hybrid_optimized_tree,"[""rule_lookup""]",1.0,28.0,0.857,1.0,0.1788,-0.1201
+tree_frag_00619_v1,frag_00619,class_001,question_intent_tree,"[""exception_lookup""]",2.0,27.0,0.75,1.0,0.2287,-0.0263
+tree_frag_00622_v1,frag_00622,class_001,hybrid_optimized_tree,"[""rule_lookup""]",1.0,28.0,0.857,1.0,0.1788,-0.1201
+tree_frag_00624_v1,frag_00624,class_001,hybrid_optimized_tree,"[""exception_lookup"", ""rule_lookup""]",1.777,35.3,0.75,0.703,0.2528,0.0498
+tree_frag_00627_v1,frag_00627,class_005,hybrid_optimized_tree,"[""metric_lookup"", ""threshold_lookup""]",1.457,15.0,0.75,1.0,0.1731,-0.0744
+tree_frag_00628_v1,frag_00628,class_005,hybrid_optimized_tree,"[""effective_date_lookup"", ""metric_lookup"", ""threshold_lookup""]",1.398,14.6,0.75,1.0,0.17,-0.07
+tree_frag_00632_v1,frag_00632,class_004,hybrid_optimized_tree,"[""variance_explanation""]",1.0,26.0,0.857,1.0,0.1768,-0.1221
+tree_frag_00635_v1,frag_00635,class_001,hybrid_optimized_tree,"[""effective_date_lookup"", ""variance_explanation""]",1.59,26.2,0.75,1.0,0.1955,-0.052
+tree_frag_00636_v1,frag_00636,class_004,hybrid_optimized_tree,"[""variance_explanation""]",1.0,26.0,0.857,1.0,0.1768,-0.1221
+tree_frag_00641_v1,frag_00641,class_004,hybrid_optimized_tree,"[""variance_explanation""]",1.0,26.0,0.857,1.0,0.1768,-0.1221
+tree_frag_00643_v1,frag_00643,class_004,hybrid_optimized_tree,"[""variance_explanation""]",1.0,21.0,0.857,1.0,0.1718,-0.1271
+tree_frag_00645_v1,frag_00645,class_005,hybrid_optimized_tree,"[""threshold_lookup"", ""variance_explanation""]",1.447,17.7,0.75,1.0,0.2025,-0.045
+tree_frag_00648_v1,frag_00648,class_001,question_intent_tree,"[""exception_lookup""]",2.0,19.0,0.75,1.0,0.2207,-0.0343
+tree_frag_00650_v1,frag_00650,class_005,hybrid_optimized_tree,"[""threshold_lookup""]",1.0,10.0,0.857,1.0,0.1108,-0.1881
+tree_frag_00651_v1,frag_00651,class_005,hybrid_optimized_tree,"[""threshold_lookup""]",1.0,12.0,0.857,1.0,0.1128,-0.1861
+tree_frag_00656_v1,frag_00656,class_001,question_intent_tree,"[""exception_lookup""]",2.0,19.0,0.75,1.0,0.2207,-0.0343
+tree_frag_00661_v1,frag_00661,class_001,question_intent_tree,"[""exception_lookup""]",2.0,19.0,0.75,1.0,0.2207,-0.0343
+tree_frag_00662_v1,frag_00662,class_004,hybrid_optimized_tree,"[""metric_lookup"", ""variance_explanation""]",1.837,22.1,0.75,1.0,0.2124,-0.0351
+tree_frag_00663_v1,frag_00663,class_003,hybrid_optimized_tree,"[""metric_lookup"", ""variance_explanation""]",1.837,18.2,0.75,1.0,0.2085,-0.039
+tree_frag_00664_v1,frag_00664,class_001,question_intent_tree,"[""exception_lookup""]",2.0,19.0,0.75,1.0,0.2207,-0.0343
+tree_frag_00665_v1,frag_00665,class_004,hybrid_optimized_tree,"[""metric_lookup"", ""variance_explanation""]",1.837,22.1,0.75,1.0,0.2124,-0.0351
+tree_frag_00666_v1,frag_00666,class_001,hybrid_optimized_tree,"[""metric_lookup"", ""rule_lookup"", ""variance_explanation""]",1.504,22.1,0.75,1.0,0.2065,-0.0335
+tree_frag_00667_v1,frag_00667,class_003,question_intent_tree,"[""metric_lookup"", ""variance_explanation""]",2.0,25.1,0.75,1.0,0.2343,0.0018
+tree_frag_00668_v1,frag_00668,class_003,question_intent_tree,"[""metric_lookup""]",2.0,20.0,0.75,1.0,0.2217,-0.0333
+tree_frag_00671_v1,frag_00671,class_005,hybrid_optimized_tree,"[""threshold_lookup""]",1.0,10.0,0.857,1.0,0.1108,-0.1881
+tree_frag_00685_v1,frag_00685,class_003,hybrid_optimized_tree,"[""metric_lookup"", ""variance_explanation""]",1.679,22.6,0.75,1.0,0.2155,-0.032
+tree_frag_00686_v1,frag_00686,class_005,hybrid_optimized_tree,"[""metric_lookup"", ""threshold_lookup""]",1.457,15.0,0.75,1.0,0.1731,-0.0744
+tree_frag_00691_v1,frag_00691,class_001,hybrid_optimized_tree,"[""applicability_check"", ""rule_lookup""]",1.348,27.7,0.75,1.0,0.209,-0.0385
+tree_frag_00697_v1,frag_00697,class_005,hybrid_optimized_tree,"[""applicability_check"", ""metric_lookup"", ""rule_lookup"", ""threshold_lookup""]",1.696,23.4,0.75,1.0,0.2319,0.0294
+tree_frag_00698_v1,frag_00698,class_003,question_intent_tree,"[""metric_lookup""]",2.0,22.0,0.75,1.0,0.2237,-0.0313
+tree_frag_00699_v1,frag_00699,class_003,question_intent_tree,"[""metric_lookup""]",2.0,22.0,0.75,1.0,0.2237,-0.0313
+tree_frag_00701_v1,frag_00701,class_001,question_intent_tree,"[""exception_lookup""]",2.0,19.0,0.75,1.0,0.2207,-0.0343
+tree_frag_00702_v1,frag_00702,class_005,hybrid_optimized_tree,"[""threshold_lookup""]",1.0,11.0,0.857,1.0,0.1118,-0.1871
+tree_frag_00704_v1,frag_00704,class_005,hybrid_optimized_tree,"[""threshold_lookup""]",1.0,9.0,0.857,1.0,0.1098,-0.1891
+tree_frag_00706_v1,frag_00706,class_005,question_intent_tree,"[""threshold_lookup""]",2.0,23.0,0.75,1.0,0.2247,-0.0303
+tree_frag_00709_v1,frag_00709,class_005,hybrid_optimized_tree,"[""threshold_lookup""]",1.0,9.0,0.857,1.0,0.1098,-0.1891
+tree_frag_00710_v1,frag_00710,class_005,hybrid_optimized_tree,"[""threshold_lookup""]",1.0,10.0,0.857,1.0,0.1108,-0.1881
+tree_frag_00711_v1,frag_00711,class_001,question_intent_tree,"[""applicability_check""]",2.0,27.0,0.75,1.0,0.2287,-0.0263
+tree_frag_00713_v1,frag_00713,class_001,question_intent_tree,"[""applicability_check""]",2.0,27.0,0.75,1.0,0.2287,-0.0263
+tree_frag_00714_v1,frag_00714,class_001,question_intent_tree,"[""exception_lookup""]",2.0,19.0,0.75,1.0,0.2207,-0.0343
+tree_frag_00716_v1,frag_00716,class_001,question_intent_tree,"[""exception_lookup""]",2.0,52.0,0.75,1.0,0.2537,-0.0013
+tree_frag_00719_v1,frag_00719,class_005,hybrid_optimized_tree,"[""threshold_lookup""]",1.0,10.0,0.857,1.0,0.1108,-0.1881
+tree_frag_00722_v1,frag_00722,class_005,hybrid_optimized_tree,"[""threshold_lookup""]",1.0,11.0,0.857,1.0,0.1118,-0.1871
+tree_frag_00735_v1,frag_00735,class_005,hybrid_optimized_tree,"[""threshold_lookup""]",1.0,11.0,0.857,1.0,0.2143,-0.0771
+tree_frag_00737_v1,frag_00737,class_005,hybrid_optimized_tree,"[""threshold_lookup""]",1.0,9.0,0.857,1.0,0.1098,-0.1891
+tree_frag_00738_v1,frag_00738,class_001,hybrid_optimized_tree,"[""rule_lookup""]",1.0,28.0,0.857,1.0,0.1788,-0.1201
+tree_frag_00753_v1,frag_00753,class_005,hybrid_optimized_tree,"[""threshold_lookup""]",1.0,11.0,0.857,1.0,0.1118,-0.1871
+tree_frag_00754_v1,frag_00754,class_005,hybrid_optimized_tree,"[""threshold_lookup""]",1.0,9.0,0.857,1.0,0.1098,-0.1891
+tree_frag_00759_v1,frag_00759,class_003,question_intent_tree,"[""metric_lookup""]",2.0,22.0,0.75,1.0,0.2237,-0.0313
+tree_frag_00760_v1,frag_00760,class_005,hybrid_optimized_tree,"[""threshold_lookup""]",1.0,10.0,0.857,1.0,0.1108,-0.1881
+tree_frag_00761_v1,frag_00761,class_005,hybrid_optimized_tree,"[""threshold_lookup""]",1.0,11.0,0.857,1.0,0.1118,-0.1871
+tree_frag_00764_v1,frag_00764,class_004,hybrid_optimized_tree,"[""variance_explanation""]",1.0,22.0,0.857,1.0,0.1728,-0.1261
+tree_frag_00765_v1,frag_00765,class_004,hybrid_optimized_tree,"[""variance_explanation""]",1.0,9.0,0.857,1.0,0.1598,-0.1391
+tree_frag_00766_v1,frag_00766,class_004,hybrid_optimized_tree,"[""variance_explanation""]",1.0,9.0,0.857,1.0,0.1598,-0.1391
+tree_frag_00769_v1,frag_00769,class_003,question_intent_tree,"[""metric_lookup""]",2.0,20.0,0.75,1.0,0.2217,-0.0333
+tree_frag_00772_v1,frag_00772,class_003,question_intent_tree,"[""metric_lookup""]",2.0,20.0,0.75,1.0,0.2217,-0.0333
+tree_frag_00778_v1,frag_00778,class_003,question_intent_tree,"[""metric_lookup""]",2.0,22.0,0.75,1.0,0.2237,-0.0313
+tree_frag_00779_v1,frag_00779,class_003,question_intent_tree,"[""metric_lookup""]",2.0,23.0,0.75,1.0,0.2247,-0.0303
+tree_frag_00780_v1,frag_00780,class_005,hybrid_optimized_tree,"[""threshold_lookup""]",1.0,10.0,0.857,1.0,0.1108,-0.1881
+tree_frag_00785_v1,frag_00785,class_005,hybrid_optimized_tree,"[""threshold_lookup""]",1.0,10.0,0.857,1.0,0.1108,-0.1881
+tree_frag_00790_v1,frag_00790,class_005,hybrid_optimized_tree,"[""metric_lookup"", ""threshold_lookup""]",1.457,15.0,0.75,1.0,0.1731,-0.0744
+tree_frag_00792_v1,frag_00792,class_005,hybrid_optimized_tree,"[""threshold_lookup""]",1.0,11.0,0.857,1.0,0.1118,-0.1871
+tree_frag_00796_v1,frag_00796,class_005,hybrid_optimized_tree,"[""threshold_lookup""]",1.0,10.0,0.857,1.0,0.1108,-0.1881
+tree_frag_00797_v1,frag_00797,class_001,hybrid_optimized_tree,"[""rule_lookup""]",1.0,28.0,0.857,1.0,0.1788,-0.1201
+tree_frag_00799_v1,frag_00799,class_005,hybrid_optimized_tree,"[""metric_lookup"", ""threshold_lookup""]",1.457,14.0,0.75,1.0,0.1721,-0.0754
+tree_frag_00808_v1,frag_00808,class_003,question_intent_tree,"[""metric_lookup""]",2.0,21.0,0.75,1.0,0.2227,-0.0323
+tree_frag_00820_v1,frag_00820,class_005,hybrid_optimized_tree,"[""threshold_lookup""]",1.0,12.0,0.857,1.0,0.1128,-0.1861
+tree_frag_00822_v1,frag_00822,class_001,hybrid_optimized_tree,"[""rule_lookup""]",1.0,28.0,0.857,1.0,0.1788,-0.1201
+tree_frag_00826_v1,frag_00826,class_001,hybrid_optimized_tree,"[""metric_lookup"", ""rule_lookup""]",1.559,24.1,0.75,1.0,0.2128,-0.0347
+tree_frag_00832_v1,frag_00832,class_001,question_intent_tree,"[""exception_lookup""]",2.0,19.0,0.75,1.0,0.2207,-0.0343
+tree_frag_00833_v1,frag_00833,class_001,question_intent_tree,"[""exception_lookup""]",2.0,27.0,0.75,1.0,0.2287,-0.0263
+tree_frag_00834_v1,frag_00834,class_001,question_intent_tree,"[""exception_lookup""]",2.0,27.0,0.75,1.0,0.2287,-0.0263
+tree_frag_00835_v1,frag_00835,class_005,hybrid_optimized_tree,"[""exception_lookup"", ""threshold_lookup""]",1.348,13.8,0.75,1.0,0.1625,-0.085
+tree_frag_00836_v1,frag_00836,class_001,hybrid_optimized_tree,"[""rule_lookup""]",1.0,28.0,0.857,1.0,0.1788,-0.1201
+tree_frag_00839_v1,frag_00839,class_005,hybrid_optimized_tree,"[""rule_lookup"", ""threshold_lookup""]",1.0,16.6,0.857,1.0,0.1399,-0.1515
+tree_frag_00849_v1,frag_00849,class_003,question_intent_tree,"[""metric_lookup""]",2.0,21.0,0.75,1.0,0.2227,-0.0323
+tree_frag_00850_v1,frag_00850,class_003,question_intent_tree,"[""metric_lookup""]",2.0,20.0,0.75,1.0,0.2217,-0.0333
+tree_frag_00851_v1,frag_00851,class_005,hybrid_optimized_tree,"[""exception_lookup"", ""metric_lookup"", ""threshold_lookup""]",1.579,15.9,0.75,1.0,0.1918,-0.0332
+tree_frag_00852_v1,frag_00852,class_003,question_intent_tree,"[""metric_lookup""]",2.0,20.0,0.75,1.0,0.2217,-0.0333
+tree_frag_00854_v1,frag_00854,class_005,hybrid_optimized_tree,"[""exception_lookup"", ""metric_lookup"", ""threshold_lookup""]",1.579,15.9,0.75,1.0,0.1918,-0.0332
+tree_frag_00861_v1,frag_00861,class_003,hybrid_optimized_tree,"[""metric_lookup"", ""variance_explanation""]",1.837,22.1,0.75,1.0,0.2124,-0.0351
+tree_frag_00862_v1,frag_00862,class_004,hybrid_optimized_tree,"[""variance_explanation""]",1.0,17.0,0.857,1.0,0.1678,-0.1311
+tree_frag_00869_v1,frag_00869,class_003,question_intent_tree,"[""metric_lookup""]",2.0,20.0,0.75,1.0,0.2217,-0.0333
+tree_frag_00877_v1,frag_00877,class_001,question_intent_tree,"[""exception_lookup""]",2.0,19.0,0.75,1.0,0.2207,-0.0343
+tree_frag_00880_v1,frag_00880,class_005,hybrid_optimized_tree,"[""rule_lookup"", ""threshold_lookup""]",1.0,17.8,0.857,1.0,0.1411,-0.1503
+tree_frag_00881_v1,frag_00881,class_005,hybrid_optimized_tree,"[""rule_lookup"", ""threshold_lookup""]",1.0,17.8,0.857,1.0,0.1411,-0.1503
+tree_frag_00897_v1,frag_00897,class_003,question_intent_tree,"[""metric_lookup""]",2.0,22.0,0.75,1.0,0.2237,-0.0313
+tree_frag_00902_v1,frag_00902,class_004,hybrid_optimized_tree,"[""variance_explanation""]",1.0,26.0,0.857,1.0,0.1768,-0.1221
+tree_frag_00906_v1,frag_00906,class_004,hybrid_optimized_tree,"[""variance_explanation""]",1.0,26.0,0.857,1.0,0.1768,-0.1221
+tree_frag_00907_v1,frag_00907,class_005,question_intent_tree,"[""metric_lookup"", ""threshold_lookup""]",2.0,20.7,0.75,1.0,0.2299,-0.0026
+tree_frag_00924_v1,frag_00924,class_003,question_intent_tree,"[""metric_lookup""]",2.0,23.0,0.75,1.0,0.2247,-0.0303
+tree_frag_00931_v1,frag_00931,class_001,hybrid_optimized_tree,"[""rule_lookup""]",1.0,28.0,0.857,1.0,0.1788,-0.1201
+tree_frag_00933_v1,frag_00933,class_001,question_intent_tree,"[""applicability_check""]",2.0,27.0,0.75,1.0,0.2287,-0.0263
+tree_frag_00934_v1,frag_00934,class_005,hybrid_optimized_tree,"[""rule_lookup"", ""threshold_lookup""]",1.326,25.4,0.75,1.0,0.206,-0.0415
+tree_frag_00936_v1,frag_00936,class_001,hybrid_optimized_tree,"[""rule_lookup""]",1.0,28.0,0.857,1.0,0.1788,-0.1201
+tree_frag_00940_v1,frag_00940,class_001,hybrid_optimized_tree,"[""rule_lookup""]",1.0,28.0,0.857,1.0,0.1788,-0.1201
+tree_frag_00942_v1,frag_00942,class_001,hybrid_optimized_tree,"[""rule_lookup""]",1.0,28.0,0.857,1.0,0.1788,-0.1201
+tree_frag_00956_v1,frag_00956,class_001,hybrid_optimized_tree,"[""exception_lookup"", ""rule_lookup""]",1.777,33.9,0.75,0.703,0.2514,0.0484
+tree_frag_00957_v1,frag_00957,class_001,hybrid_optimized_tree,"[""applicability_check"", ""exception_lookup"", ""rule_lookup""]",1.828,29.0,0.75,0.771,0.2509,0.0602
+tree_frag_00960_v1,frag_00960,class_001,hybrid_optimized_tree,"[""rule_lookup""]",1.0,28.0,0.857,1.0,0.1788,-0.1201
+tree_frag_00962_v1,frag_00962,class_004,hybrid_optimized_tree,"[""variance_explanation""]",1.0,10.0,0.857,1.0,0.1608,-0.1381
+tree_frag_00964_v1,frag_00964,class_004,hybrid_optimized_tree,"[""variance_explanation""]",1.0,9.0,0.857,1.0,0.1598,-0.1391
+tree_frag_00966_v1,frag_00966,class_004,hybrid_optimized_tree,"[""variance_explanation""]",1.0,9.0,0.857,1.0,0.1598,-0.1391
+tree_frag_00967_v1,frag_00967,class_003,question_intent_tree,"[""metric_lookup""]",2.0,23.0,0.75,1.0,0.2247,-0.0303
+tree_frag_00968_v1,frag_00968,class_003,question_intent_tree,"[""metric_lookup""]",2.0,21.0,0.75,1.0,0.2227,-0.0323
+tree_frag_00983_v1,frag_00983,class_005,hybrid_optimized_tree,"[""metric_lookup"", ""threshold_lookup""]",1.457,16.0,0.75,1.0,0.1741,-0.0734
+tree_frag_00984_v1,frag_00984,class_005,hybrid_optimized_tree,"[""metric_lookup"", ""threshold_lookup""]",1.457,14.9,0.75,1.0,0.173,-0.0745
+tree_frag_00985_v1,frag_00985,class_001,hybrid_optimized_tree,"[""rule_lookup""]",1.0,28.0,0.857,1.0,0.1788,-0.1201
+tree_frag_00989_v1,frag_00989,class_003,question_intent_tree,"[""metric_lookup""]",2.0,20.0,0.75,1.0,0.2217,-0.0333
+tree_frag_00990_v1,frag_00990,class_001,hybrid_optimized_tree,"[""effective_date_lookup"", ""metric_lookup""]",1.753,19.5,0.75,1.0,0.2027,-0.0448
+tree_frag_00992_v1,frag_00992,class_001,hybrid_optimized_tree,"[""effective_date_lookup""]",1.0,12.0,0.857,1.0,0.1128,-0.1861
+tree_frag_00996_v1,frag_00996,class_005,question_intent_tree,"[""threshold_lookup""]",2.0,21.0,0.75,1.0,0.2227,-0.0323
+tree_frag_00999_v1,frag_00999,class_005,hybrid_optimized_tree,"[""metric_lookup"", ""rule_lookup"", ""threshold_lookup""]",1.636,24.2,0.75,1.0,0.2231,-0.0019
+tree_frag_01002_v1,frag_01002,class_001,question_intent_tree,"[""exception_lookup""]",2.0,27.0,0.75,1.0,0.2287,-0.0263
+tree_frag_01003_v1,frag_01003,class_005,hybrid_optimized_tree,"[""exception_lookup"", ""metric_lookup"", ""threshold_lookup""]",1.579,16.9,0.75,1.0,0.1928,-0.0322
+tree_frag_01013_v1,frag_01013,class_003,question_intent_tree,"[""metric_lookup""]",2.0,21.0,0.75,1.0,0.2227,-0.0323
+tree_frag_01019_v1,frag_01019,class_001,hybrid_optimized_tree,"[""sla_lookup""]",1.0,10.0,0.857,1.0,0.1108,-0.1881
+tree_frag_01032_v1,frag_01032,class_005,hybrid_optimized_tree,"[""threshold_lookup""]",1.0,11.0,0.857,1.0,0.1118,-0.1871
+tree_frag_01033_v1,frag_01033,class_005,hybrid_optimized_tree,"[""threshold_lookup""]",1.0,11.0,0.857,1.0,0.1118,-0.1871
+tree_frag_01040_v1,frag_01040,class_001,hybrid_optimized_tree,"[""applicability_check"", ""rule_lookup""]",1.348,27.7,0.75,1.0,0.209,-0.0385
+tree_frag_01042_v1,frag_01042,class_005,hybrid_optimized_tree,"[""threshold_lookup""]",1.0,12.0,0.857,1.0,0.1128,-0.1861
+tree_frag_01043_v1,frag_01043,class_005,question_intent_tree,"[""metric_lookup"", ""threshold_lookup""]",2.0,21.3,0.75,1.0,0.2304,-0.0021
+tree_frag_01049_v1,frag_01049,class_005,hybrid_optimized_tree,"[""threshold_lookup""]",1.0,10.0,0.857,1.0,0.1108,-0.1881
+tree_frag_01051_v1,frag_01051,class_001,hybrid_optimized_tree,"[""rule_lookup""]",1.0,28.0,0.857,1.0,0.1788,-0.1201
+tree_frag_01052_v1,frag_01052,class_001,hybrid_optimized_tree,"[""rule_lookup""]",1.0,28.0,0.857,1.0,0.1788,-0.1201
+tree_frag_01054_v1,frag_01054,class_001,hybrid_optimized_tree,"[""rule_lookup""]",1.0,28.0,0.857,1.0,0.1788,-0.1201
+tree_frag_01055_v1,frag_01055,class_001,hybrid_optimized_tree,"[""metric_lookup"", ""rule_lookup""]",1.559,24.6,0.75,1.0,0.2134,-0.0341
+tree_frag_01056_v1,frag_01056,class_003,question_intent_tree,"[""metric_lookup""]",2.0,20.0,0.75,1.0,0.2217,-0.0333
+tree_frag_01064_v1,frag_01064,class_005,question_intent_tree,"[""metric_lookup"", ""threshold_lookup""]",2.0,20.7,0.75,1.0,0.2299,-0.0026
+tree_frag_01069_v1,frag_01069,class_005,hybrid_optimized_tree,"[""threshold_lookup""]",1.0,11.0,0.857,1.0,0.1118,-0.1871
+tree_frag_01075_v1,frag_01075,class_001,question_intent_tree,"[""exception_lookup""]",2.0,19.0,0.75,1.0,0.2207,-0.0343
+tree_frag_01076_v1,frag_01076,class_005,hybrid_optimized_tree,"[""threshold_lookup""]",1.0,11.0,0.857,1.0,0.1118,-0.1871
+tree_frag_01077_v1,frag_01077,class_005,question_intent_tree,"[""threshold_lookup""]",2.0,23.0,0.75,1.0,0.2247,-0.0303
+tree_frag_01081_v1,frag_01081,class_001,hybrid_optimized_tree,"[""rule_lookup""]",1.0,28.0,0.857,1.0,0.2313,-0.0601
+tree_frag_01082_v1,frag_01082,class_001,hybrid_optimized_tree,"[""rule_lookup""]",1.0,28.0,0.857,1.0,0.1788,-0.1201
+tree_frag_01089_v1,frag_01089,class_005,hybrid_optimized_tree,"[""threshold_lookup""]",1.0,9.0,0.857,1.0,0.1098,-0.1891
+tree_frag_01094_v1,frag_01094,class_001,question_intent_tree,"[""applicability_check""]",2.0,27.0,0.75,1.0,0.2287,-0.0263
+tree_frag_01098_v1,frag_01098,class_003,question_intent_tree,"[""metric_lookup""]",2.0,20.0,0.75,1.0,0.2217,-0.0333
+tree_frag_01102_v1,frag_01102,class_004,hybrid_optimized_tree,"[""variance_explanation""]",1.0,26.0,0.857,1.0,0.1768,-0.1221
+tree_frag_01106_v1,frag_01106,class_004,hybrid_optimized_tree,"[""variance_explanation""]",1.0,26.0,0.857,1.0,0.1768,-0.1221
+tree_frag_01107_v1,frag_01107,class_005,question_intent_tree,"[""metric_lookup"", ""threshold_lookup""]",2.0,20.7,0.75,1.0,0.2299,-0.0026
+tree_frag_01116_v1,frag_01116,class_003,hybrid_optimized_tree,"[""metric_lookup"", ""variance_explanation""]",1.679,22.6,0.75,1.0,0.2155,-0.032
+tree_frag_01118_v1,frag_01118,class_005,hybrid_optimized_tree,"[""threshold_lookup"", ""variance_explanation""]",1.285,13.0,0.75,1.0,0.1564,-0.0911
+tree_frag_01119_v1,frag_01119,class_003,question_intent_tree,"[""metric_lookup""]",2.0,21.0,0.75,1.0,0.2227,-0.0323
+tree_frag_01134_v1,frag_01134,class_005,hybrid_optimized_tree,"[""threshold_lookup""]",1.0,9.0,0.857,1.0,0.1098,-0.1891
+tree_frag_01138_v1,frag_01138,class_005,hybrid_optimized_tree,"[""threshold_lookup""]",1.0,10.0,0.857,1.0,0.1108,-0.1881
+tree_frag_01139_v1,frag_01139,class_005,hybrid_optimized_tree,"[""threshold_lookup""]",1.0,11.0,0.857,1.0,0.1118,-0.1871
+tree_frag_01140_v1,frag_01140,class_005,hybrid_optimized_tree,"[""threshold_lookup""]",1.0,9.0,0.857,1.0,0.1098,-0.1891
+tree_frag_01145_v1,frag_01145,class_001,hybrid_optimized_tree,"[""rule_lookup""]",1.0,28.0,0.857,1.0,0.1788,-0.1201
+tree_frag_01146_v1,frag_01146,class_001,hybrid_optimized_tree,"[""rule_lookup""]",1.0,28.0,0.857,1.0,0.1788,-0.1201
+tree_frag_01147_v1,frag_01147,class_005,hybrid_optimized_tree,"[""threshold_lookup""]",1.0,11.0,0.857,1.0,0.1118,-0.1871
+tree_frag_01153_v1,frag_01153,class_005,hybrid_optimized_tree,"[""threshold_lookup""]",1.0,11.0,0.857,1.0,0.1118,-0.1871
+tree_frag_01160_v1,frag_01160,class_001,question_intent_tree,"[""exception_lookup""]",2.0,19.0,0.75,1.0,0.2207,-0.0343
+tree_frag_01163_v1,frag_01163,class_003,question_intent_tree,"[""metric_lookup""]",2.0,20.0,0.75,1.0,0.2217,-0.0333
+tree_frag_01174_v1,frag_01174,class_005,hybrid_optimized_tree,"[""exception_lookup"", ""threshold_lookup""]",1.348,13.1,0.75,1.0,0.1619,-0.0856
+tree_frag_01175_v1,frag_01175,class_001,question_intent_tree,"[""applicability_check""]",2.0,27.0,0.75,1.0,0.2287,-0.0263
+tree_frag_01176_v1,frag_01176,class_005,question_intent_tree,"[""applicability_check"", ""threshold_lookup""]",2.0,23.2,0.75,1.0,0.2324,-0.0001
+tree_frag_01178_v1,frag_01178,class_005,hybrid_optimized_tree,"[""threshold_lookup""]",1.0,9.0,0.857,1.0,0.1098,-0.1891
+tree_frag_01180_v1,frag_01180,class_005,hybrid_optimized_tree,"[""threshold_lookup""]",1.0,9.0,0.857,1.0,0.1098,-0.1891
+tree_frag_01185_v1,frag_01185,class_001,question_intent_tree,"[""applicability_check""]",2.0,27.0,0.75,1.0,0.2287,-0.0263
+tree_frag_01187_v1,frag_01187,class_005,hybrid_optimized_tree,"[""applicability_check"", ""threshold_lookup""]",1.263,15.2,0.75,1.0,0.1567,-0.0908
+tree_frag_01189_v1,frag_01189,class_005,question_intent_tree,"[""threshold_lookup""]",2.0,21.0,0.75,1.0,0.2227,-0.0323
+tree_frag_01190_v1,frag_01190,class_005,hybrid_optimized_tree,"[""threshold_lookup""]",1.0,10.0,0.857,1.0,0.1108,-0.1881
+tree_frag_01196_v1,frag_01196,class_001,question_intent_tree,"[""exception_lookup""]",2.0,19.0,0.75,1.0,0.2207,-0.0343
+tree_frag_01198_v1,frag_01198,class_001,question_intent_tree,"[""applicability_check""]",2.0,27.0,0.75,1.0,0.2287,-0.0263
+tree_frag_01199_v1,frag_01199,class_001,question_intent_tree,"[""applicability_check""]",2.0,27.0,0.75,1.0,0.2287,-0.0263
+tree_frag_01200_v1,frag_01200,class_001,question_intent_tree,"[""applicability_check""]",2.0,27.0,0.75,1.0,0.2287,-0.0263
+tree_frag_01206_v1,frag_01206,class_001,question_intent_tree,"[""exception_lookup""]",2.0,33.0,0.75,1.0,0.2347,-0.0203
+tree_frag_01207_v1,frag_01207,class_003,question_intent_tree,"[""metric_lookup""]",2.0,20.0,0.75,1.0,0.2217,-0.0333
+tree_frag_01208_v1,frag_01208,class_003,question_intent_tree,"[""metric_lookup""]",2.0,20.0,0.75,1.0,0.2217,-0.0333
+tree_frag_01220_v1,frag_01220,class_001,question_intent_tree,"[""applicability_check""]",2.0,27.0,0.75,1.0,0.2287,-0.0263
+tree_frag_01221_v1,frag_01221,class_005,hybrid_optimized_tree,"[""threshold_lookup""]",1.0,9.0,0.857,1.0,0.1098,-0.1891
+tree_frag_01224_v1,frag_01224,class_005,hybrid_optimized_tree,"[""threshold_lookup""]",1.0,10.0,0.857,1.0,0.1108,-0.1881
+tree_frag_01255_v1,frag_01255,class_001,hybrid_optimized_tree,"[""rule_lookup""]",1.0,28.0,0.857,1.0,0.1788,-0.1201
+tree_frag_01257_v1,frag_01257,class_001,hybrid_optimized_tree,"[""rule_lookup""]",1.0,28.0,0.857,1.0,0.1788,-0.1201
+tree_frag_01258_v1,frag_01258,class_001,hybrid_optimized_tree,"[""rule_lookup""]",1.0,28.0,0.857,1.0,0.1788,-0.1201
+tree_frag_01267_v1,frag_01267,class_005,hybrid_optimized_tree,"[""threshold_lookup""]",1.0,9.0,0.857,1.0,0.1098,-0.1891
+tree_frag_01280_v1,frag_01280,class_001,question_intent_tree,"[""exception_lookup""]",2.0,19.0,0.75,1.0,0.2207,-0.0343
+tree_frag_01289_v1,frag_01289,class_004,hybrid_optimized_tree,"[""variance_explanation""]",1.0,26.0,0.857,1.0,0.1768,-0.1221
+tree_frag_01290_v1,frag_01290,class_004,hybrid_optimized_tree,"[""variance_explanation""]",1.0,26.0,0.857,1.0,0.1768,-0.1221
+tree_frag_01293_v1,frag_01293,class_005,hybrid_optimized_tree,"[""threshold_lookup""]",1.0,10.0,0.857,1.0,0.1108,-0.1881
+tree_frag_01295_v1,frag_01295,class_005,hybrid_optimized_tree,"[""threshold_lookup""]",1.0,11.0,0.857,1.0,0.1118,-0.1871
+tree_frag_01296_v1,frag_01296,class_005,hybrid_optimized_tree,"[""threshold_lookup""]",1.0,9.0,0.857,1.0,0.1098,-0.1891
+tree_frag_01299_v1,frag_01299,class_004,hybrid_optimized_tree,"[""variance_explanation""]",1.0,15.0,0.857,1.0,0.1658,-0.1331
+tree_frag_01300_v1,frag_01300,class_001,question_intent_tree,"[""exception_lookup""]",2.0,27.0,0.75,1.0,0.2287,-0.0263
+tree_frag_01302_v1,frag_01302,class_001,question_intent_tree,"[""exception_lookup""]",2.0,27.0,0.75,1.0,0.2287,-0.0263
+tree_frag_01308_v1,frag_01308,class_005,hybrid_optimized_tree,"[""threshold_lookup""]",1.0,10.0,0.857,1.0,0.1108,-0.1881
+tree_frag_01309_v1,frag_01309,class_005,hybrid_optimized_tree,"[""metric_lookup"", ""threshold_lookup""]",1.457,14.6,0.75,1.0,0.1726,-0.0749
+tree_frag_01311_v1,frag_01311,class_005,hybrid_optimized_tree,"[""threshold_lookup""]",1.0,9.0,0.857,1.0,0.1098,-0.1891
+tree_frag_01327_v1,frag_01327,class_001,question_intent_tree,"[""exception_lookup""]",2.0,19.0,0.75,1.0,0.2207,-0.0343
+tree_frag_01331_v1,frag_01331,class_005,hybrid_optimized_tree,"[""threshold_lookup""]",1.0,10.0,0.857,1.0,0.1108,-0.1881
+tree_frag_01332_v1,frag_01332,class_001,hybrid_optimized_tree,"[""rule_lookup""]",1.0,28.0,0.857,1.0,0.1788,-0.1201
+tree_frag_01341_v1,frag_01341,class_001,hybrid_optimized_tree,"[""rule_lookup""]",1.0,28.0,0.857,1.0,0.1788,-0.1201
+tree_frag_01342_v1,frag_01342,class_005,hybrid_optimized_tree,"[""threshold_lookup""]",1.0,11.0,0.857,1.0,0.1118,-0.1871
+tree_frag_01343_v1,frag_01343,class_005,hybrid_optimized_tree,"[""threshold_lookup""]",1.0,11.0,0.857,1.0,0.1118,-0.1871
+tree_frag_01344_v1,frag_01344,class_005,hybrid_optimized_tree,"[""metric_lookup"", ""threshold_lookup""]",1.457,14.0,0.75,1.0,0.1721,-0.0754
+tree_frag_01363_v1,frag_01363,class_005,hybrid_optimized_tree,"[""threshold_lookup""]",1.0,11.0,0.857,1.0,0.1118,-0.1871
+tree_frag_01364_v1,frag_01364,class_005,hybrid_optimized_tree,"[""applicability_check"", ""threshold_lookup""]",1.263,15.2,0.75,1.0,0.1567,-0.0908
+tree_frag_01366_v1,frag_01366,class_001,hybrid_optimized_tree,"[""applicability_check"", ""effective_date_lookup""]",1.563,20.4,0.75,1.0,0.1874,-0.0601
+tree_frag_01367_v1,frag_01367,class_001,hybrid_optimized_tree,"[""rule_lookup""]",1.0,28.0,0.857,1.0,0.1788,-0.1201
+tree_frag_01369_v1,frag_01369,class_001,hybrid_optimized_tree,"[""rule_lookup""]",1.0,28.0,0.857,1.0,0.1788,-0.1201
+tree_frag_01381_v1,frag_01381,class_005,hybrid_optimized_tree,"[""metric_lookup"", ""threshold_lookup""]",1.457,16.0,0.75,1.0,0.1741,-0.0734
+tree_frag_01382_v1,frag_01382,class_001,hybrid_optimized_tree,"[""rule_lookup""]",1.0,28.0,0.857,1.0,0.1788,-0.1201
+tree_frag_01383_v1,frag_01383,class_001,hybrid_optimized_tree,"[""rule_lookup""]",1.0,28.0,0.857,1.0,0.1788,-0.1201
+tree_frag_01387_v1,frag_01387,class_001,hybrid_optimized_tree,"[""effective_date_lookup""]",1.0,12.0,0.857,1.0,0.1128,-0.1861
+tree_frag_01388_v1,frag_01388,class_001,hybrid_optimized_tree,"[""effective_date_lookup""]",1.0,12.0,0.857,1.0,0.1128,-0.1861
+tree_frag_01389_v1,frag_01389,class_005,hybrid_optimized_tree,"[""effective_date_lookup"", ""threshold_lookup""]",1.0,9.7,0.857,1.0,0.113,-0.1784
+tree_frag_01397_v1,frag_01397,class_001,question_intent_tree,"[""exception_lookup""]",2.0,48.0,0.75,1.0,0.2497,-0.0053
+tree_frag_01398_v1,frag_01398,class_001,question_intent_tree,"[""exception_lookup""]",2.0,52.0,0.75,1.0,0.2537,-0.0013
+tree_frag_01399_v1,frag_01399,class_001,question_intent_tree,"[""exception_lookup""]",2.0,19.0,0.75,1.0,0.2207,-0.0343
+tree_frag_01402_v1,frag_01402,class_001,hybrid_optimized_tree,"[""rule_lookup""]",1.0,28.0,0.857,1.0,0.1788,-0.1201
+tree_frag_01403_v1,frag_01403,class_001,hybrid_optimized_tree,"[""rule_lookup""]",1.0,28.0,0.857,1.0,0.1788,-0.1201
+tree_frag_01404_v1,frag_01404,class_001,hybrid_optimized_tree,"[""rule_lookup""]",1.0,28.0,0.857,1.0,0.1788,-0.1201
+tree_frag_01428_v1,frag_01428,class_001,question_intent_tree,"[""applicability_check""]",2.0,27.0,0.75,1.0,0.2287,-0.0263
+tree_frag_01430_v1,frag_01430,class_001,question_intent_tree,"[""applicability_check""]",2.0,27.0,0.75,1.0,0.2287,-0.0263
+tree_frag_01435_v1,frag_01435,class_005,hybrid_optimized_tree,"[""threshold_lookup""]",1.0,9.0,0.857,1.0,0.1098,-0.1891
+tree_frag_01453_v1,frag_01453,class_005,hybrid_optimized_tree,"[""threshold_lookup""]",1.0,11.0,0.857,1.0,0.1118,-0.1871
+tree_frag_01454_v1,frag_01454,class_003,question_intent_tree,"[""metric_lookup""]",2.0,20.0,0.75,1.0,0.2217,-0.0333
+tree_frag_01459_v1,frag_01459,class_003,question_intent_tree,"[""metric_lookup""]",2.0,22.0,0.75,1.0,0.2237,-0.0313
+tree_frag_01464_v1,frag_01464,class_005,hybrid_optimized_tree,"[""metric_lookup"", ""threshold_lookup""]",1.457,16.0,0.75,1.0,0.1741,-0.0734
+tree_frag_01468_v1,frag_01468,class_005,hybrid_optimized_tree,"[""threshold_lookup""]",1.0,9.0,0.857,1.0,0.1098,-0.1891
+tree_frag_01470_v1,frag_01470,class_005,hybrid_optimized_tree,"[""threshold_lookup""]",1.0,11.0,0.857,1.0,0.1118,-0.1871
+tree_frag_01471_v1,frag_01471,class_003,question_intent_tree,"[""metric_lookup""]",2.0,20.0,0.75,1.0,0.2217,-0.0333
+tree_frag_01472_v1,frag_01472,class_003,question_intent_tree,"[""metric_lookup""]",2.0,20.0,0.75,1.0,0.2217,-0.0333
+tree_frag_01488_v1,frag_01488,class_001,hybrid_optimized_tree,"[""rule_lookup""]",1.0,28.0,0.857,1.0,0.1788,-0.1201
+tree_frag_01490_v1,frag_01490,class_001,hybrid_optimized_tree,"[""rule_lookup""]",1.0,28.0,0.857,1.0,0.1788,-0.1201
+tree_frag_01491_v1,frag_01491,class_002,hybrid_optimized_tree,"[""approval_lookup""]",1.0,14.0,0.857,1.0,0.1148,-0.1841
+tree_frag_01492_v1,frag_01492,class_001,question_intent_tree,"[""exception_lookup""]",2.0,19.0,0.75,1.0,0.2207,-0.0343
+tree_frag_01493_v1,frag_01493,class_001,hybrid_optimized_tree,"[""applicability_check"", ""effective_date_lookup""]",1.563,20.4,0.75,1.0,0.1874,-0.0601
+tree_frag_01494_v1,frag_01494,class_001,question_intent_tree,"[""applicability_check""]",2.0,27.0,0.75,1.0,0.2287,-0.0263
+tree_frag_01499_v1,frag_01499,class_003,question_intent_tree,"[""metric_lookup""]",2.0,21.0,0.75,1.0,0.2227,-0.0323
+tree_frag_01500_v1,frag_01500,class_005,hybrid_optimized_tree,"[""metric_lookup"", ""threshold_lookup""]",1.457,15.0,0.75,1.0,0.1731,-0.0744
+tree_frag_01504_v1,frag_01504,class_001,hybrid_optimized_tree,"[""rule_lookup""]",1.0,28.0,0.857,1.0,0.1788,-0.1201
+tree_frag_01506_v1,frag_01506,class_001,hybrid_optimized_tree,"[""rule_lookup""]",1.0,28.0,0.857,1.0,0.1788,-0.1201
+tree_frag_01537_v1,frag_01537,class_001,question_intent_tree,"[""exception_lookup""]",2.0,19.0,0.75,1.0,0.2207,-0.0343
+tree_frag_01541_v1,frag_01541,class_001,hybrid_optimized_tree,"[""effective_date_lookup""]",1.0,12.0,0.857,1.0,0.1128,-0.1861
+tree_frag_01542_v1,frag_01542,class_005,hybrid_optimized_tree,"[""effective_date_lookup"", ""threshold_lookup""]",1.0,11.2,0.857,1.0,0.1146,-0.1769
+tree_frag_01543_v1,frag_01543,class_005,hybrid_optimized_tree,"[""threshold_lookup""]",1.0,9.0,0.857,1.0,0.1098,-0.1891
+tree_frag_01544_v1,frag_01544,class_001,hybrid_optimized_tree,"[""rule_lookup""]",1.0,28.0,0.857,1.0,0.1788,-0.1201
+tree_frag_01545_v1,frag_01545,class_001,hybrid_optimized_tree,"[""rule_lookup""]",1.0,28.0,0.857,1.0,0.1788,-0.1201
+tree_frag_01548_v1,frag_01548,class_001,hybrid_optimized_tree,"[""rule_lookup""]",1.0,28.0,0.857,1.0,0.1788,-0.1201
+tree_frag_01551_v1,frag_01551,class_005,hybrid_optimized_tree,"[""threshold_lookup""]",1.0,10.0,0.857,1.0,0.1108,-0.1881
+tree_frag_01552_v1,frag_01552,class_004,hybrid_optimized_tree,"[""variance_explanation""]",1.0,26.0,0.857,1.0,0.1768,-0.1221
+tree_frag_01554_v1,frag_01554,class_001,question_intent_tree,"[""applicability_check""]",2.0,27.0,0.75,1.0,0.2287,-0.0263
+tree_frag_01555_v1,frag_01555,class_001,question_intent_tree,"[""applicability_check""]",2.0,27.0,0.75,1.0,0.2287,-0.0263
+tree_frag_01557_v1,frag_01557,class_001,hybrid_optimized_tree,"[""applicability_check"", ""rule_lookup""]",1.348,27.7,0.75,1.0,0.209,-0.0385
+tree_frag_01559_v1,frag_01559,class_001,hybrid_optimized_tree,"[""rule_lookup""]",1.0,28.0,0.857,1.0,0.1788,-0.1201
+tree_frag_01560_v1,frag_01560,class_001,question_intent_tree,"[""applicability_check""]",2.0,27.0,0.75,1.0,0.2287,-0.0263
+tree_frag_01561_v1,frag_01561,class_001,hybrid_optimized_tree,"[""rule_lookup""]",1.0,28.0,0.857,1.0,0.1788,-0.1201
+tree_frag_01565_v1,frag_01565,class_005,hybrid_optimized_tree,"[""threshold_lookup""]",1.0,9.0,0.857,1.0,0.1098,-0.1891
+tree_frag_01566_v1,frag_01566,class_005,hybrid_optimized_tree,"[""threshold_lookup""]",1.0,10.0,0.857,1.0,0.1108,-0.1881
+tree_frag_01567_v1,frag_01567,class_003,question_intent_tree,"[""metric_lookup""]",2.0,21.0,0.75,1.0,0.2227,-0.0323
+tree_frag_01568_v1,frag_01568,class_001,hybrid_optimized_tree,"[""rule_lookup""]",1.0,28.0,0.857,1.0,0.1788,-0.1201
+tree_frag_01582_v1,frag_01582,class_004,hybrid_optimized_tree,"[""variance_explanation""]",1.0,21.0,0.857,1.0,0.1718,-0.1271
+tree_frag_01586_v1,frag_01586,class_005,hybrid_optimized_tree,"[""threshold_lookup""]",1.0,9.0,0.857,1.0,0.1098,-0.1891
+tree_frag_01587_v1,frag_01587,class_005,hybrid_optimized_tree,"[""threshold_lookup""]",1.0,9.0,0.857,1.0,0.1098,-0.1891
+tree_frag_01595_v1,frag_01595,class_003,question_intent_tree,"[""metric_lookup""]",2.0,21.0,0.75,1.0,0.2227,-0.0323
+tree_frag_01596_v1,frag_01596,class_005,hybrid_optimized_tree,"[""threshold_lookup""]",1.0,10.0,0.857,1.0,0.1108,-0.1881
+tree_frag_01601_v1,frag_01601,class_001,question_intent_tree,"[""exception_lookup""]",2.0,19.0,0.75,1.0,0.2207,-0.0343
+tree_frag_01607_v1,frag_01607,class_003,question_intent_tree,"[""metric_lookup""]",2.0,23.0,0.75,1.0,0.2247,-0.0303
+tree_frag_01610_v1,frag_01610,class_003,hybrid_optimized_tree,"[""metric_lookup"", ""variance_explanation""]",1.837,18.2,0.75,1.0,0.2085,-0.039
+tree_frag_01612_v1,frag_01612,class_005,hybrid_optimized_tree,"[""exception_lookup"", ""metric_lookup"", ""threshold_lookup"", ""variance_explanation""]",1.542,15.1,0.75,1.0,0.1904,-0.0271
+tree_frag_01616_v1,frag_01616,class_005,hybrid_optimized_tree,"[""metric_lookup"", ""threshold_lookup""]",1.457,15.9,0.75,1.0,0.174,-0.0735
+tree_frag_01617_v1,frag_01617,class_005,hybrid_optimized_tree,"[""threshold_lookup""]",1.0,9.0,0.857,1.0,0.1098,-0.1891
+tree_frag_01618_v1,frag_01618,class_005,hybrid_optimized_tree,"[""threshold_lookup""]",1.0,11.0,0.857,1.0,0.1118,-0.1871
+tree_frag_01620_v1,frag_01620,class_005,hybrid_optimized_tree,"[""threshold_lookup""]",1.0,9.0,0.857,1.0,0.1098,-0.1891
+tree_frag_01622_v1,frag_01622,class_003,hybrid_optimized_tree,"[""metric_lookup"", ""variance_explanation""]",1.837,18.2,0.75,1.0,0.2085,-0.039
+tree_frag_01625_v1,frag_01625,class_005,hybrid_optimized_tree,"[""threshold_lookup""]",1.0,9.0,0.857,1.0,0.1098,-0.1891
+tree_frag_01636_v1,frag_01636,class_005,hybrid_optimized_tree,"[""threshold_lookup""]",1.0,11.0,0.857,1.0,0.1118,-0.1871
+tree_frag_01638_v1,frag_01638,class_005,hybrid_optimized_tree,"[""threshold_lookup"", ""variance_explanation""]",1.0,11.4,0.857,1.0,0.129,-0.1624
+tree_frag_01648_v1,frag_01648,class_001,question_intent_tree,"[""exception_lookup""]",2.0,52.0,0.75,1.0,0.2537,-0.0013
+tree_frag_01650_v1,frag_01650,class_001,question_intent_tree,"[""exception_lookup""]",2.0,19.0,0.75,1.0,0.2207,-0.0343
+tree_frag_01671_v1,frag_01671,class_001,question_intent_tree,"[""exception_lookup""]",2.0,23.0,0.75,1.0,0.2247,-0.0303
+tree_frag_01683_v1,frag_01683,class_004,hybrid_optimized_tree,"[""variance_explanation""]",1.0,16.0,0.857,1.0,0.1668,-0.1321
+tree_frag_01684_v1,frag_01684,class_005,hybrid_optimized_tree,"[""metric_lookup"", ""threshold_lookup"", ""variance_explanation""]",1.554,19.8,0.75,1.0,0.1935,-0.0315
+tree_frag_01687_v1,frag_01687,class_001,hybrid_optimized_tree,"[""applicability_check"", ""effective_date_lookup""]",1.563,20.4,0.75,1.0,0.1874,-0.0601
+tree_frag_01690_v1,frag_01690,class_005,hybrid_optimized_tree,"[""threshold_lookup""]",1.0,10.0,0.857,1.0,0.1108,-0.1881
+tree_frag_01703_v1,frag_01703,class_005,hybrid_optimized_tree,"[""rule_lookup"", ""threshold_lookup""]",1.0,18.4,0.857,1.0,0.1417,-0.1497
+tree_frag_01705_v1,frag_01705,class_005,hybrid_optimized_tree,"[""rule_lookup"", ""threshold_lookup""]",1.0,17.2,0.857,1.0,0.1405,-0.1509
+tree_frag_01706_v1,frag_01706,class_001,question_intent_tree,"[""exception_lookup""]",2.0,43.0,0.75,1.0,0.2447,-0.0103
+tree_frag_01711_v1,frag_01711,class_005,hybrid_optimized_tree,"[""threshold_lookup""]",1.0,10.0,0.857,1.0,0.1108,-0.1881
+tree_frag_01719_v1,frag_01719,class_004,question_intent_tree,"[""variance_explanation""]",2.0,36.0,0.75,1.0,0.2377,-0.0173
+tree_frag_01722_v1,frag_01722,class_004,question_intent_tree,"[""variance_explanation""]",2.0,28.0,0.75,1.0,0.2297,-0.0253
+tree_frag_01723_v1,frag_01723,class_004,question_intent_tree,"[""variance_explanation""]",2.0,27.0,0.75,1.0,0.2287,-0.0263
+tree_frag_01724_v1,frag_01724,class_004,hybrid_optimized_tree,"[""variance_explanation""]",1.0,21.0,0.857,1.0,0.1718,-0.1271
+tree_frag_01725_v1,frag_01725,class_003,question_intent_tree,"[""metric_lookup"", ""variance_explanation""]",2.0,33.9,0.75,1.0,0.2489,0.0239
+tree_frag_01726_v1,frag_01726,class_004,hybrid_optimized_tree,"[""variance_explanation""]",1.0,14.0,0.857,1.0,0.1648,-0.1341
+tree_frag_01727_v1,frag_01727,class_003,question_intent_tree,"[""metric_lookup""]",2.0,26.0,0.75,1.0,0.2427,-0.0048
+tree_frag_01728_v1,frag_01728,class_005,hybrid_optimized_tree,"[""metric_lookup"", ""threshold_lookup"", ""variance_explanation""]",1.321,18.2,0.75,0.937,0.1819,-0.0262
+tree_frag_01729_v1,frag_01729,class_004,question_intent_tree,"[""variance_explanation""]",2.0,36.0,0.75,1.0,0.2377,-0.0173
+tree_frag_01730_v1,frag_01730,class_005,hybrid_optimized_tree,"[""metric_lookup"", ""threshold_lookup"", ""variance_explanation""]",1.321,19.7,0.75,0.937,0.1834,-0.0247
+tree_frag_01731_v1,frag_01731,class_004,hybrid_optimized_tree,"[""threshold_lookup"", ""variance_explanation""]",1.0,13.0,0.857,1.0,0.1306,-0.1609
+tree_frag_01732_v1,frag_01732,class_005,hybrid_optimized_tree,"[""threshold_lookup""]",1.0,10.0,0.857,1.0,0.1108,-0.1881
+tree_frag_01734_v1,frag_01734,class_001,hybrid_optimized_tree,"[""rule_lookup""]",1.0,28.0,0.857,1.0,0.1788,-0.1201
+tree_frag_01737_v1,frag_01737,class_001,question_intent_tree,"[""exception_lookup""]",2.0,49.0,0.75,1.0,0.2507,-0.0043
+tree_frag_01739_v1,frag_01739,class_001,hybrid_optimized_tree,"[""rule_lookup""]",1.0,28.0,0.857,1.0,0.1788,-0.1201
+tree_frag_01740_v1,frag_01740,class_001,hybrid_optimized_tree,"[""rule_lookup""]",1.0,28.0,0.857,1.0,0.1788,-0.1201
+tree_frag_01741_v1,frag_01741,class_001,hybrid_optimized_tree,"[""metric_lookup"", ""rule_lookup""]",1.559,23.5,0.75,1.0,0.2123,-0.0352
+tree_frag_01742_v1,frag_01742,class_001,hybrid_optimized_tree,"[""exception_lookup"", ""rule_lookup""]",1.777,31.4,0.75,0.703,0.249,0.046
+tree_frag_01743_v1,frag_01743,class_001,hybrid_optimized_tree,"[""exception_lookup"", ""rule_lookup""]",1.777,35.3,0.75,0.703,0.2528,0.0498
+tree_frag_01744_v1,frag_01744,class_002,question_intent_tree,"[""approval_lookup""]",2.0,20.0,0.75,1.0,0.2217,-0.0333
+tree_frag_01752_v1,frag_01752,class_003,question_intent_tree,"[""metric_lookup""]",2.0,21.0,0.75,1.0,0.2227,-0.0323
+tree_frag_01756_v1,frag_01756,class_003,question_intent_tree,"[""metric_lookup""]",2.0,20.0,0.75,1.0,0.2217,-0.0333
+tree_frag_01757_v1,frag_01757,class_003,question_intent_tree,"[""metric_lookup""]",2.0,20.0,0.75,1.0,0.2217,-0.0333
+tree_frag_01759_v1,frag_01759,class_003,question_intent_tree,"[""metric_lookup""]",2.0,21.0,0.75,1.0,0.2227,-0.0323
+tree_frag_01769_v1,frag_01769,class_004,hybrid_optimized_tree,"[""variance_explanation""]",1.0,19.0,0.857,1.0,0.1698,-0.1291
+tree_frag_01770_v1,frag_01770,class_005,hybrid_optimized_tree,"[""threshold_lookup""]",1.0,9.0,0.857,1.0,0.1098,-0.1891
+tree_frag_01771_v1,frag_01771,class_005,question_intent_tree,"[""threshold_lookup""]",2.0,20.0,0.75,1.0,0.2217,-0.0333
+tree_frag_01774_v1,frag_01774,class_001,question_intent_tree,"[""exception_lookup""]",2.0,29.0,0.75,1.0,0.2307,-0.0243
+tree_frag_01775_v1,frag_01775,class_001,question_intent_tree,"[""exception_lookup""]",2.0,19.0,0.75,1.0,0.2207,-0.0343
+tree_frag_01778_v1,frag_01778,class_001,question_intent_tree,"[""applicability_check""]",2.0,27.0,0.75,1.0,0.2287,-0.0263
+tree_frag_01779_v1,frag_01779,class_005,hybrid_optimized_tree,"[""applicability_check"", ""threshold_lookup""]",1.263,13.7,0.75,1.0,0.1552,-0.0923
+tree_frag_01782_v1,frag_01782,class_001,question_intent_tree,"[""applicability_check""]",2.0,27.0,0.75,1.0,0.2287,-0.0263
+tree_frag_01783_v1,frag_01783,class_001,question_intent_tree,"[""applicability_check""]",2.0,27.0,0.75,1.0,0.2287,-0.0263
+tree_frag_01792_v1,frag_01792,class_001,hybrid_optimized_tree,"[""metric_lookup"", ""rule_lookup""]",1.559,23.5,0.75,1.0,0.2123,-0.0352
+tree_frag_01796_v1,frag_01796,class_005,hybrid_optimized_tree,"[""threshold_lookup""]",1.0,10.0,0.857,1.0,0.1108,-0.1881
+tree_frag_01802_v1,frag_01802,class_005,hybrid_optimized_tree,"[""threshold_lookup""]",1.0,9.0,0.857,1.0,0.1098,-0.1891
+tree_frag_01807_v1,frag_01807,class_005,hybrid_optimized_tree,"[""rule_lookup"", ""threshold_lookup""]",1.326,25.7,0.75,1.0,0.2063,-0.0412
+tree_frag_01808_v1,frag_01808,class_005,hybrid_optimized_tree,"[""threshold_lookup""]",1.0,11.0,0.857,1.0,0.1118,-0.1871
+tree_frag_01823_v1,frag_01823,class_001,question_intent_tree,"[""applicability_check""]",2.0,27.0,0.75,1.0,0.2287,-0.0263
+tree_frag_01825_v1,frag_01825,class_001,question_intent_tree,"[""exception_lookup""]",2.0,19.0,0.75,1.0,0.2207,-0.0343
+tree_frag_01831_v1,frag_01831,class_005,hybrid_optimized_tree,"[""metric_lookup"", ""threshold_lookup""]",1.457,14.9,0.75,1.0,0.173,-0.0745
+tree_frag_01832_v1,frag_01832,class_003,question_intent_tree,"[""metric_lookup""]",2.0,21.0,0.75,1.0,0.2227,-0.0323
+tree_frag_01834_v1,frag_01834,class_001,question_intent_tree,"[""exception_lookup"", ""metric_lookup""]",2.0,25.0,0.75,1.0,0.2342,0.0017
+tree_frag_01836_v1,frag_01836,class_001,question_intent_tree,"[""exception_lookup"", ""metric_lookup""]",2.0,20.8,0.75,1.0,0.23,-0.0025
+tree_frag_01839_v1,frag_01839,class_005,hybrid_optimized_tree,"[""threshold_lookup""]",1.0,9.0,0.857,1.0,0.1098,-0.1891
+tree_frag_01842_v1,frag_01842,class_005,hybrid_optimized_tree,"[""threshold_lookup""]",1.0,9.0,0.857,1.0,0.1098,-0.1891
+tree_frag_01848_v1,frag_01848,class_005,hybrid_optimized_tree,"[""threshold_lookup""]",1.0,11.0,0.857,1.0,0.1118,-0.1871
+tree_frag_01857_v1,frag_01857,class_005,hybrid_optimized_tree,"[""threshold_lookup""]",1.0,9.0,0.857,1.0,0.1098,-0.1891
+tree_frag_01869_v1,frag_01869,class_001,question_intent_tree,"[""exception_lookup""]",2.0,27.0,0.75,1.0,0.2287,-0.0263
+tree_frag_01871_v1,frag_01871,class_001,question_intent_tree,"[""exception_lookup""]",2.0,27.0,0.75,1.0,0.2287,-0.0263
+tree_frag_01880_v1,frag_01880,class_005,hybrid_optimized_tree,"[""exception_lookup"", ""threshold_lookup""]",1.348,13.1,0.75,1.0,0.1619,-0.0856
+tree_frag_01881_v1,frag_01881,class_005,hybrid_optimized_tree,"[""threshold_lookup""]",1.0,9.0,0.857,1.0,0.1098,-0.1891
+tree_frag_01882_v1,frag_01882,class_001,hybrid_optimized_tree,"[""rule_lookup""]",1.0,28.0,0.857,1.0,0.1788,-0.1201
+tree_frag_01883_v1,frag_01883,class_001,hybrid_optimized_tree,"[""rule_lookup""]",1.0,28.0,0.857,1.0,0.1788,-0.1201
+tree_frag_01884_v1,frag_01884,class_001,hybrid_optimized_tree,"[""rule_lookup""]",1.0,28.0,0.857,1.0,0.1788,-0.1201
+tree_frag_01885_v1,frag_01885,class_001,hybrid_optimized_tree,"[""rule_lookup""]",1.0,28.0,0.857,1.0,0.1788,-0.1201
+tree_frag_01891_v1,frag_01891,class_001,hybrid_optimized_tree,"[""effective_date_lookup""]",1.0,12.0,0.857,1.0,0.1128,-0.1861
+tree_frag_01893_v1,frag_01893,class_001,hybrid_optimized_tree,"[""effective_date_lookup""]",1.0,12.0,0.857,1.0,0.1128,-0.1861
+tree_frag_01894_v1,frag_01894,class_005,hybrid_optimized_tree,"[""effective_date_lookup"", ""threshold_lookup""]",1.0,9.7,0.857,1.0,0.113,-0.1784
+tree_frag_01897_v1,frag_01897,class_005,hybrid_optimized_tree,"[""threshold_lookup""]",1.0,10.0,0.857,1.0,0.1108,-0.1881
+tree_frag_01901_v1,frag_01901,class_005,hybrid_optimized_tree,"[""threshold_lookup""]",1.0,10.0,0.857,1.0,0.1108,-0.1881
+tree_frag_01907_v1,frag_01907,class_001,hybrid_optimized_tree,"[""effective_date_lookup"", ""metric_lookup""]",1.753,18.8,0.75,1.0,0.2019,-0.0456
+tree_frag_01908_v1,frag_01908,class_001,hybrid_optimized_tree,"[""effective_date_lookup""]",1.0,12.0,0.857,1.0,0.1128,-0.1861
+tree_frag_01909_v1,frag_01909,class_001,hybrid_optimized_tree,"[""effective_date_lookup"", ""metric_lookup""]",1.753,18.8,0.75,1.0,0.2019,-0.0456
+tree_frag_01912_v1,frag_01912,class_005,hybrid_optimized_tree,"[""threshold_lookup""]",1.0,11.0,0.857,1.0,0.1118,-0.1871
+tree_frag_01914_v1,frag_01914,class_005,hybrid_optimized_tree,"[""threshold_lookup""]",1.0,11.0,0.857,1.0,0.1118,-0.1871
+tree_frag_01917_v1,frag_01917,class_005,hybrid_optimized_tree,"[""threshold_lookup""]",1.0,9.0,0.857,1.0,0.1098,-0.1891
+tree_frag_01918_v1,frag_01918,class_005,hybrid_optimized_tree,"[""threshold_lookup""]",1.0,11.0,0.857,1.0,0.1118,-0.1871
+tree_frag_01919_v1,frag_01919,class_005,question_intent_tree,"[""threshold_lookup""]",2.0,19.0,0.75,1.0,0.2207,-0.0343
+tree_frag_01922_v1,frag_01922,class_005,hybrid_optimized_tree,"[""threshold_lookup""]",1.0,11.0,0.857,1.0,0.1118,-0.1871
+tree_frag_01924_v1,frag_01924,class_005,hybrid_optimized_tree,"[""threshold_lookup""]",1.0,9.0,0.857,1.0,0.1098,-0.1891
+tree_frag_01926_v1,frag_01926,class_005,hybrid_optimized_tree,"[""threshold_lookup""]",1.0,9.0,0.857,1.0,0.1098,-0.1891
+tree_frag_01932_v1,frag_01932,class_001,hybrid_optimized_tree,"[""rule_lookup""]",1.0,28.0,0.857,1.0,0.1788,-0.1201
+tree_frag_01933_v1,frag_01933,class_005,hybrid_optimized_tree,"[""threshold_lookup""]",1.0,9.0,0.857,1.0,0.1098,-0.1891
+tree_frag_01934_v1,frag_01934,class_005,hybrid_optimized_tree,"[""applicability_check"", ""threshold_lookup""]",1.263,13.7,0.75,1.0,0.1552,-0.0923
+tree_frag_01935_v1,frag_01935,class_001,question_intent_tree,"[""applicability_check""]",2.0,27.0,0.75,1.0,0.2287,-0.0263
+tree_frag_01936_v1,frag_01936,class_003,question_intent_tree,"[""metric_lookup""]",2.0,20.0,0.75,1.0,0.2217,-0.0333
+tree_frag_01937_v1,frag_01937,class_003,question_intent_tree,"[""metric_lookup""]",2.0,21.0,0.75,1.0,0.2227,-0.0323
+tree_frag_01940_v1,frag_01940,class_003,question_intent_tree,"[""metric_lookup""]",2.0,24.0,0.75,1.0,0.3307,0.0907
+tree_frag_01942_v1,frag_01942,class_003,question_intent_tree,"[""metric_lookup""]",2.0,20.0,0.75,1.0,0.2217,-0.0333
+tree_frag_01951_v1,frag_01951,class_001,hybrid_optimized_tree,"[""rule_lookup""]",1.0,20.0,0.857,1.0,0.1708,-0.1281
+tree_frag_01952_v1,frag_01952,class_001,hybrid_optimized_tree,"[""exception_lookup"", ""rule_lookup""]",1.777,35.3,0.75,0.703,0.2528,0.0498
+tree_frag_01953_v1,frag_01953,class_005,hybrid_optimized_tree,"[""threshold_lookup""]",1.0,10.0,0.857,1.0,0.1108,-0.1881
+tree_frag_01954_v1,frag_01954,class_005,hybrid_optimized_tree,"[""threshold_lookup""]",1.0,10.0,0.857,1.0,0.1108,-0.1881
+tree_frag_01956_v1,frag_01956,class_005,question_intent_tree,"[""threshold_lookup""]",2.0,21.0,0.75,1.0,0.2227,-0.0323
+tree_frag_01957_v1,frag_01957,class_005,question_intent_tree,"[""threshold_lookup""]",2.0,22.0,0.75,1.0,0.2237,-0.0313
+tree_frag_01958_v1,frag_01958,class_005,hybrid_optimized_tree,"[""threshold_lookup""]",1.0,11.0,0.857,1.0,0.1118,-0.1871
+tree_frag_01959_v1,frag_01959,class_003,question_intent_tree,"[""metric_lookup""]",2.0,21.0,0.75,1.0,0.2227,-0.0323
+tree_frag_01960_v1,frag_01960,class_003,question_intent_tree,"[""metric_lookup""]",2.0,20.0,0.75,1.0,0.2217,-0.0333
+tree_frag_01961_v1,frag_01961,class_003,question_intent_tree,"[""metric_lookup""]",2.0,22.0,0.75,1.0,0.2237,-0.0313
+tree_frag_01963_v1,frag_01963,class_003,question_intent_tree,"[""metric_lookup""]",2.0,21.0,0.75,1.0,0.2227,-0.0323
+tree_frag_01964_v1,frag_01964,class_004,hybrid_optimized_tree,"[""variance_explanation""]",1.0,26.0,0.857,1.0,0.1768,-0.1221
+tree_frag_01965_v1,frag_01965,class_003,question_intent_tree,"[""metric_lookup"", ""variance_explanation""]",2.0,27.2,0.75,1.0,0.2363,0.0038
+tree_frag_01966_v1,frag_01966,class_005,hybrid_optimized_tree,"[""metric_lookup"", ""threshold_lookup""]",1.457,16.0,0.75,1.0,0.1741,-0.0734
+tree_frag_01967_v1,frag_01967,class_003,question_intent_tree,"[""metric_lookup""]",2.0,20.0,0.75,1.0,0.2217,-0.0333
+tree_frag_01973_v1,frag_01973,class_005,question_intent_tree,"[""metric_lookup"", ""threshold_lookup""]",2.0,23.0,0.75,1.0,0.2322,-0.0003
+tree_frag_01975_v1,frag_01975,class_005,question_intent_tree,"[""threshold_lookup""]",2.0,23.0,0.75,1.0,0.2247,-0.0303
+tree_frag_01977_v1,frag_01977,class_005,question_intent_tree,"[""metric_lookup"", ""threshold_lookup""]",2.0,23.3,0.75,1.0,0.2324,-0.0001
+tree_frag_01987_v1,frag_01987,class_001,hybrid_optimized_tree,"[""exception_lookup"", ""rule_lookup""]",1.777,35.3,0.75,0.703,0.2528,0.0498
+tree_frag_01988_v1,frag_01988,class_001,hybrid_optimized_tree,"[""exception_lookup"", ""rule_lookup""]",1.777,35.3,0.75,0.703,0.2528,0.0498
+tree_frag_01990_v1,frag_01990,class_001,hybrid_optimized_tree,"[""rule_lookup""]",1.0,28.0,0.857,1.0,0.1788,-0.1201
+tree_frag_01992_v1,frag_01992,class_001,question_intent_tree,"[""exception_lookup""]",2.0,19.0,0.75,1.0,0.2207,-0.0343
+tree_frag_01996_v1,frag_01996,class_005,question_intent_tree,"[""threshold_lookup""]",2.0,22.0,0.75,1.0,0.2237,-0.0313
+tree_frag_02013_v1,frag_02013,class_001,hybrid_optimized_tree,"[""rule_lookup""]",1.0,28.0,0.857,1.0,0.1788,-0.1201
+tree_frag_02015_v1,frag_02015,class_005,hybrid_optimized_tree,"[""applicability_check"", ""rule_lookup"", ""threshold_lookup""]",1.505,26.1,0.75,1.0,0.2204,-0.0046
+tree_frag_02017_v1,frag_02017,class_005,question_intent_tree,"[""threshold_lookup""]",2.0,19.0,0.75,1.0,0.2207,-0.0343
+tree_frag_02026_v1,frag_02026,class_001,hybrid_optimized_tree,"[""rule_lookup"", ""threshold_lookup""]",1.0,17.8,0.857,1.0,0.1411,-0.1503
+tree_frag_02027_v1,frag_02027,class_005,hybrid_optimized_tree,"[""rule_lookup"", ""threshold_lookup""]",1.326,25.1,0.75,1.0,0.2056,-0.0419
+tree_frag_02032_v1,frag_02032,class_005,hybrid_optimized_tree,"[""threshold_lookup""]",1.0,11.0,0.857,1.0,0.1118,-0.1871
+tree_frag_02033_v1,frag_02033,class_005,hybrid_optimized_tree,"[""threshold_lookup""]",1.0,11.0,0.857,1.0,0.1118,-0.1871
+tree_frag_02035_v1,frag_02035,class_001,hybrid_optimized_tree,"[""rule_lookup""]",1.0,28.0,0.857,1.0,0.1788,-0.1201
+tree_frag_02041_v1,frag_02041,class_005,hybrid_optimized_tree,"[""rule_lookup"", ""threshold_lookup""]",1.0,18.4,0.857,1.0,0.1417,-0.1497
+tree_frag_02048_v1,frag_02048,class_003,question_intent_tree,"[""metric_lookup""]",2.0,22.0,0.75,1.0,0.2237,-0.0313
+tree_frag_02049_v1,frag_02049,class_001,hybrid_optimized_tree,"[""exception_lookup"", ""metric_lookup"", ""variance_explanation""]",1.893,19.6,0.75,1.0,0.2222,-0.0028
+tree_frag_02051_v1,frag_02051,class_005,hybrid_optimized_tree,"[""exception_lookup"", ""metric_lookup"", ""threshold_lookup"", ""variance_explanation""]",1.542,16.2,0.75,1.0,0.1914,-0.0261
+tree_frag_02053_v1,frag_02053,class_003,question_intent_tree,"[""metric_lookup""]",2.0,24.0,0.75,1.0,0.2257,-0.0293
+tree_frag_02056_v1,frag_02056,class_003,question_intent_tree,"[""metric_lookup"", ""variance_explanation""]",2.0,25.2,0.75,1.0,0.2344,0.0019
+tree_frag_02058_v1,frag_02058,class_004,hybrid_optimized_tree,"[""variance_explanation""]",1.0,16.0,0.857,1.0,0.1668,-0.1321
+tree_frag_02060_v1,frag_02060,class_004,hybrid_optimized_tree,"[""variance_explanation""]",1.0,28.0,0.857,1.0,0.1288,-0.1701
+tree_frag_02062_v1,frag_02062,class_003,question_intent_tree,"[""metric_lookup""]",2.0,23.0,0.75,1.0,0.2247,-0.0303
+tree_frag_02063_v1,frag_02063,class_003,question_intent_tree,"[""metric_lookup""]",2.0,21.0,0.75,1.0,0.2227,-0.0323
+tree_frag_02065_v1,frag_02065,class_005,question_intent_tree,"[""threshold_lookup""]",2.0,20.0,0.75,1.0,0.2217,-0.0333
+tree_frag_02073_v1,frag_02073,class_001,hybrid_optimized_tree,"[""effective_date_lookup""]",1.0,12.0,0.857,1.0,0.1128,-0.1861
+tree_frag_02075_v1,frag_02075,class_001,hybrid_optimized_tree,"[""effective_date_lookup""]",1.0,12.0,0.857,1.0,0.1128,-0.1861
+tree_frag_02076_v1,frag_02076,class_001,question_intent_tree,"[""exception_lookup""]",2.0,27.0,0.75,1.0,0.2287,-0.0263
+tree_frag_02077_v1,frag_02077,class_001,question_intent_tree,"[""exception_lookup""]",2.0,27.0,0.75,1.0,0.2287,-0.0263
+tree_frag_02084_v1,frag_02084,class_005,hybrid_optimized_tree,"[""metric_lookup"", ""threshold_lookup""]",1.457,15.0,0.75,1.0,0.1731,-0.0744
+tree_frag_02085_v1,frag_02085,class_003,question_intent_tree,"[""metric_lookup""]",2.0,22.0,0.75,1.0,0.2237,-0.0313
+tree_frag_02095_v1,frag_02095,class_001,hybrid_optimized_tree,"[""rule_lookup""]",1.0,28.0,0.857,1.0,0.1788,-0.1201
+tree_frag_02096_v1,frag_02096,class_001,hybrid_optimized_tree,"[""rule_lookup""]",1.0,28.0,0.857,1.0,0.1788,-0.1201
+tree_frag_02098_v1,frag_02098,class_005,question_intent_tree,"[""threshold_lookup""]",2.0,21.0,0.75,1.0,0.2227,-0.0323
+tree_frag_02099_v1,frag_02099,class_001,hybrid_optimized_tree,"[""applicability_check"", ""rule_lookup""]",1.348,27.7,0.75,1.0,0.209,-0.0385
+tree_frag_02100_v1,frag_02100,class_001,hybrid_optimized_tree,"[""applicability_check"", ""rule_lookup""]",1.348,27.7,0.75,1.0,0.209,-0.0385
+tree_frag_02105_v1,frag_02105,class_001,hybrid_optimized_tree,"[""applicability_check"", ""rule_lookup""]",1.348,27.7,0.75,1.0,0.209,-0.0385
+tree_frag_02106_v1,frag_02106,class_001,hybrid_optimized_tree,"[""rule_lookup""]",1.0,28.0,0.857,1.0,0.1788,-0.1201
+tree_frag_02109_v1,frag_02109,class_005,hybrid_optimized_tree,"[""threshold_lookup""]",1.0,11.0,0.857,1.0,0.1118,-0.1871
+tree_frag_02110_v1,frag_02110,class_001,hybrid_optimized_tree,"[""rule_lookup""]",1.0,28.0,0.857,1.0,0.1788,-0.1201
+tree_frag_02111_v1,frag_02111,class_005,hybrid_optimized_tree,"[""applicability_check"", ""metric_lookup"", ""rule_lookup"", ""threshold_lookup""]",1.696,23.4,0.75,1.0,0.2319,0.0294
+tree_frag_02114_v1,frag_02114,class_001,hybrid_optimized_tree,"[""effective_date_lookup""]",1.0,11.0,0.857,1.0,0.1118,-0.1871
+tree_frag_02121_v1,frag_02121,class_005,hybrid_optimized_tree,"[""threshold_lookup""]",1.0,11.0,0.857,1.0,0.1118,-0.1871
+tree_frag_02123_v1,frag_02123,class_005,question_intent_tree,"[""threshold_lookup""]",2.0,21.0,0.75,1.0,0.2227,-0.0323
+tree_frag_02131_v1,frag_02131,class_001,question_intent_tree,"[""exception_lookup""]",2.0,52.0,0.75,1.0,0.2537,-0.0013
+tree_frag_02134_v1,frag_02134,class_001,question_intent_tree,"[""exception_lookup""]",2.0,19.0,0.75,1.0,0.2207,-0.0343
+tree_frag_02136_v1,frag_02136,class_003,question_intent_tree,"[""metric_lookup""]",2.0,20.0,0.75,1.0,0.2217,-0.0333
+tree_frag_02142_v1,frag_02142,class_001,hybrid_optimized_tree,"[""rule_lookup""]",1.0,28.0,0.857,1.0,0.1788,-0.1201
+tree_frag_02143_v1,frag_02143,class_001,hybrid_optimized_tree,"[""rule_lookup""]",1.0,28.0,0.857,1.0,0.1788,-0.1201
+tree_frag_02145_v1,frag_02145,class_001,hybrid_optimized_tree,"[""rule_lookup""]",1.0,28.0,0.857,1.0,0.1788,-0.1201
+tree_frag_02153_v1,frag_02153,class_005,question_intent_tree,"[""metric_lookup"", ""threshold_lookup""]",2.0,21.3,0.75,1.0,0.2304,-0.0021
+tree_frag_02155_v1,frag_02155,class_005,hybrid_optimized_tree,"[""threshold_lookup""]",1.0,11.0,0.857,1.0,0.1118,-0.1871
+tree_frag_02157_v1,frag_02157,class_005,hybrid_optimized_tree,"[""threshold_lookup""]",1.0,9.0,0.857,1.0,0.1098,-0.1891
+tree_frag_02159_v1,frag_02159,class_003,question_intent_tree,"[""metric_lookup""]",2.0,20.0,0.75,1.0,0.2217,-0.0333
+tree_frag_02165_v1,frag_02165,class_005,hybrid_optimized_tree,"[""threshold_lookup""]",1.0,10.0,0.857,1.0,0.1108,-0.1881
+tree_frag_02166_v1,frag_02166,class_005,hybrid_optimized_tree,"[""threshold_lookup""]",1.0,10.0,0.857,1.0,0.1108,-0.1881
+tree_frag_02169_v1,frag_02169,class_003,question_intent_tree,"[""metric_lookup""]",2.0,21.0,0.75,1.0,0.2227,-0.0323
+tree_frag_02175_v1,frag_02175,class_001,hybrid_optimized_tree,"[""effective_date_lookup"", ""metric_lookup""]",1.753,17.8,0.75,1.0,0.2009,-0.0466
+tree_frag_02180_v1,frag_02180,class_003,question_intent_tree,"[""metric_lookup""]",2.0,22.0,0.75,1.0,0.2237,-0.0313
+tree_frag_02182_v1,frag_02182,class_001,question_intent_tree,"[""exception_lookup""]",2.0,19.0,0.75,1.0,0.2207,-0.0343
+tree_frag_02194_v1,frag_02194,class_005,hybrid_optimized_tree,"[""threshold_lookup""]",1.0,10.0,0.857,1.0,0.1108,-0.1881
+tree_frag_02195_v1,frag_02195,class_005,hybrid_optimized_tree,"[""metric_lookup"", ""rule_lookup"", ""threshold_lookup""]",1.336,17.7,0.75,1.0,0.1812,-0.0588
+tree_frag_02202_v1,frag_02202,class_001,hybrid_optimized_tree,"[""rule_lookup""]",1.0,28.0,0.857,1.0,0.1788,-0.1201
+tree_frag_02213_v1,frag_02213,class_001,hybrid_optimized_tree,"[""rule_lookup""]",1.0,28.0,0.857,1.0,0.1788,-0.1201
+tree_frag_02214_v1,frag_02214,class_001,hybrid_optimized_tree,"[""rule_lookup""]",1.0,28.0,0.857,1.0,0.1788,-0.1201
+tree_frag_02217_v1,frag_02217,class_001,hybrid_optimized_tree,"[""effective_date_lookup""]",1.0,12.0,0.857,1.0,0.1128,-0.1861
+tree_frag_02220_v1,frag_02220,class_001,question_intent_tree,"[""exception_lookup""]",2.0,19.0,0.75,1.0,0.2207,-0.0343
+tree_frag_02222_v1,frag_02222,class_001,hybrid_optimized_tree,"[""rule_lookup""]",1.0,28.0,0.857,1.0,0.1788,-0.1201
+tree_frag_02224_v1,frag_02224,class_005,hybrid_optimized_tree,"[""rule_lookup"", ""threshold_lookup"", ""variance_explanation""]",1.232,26.0,0.75,1.0,0.2058,-0.0342
+tree_frag_02229_v1,frag_02229,class_005,hybrid_optimized_tree,"[""threshold_lookup""]",1.0,11.0,0.857,1.0,0.1118,-0.1871
+tree_frag_02249_v1,frag_02249,class_005,hybrid_optimized_tree,"[""metric_lookup"", ""threshold_lookup""]",1.457,15.0,0.75,1.0,0.1731,-0.0744
+tree_frag_02250_v1,frag_02250,class_003,question_intent_tree,"[""metric_lookup""]",2.0,22.0,0.75,1.0,0.2237,-0.0313
+tree_frag_02251_v1,frag_02251,class_005,hybrid_optimized_tree,"[""metric_lookup"", ""threshold_lookup""]",1.457,14.0,0.75,1.0,0.1721,-0.0754
+tree_frag_02252_v1,frag_02252,class_001,hybrid_optimized_tree,"[""effective_date_lookup""]",1.0,12.0,0.857,1.0,0.1128,-0.1861
+tree_frag_02254_v1,frag_02254,class_005,hybrid_optimized_tree,"[""effective_date_lookup"", ""threshold_lookup""]",1.0,11.2,0.857,1.0,0.1146,-0.1769
+tree_frag_02257_v1,frag_02257,class_005,hybrid_optimized_tree,"[""effective_date_lookup"", ""threshold_lookup""]",1.538,16.8,0.75,1.0,0.1817,-0.0658
+tree_frag_02268_v1,frag_02268,class_005,hybrid_optimized_tree,"[""metric_lookup"", ""threshold_lookup""]",1.457,15.0,0.75,1.0,0.1731,-0.0744
+tree_frag_02281_v1,frag_02281,class_001,question_intent_tree,"[""applicability_check""]",2.0,27.0,0.75,1.0,0.2287,-0.0263
+tree_frag_02291_v1,frag_02291,class_003,question_intent_tree,"[""metric_lookup""]",2.0,20.0,0.75,1.0,0.2217,-0.0333
+tree_frag_02292_v1,frag_02292,class_003,question_intent_tree,"[""metric_lookup""]",2.0,20.0,0.75,1.0,0.2217,-0.0333
+tree_frag_02293_v1,frag_02293,class_003,question_intent_tree,"[""metric_lookup""]",2.0,20.0,0.75,1.0,0.2217,-0.0333
+tree_frag_02297_v1,frag_02297,class_004,question_intent_tree,"[""variance_explanation""]",2.0,36.0,0.75,1.0,0.2377,-0.0173
+tree_frag_02299_v1,frag_02299,class_004,hybrid_optimized_tree,"[""variance_explanation""]",1.0,14.0,0.857,1.0,0.1648,-0.1341
+tree_frag_02302_v1,frag_02302,class_004,hybrid_optimized_tree,"[""variance_explanation""]",1.0,26.0,0.857,1.0,0.1768,-0.1221
+tree_frag_02306_v1,frag_02306,class_001,hybrid_optimized_tree,"[""rule_lookup""]",1.0,28.0,0.857,1.0,0.1788,-0.1201
+tree_frag_02307_v1,frag_02307,class_001,hybrid_optimized_tree,"[""rule_lookup""]",1.0,28.0,0.857,1.0,0.1788,-0.1201
+tree_frag_02310_v1,frag_02310,class_001,hybrid_optimized_tree,"[""effective_date_lookup""]",1.0,12.0,0.857,1.0,0.1128,-0.1861
+tree_frag_02329_v1,frag_02329,class_003,hybrid_optimized_tree,"[""metric_lookup"", ""variance_explanation""]",1.679,23.3,0.75,1.0,0.2162,-0.0313
+tree_frag_02331_v1,frag_02331,class_004,hybrid_optimized_tree,"[""variance_explanation""]",1.0,12.0,0.857,1.0,0.1628,-0.1361
+tree_frag_02333_v1,frag_02333,class_003,hybrid_optimized_tree,"[""metric_lookup"", ""variance_explanation""]",1.679,21.7,0.75,1.0,0.2146,-0.0329
+tree_frag_02334_v1,frag_02334,class_004,hybrid_optimized_tree,"[""variance_explanation""]",1.0,26.0,0.857,1.0,0.1768,-0.1221
+tree_frag_02335_v1,frag_02335,class_003,question_intent_tree,"[""metric_lookup""]",2.0,22.0,0.75,1.0,0.2237,-0.0313
+tree_frag_02337_v1,frag_02337,class_003,question_intent_tree,"[""metric_lookup""]",2.0,22.0,0.75,1.0,0.2237,-0.0313
+tree_frag_02338_v1,frag_02338,class_001,question_intent_tree,"[""exception_lookup""]",2.0,19.0,0.75,1.0,0.2207,-0.0343
+tree_frag_02339_v1,frag_02339,class_001,question_intent_tree,"[""exception_lookup""]",2.0,19.0,0.75,1.0,0.2207,-0.0343
+tree_frag_02342_v1,frag_02342,class_001,question_intent_tree,"[""applicability_check""]",2.0,27.0,0.75,1.0,0.2287,-0.0263
+tree_frag_02344_v1,frag_02344,class_001,hybrid_optimized_tree,"[""applicability_check"", ""rule_lookup""]",1.348,27.7,0.75,1.0,0.209,-0.0385
+tree_frag_02345_v1,frag_02345,class_001,question_intent_tree,"[""applicability_check""]",2.0,27.0,0.75,1.0,0.2287,-0.0263
+tree_frag_02347_v1,frag_02347,class_001,question_intent_tree,"[""applicability_check""]",2.0,27.0,0.75,1.0,0.2287,-0.0263
+tree_frag_02349_v1,frag_02349,class_001,hybrid_optimized_tree,"[""effective_date_lookup""]",1.0,11.0,0.857,1.0,0.1118,-0.1871
+tree_frag_02354_v1,frag_02354,class_005,hybrid_optimized_tree,"[""threshold_lookup""]",1.0,10.0,0.857,1.0,0.1108,-0.1881
+tree_frag_02356_v1,frag_02356,class_001,hybrid_optimized_tree,"[""effective_date_lookup""]",1.0,12.0,0.857,1.0,0.1128,-0.1861
+tree_frag_02374_v1,frag_02374,class_005,hybrid_optimized_tree,"[""threshold_lookup""]",1.0,9.0,0.857,1.0,0.1098,-0.1891
+tree_frag_02378_v1,frag_02378,class_004,question_intent_tree,"[""variance_explanation""]",2.0,35.0,0.75,1.0,0.2367,-0.0183
+tree_frag_02379_v1,frag_02379,class_003,question_intent_tree,"[""metric_lookup""]",2.0,29.0,0.75,1.0,0.2457,-0.0018
+tree_frag_02380_v1,frag_02380,class_003,question_intent_tree,"[""metric_lookup""]",2.0,31.0,0.75,1.0,0.2477,0.0002
+tree_frag_02381_v1,frag_02381,class_003,question_intent_tree,"[""metric_lookup""]",2.0,22.0,0.75,1.0,0.2237,-0.0313
+tree_frag_02382_v1,frag_02382,class_005,hybrid_optimized_tree,"[""exception_lookup"", ""metric_lookup"", ""threshold_lookup""]",1.579,15.9,0.75,1.0,0.1918,-0.0332
+tree_frag_02385_v1,frag_02385,class_005,hybrid_optimized_tree,"[""threshold_lookup""]",1.0,9.0,0.857,1.0,0.1098,-0.1891
+tree_frag_02386_v1,frag_02386,class_001,hybrid_optimized_tree,"[""rule_lookup""]",1.0,28.0,0.857,1.0,0.1788,-0.1201
+tree_frag_02387_v1,frag_02387,class_005,hybrid_optimized_tree,"[""rule_lookup"", ""threshold_lookup""]",1.0,16.6,0.857,1.0,0.1399,-0.1515
+tree_frag_02389_v1,frag_02389,class_005,hybrid_optimized_tree,"[""threshold_lookup""]",1.0,11.0,0.857,1.0,0.1118,-0.1871
+tree_frag_02390_v1,frag_02390,class_005,hybrid_optimized_tree,"[""threshold_lookup""]",1.0,11.0,0.857,1.0,0.1118,-0.1871
+tree_frag_02392_v1,frag_02392,class_005,hybrid_optimized_tree,"[""threshold_lookup""]",1.0,9.0,0.857,1.0,0.1098,-0.1891
+tree_frag_02396_v1,frag_02396,class_005,hybrid_optimized_tree,"[""threshold_lookup""]",1.0,11.0,0.857,1.0,0.1118,-0.1871
+tree_frag_02398_v1,frag_02398,class_005,hybrid_optimized_tree,"[""threshold_lookup""]",1.0,9.0,0.857,1.0,0.1098,-0.1891
+tree_frag_02399_v1,frag_02399,class_001,question_intent_tree,"[""exception_lookup""]",2.0,19.0,0.75,1.0,0.2207,-0.0343
+tree_frag_02402_v1,frag_02402,class_005,hybrid_optimized_tree,"[""threshold_lookup""]",1.0,10.0,0.857,1.0,0.1108,-0.1881
+tree_frag_02403_v1,frag_02403,class_005,hybrid_optimized_tree,"[""threshold_lookup""]",1.0,10.0,0.857,1.0,0.1108,-0.1881
+tree_frag_02406_v1,frag_02406,class_005,hybrid_optimized_tree,"[""effective_date_lookup"", ""threshold_lookup""]",1.0,10.2,0.857,1.0,0.1136,-0.1779
+tree_frag_02408_v1,frag_02408,class_001,question_intent_tree,"[""exception_lookup"", ""metric_lookup""]",2.0,20.2,0.75,1.0,0.2294,-0.0031
+tree_frag_02409_v1,frag_02409,class_005,hybrid_optimized_tree,"[""metric_lookup"", ""threshold_lookup"", ""variance_explanation""]",1.554,16.2,0.75,1.0,0.1899,-0.0351
+tree_frag_02410_v1,frag_02410,class_004,hybrid_optimized_tree,"[""variance_explanation""]",1.0,16.0,0.857,1.0,0.1668,-0.1321
+tree_frag_02411_v1,frag_02411,class_003,question_intent_tree,"[""metric_lookup"", ""variance_explanation""]",2.0,21.6,0.75,1.0,0.2308,-0.0017
+tree_frag_02413_v1,frag_02413,class_003,question_intent_tree,"[""metric_lookup"", ""variance_explanation""]",2.0,23.6,0.75,1.0,0.2328,0.0003
+tree_frag_02415_v1,frag_02415,class_003,question_intent_tree,"[""metric_lookup"", ""variance_explanation""]",2.0,21.9,0.75,1.0,0.2311,-0.0014
+tree_frag_02416_v1,frag_02416,class_004,hybrid_optimized_tree,"[""variance_explanation""]",1.0,18.0,0.857,1.0,0.1688,-0.1301
+tree_frag_02417_v1,frag_02417,class_003,question_intent_tree,"[""metric_lookup"", ""variance_explanation""]",2.0,25.1,0.75,1.0,0.2343,0.0018
+tree_frag_02418_v1,frag_02418,class_004,hybrid_optimized_tree,"[""variance_explanation""]",1.0,26.0,0.857,1.0,0.1768,-0.1221
+tree_frag_02419_v1,frag_02419,class_003,question_intent_tree,"[""metric_lookup"", ""variance_explanation""]",2.0,23.6,0.75,1.0,0.2328,0.0003
+tree_frag_02421_v1,frag_02421,class_003,question_intent_tree,"[""metric_lookup""]",2.0,20.0,0.75,1.0,0.2217,-0.0333
+tree_frag_02422_v1,frag_02422,class_001,question_intent_tree,"[""exception_lookup"", ""metric_lookup""]",2.0,20.8,0.75,1.0,0.23,-0.0025
+tree_frag_02423_v1,frag_02423,class_003,question_intent_tree,"[""metric_lookup""]",2.0,21.0,0.75,1.0,0.2227,-0.0323
+tree_frag_02438_v1,frag_02438,class_001,hybrid_optimized_tree,"[""effective_date_lookup""]",1.0,12.0,0.857,1.0,0.1128,-0.1861
+tree_frag_02440_v1,frag_02440,class_001,hybrid_optimized_tree,"[""rule_lookup""]",1.0,28.0,0.857,1.0,0.1788,-0.1201
+tree_frag_02442_v1,frag_02442,class_003,question_intent_tree,"[""metric_lookup""]",2.0,21.0,0.75,1.0,0.2227,-0.0323
+tree_frag_02443_v1,frag_02443,class_003,question_intent_tree,"[""metric_lookup""]",2.0,20.0,0.75,1.0,0.2217,-0.0333
+tree_frag_02453_v1,frag_02453,class_005,hybrid_optimized_tree,"[""metric_lookup"", ""threshold_lookup""]",1.457,16.0,0.75,1.0,0.1741,-0.0734
+tree_frag_02455_v1,frag_02455,class_003,question_intent_tree,"[""metric_lookup""]",2.0,21.0,0.75,1.0,0.2227,-0.0323
+tree_frag_02469_v1,frag_02469,class_005,hybrid_optimized_tree,"[""threshold_lookup""]",1.0,10.0,0.857,1.0,0.1108,-0.1881
+tree_frag_02482_v1,frag_02482,class_001,hybrid_optimized_tree,"[""effective_date_lookup"", ""rule_lookup""]",1.0,23.3,0.857,1.0,0.162,-0.1295
+tree_frag_02483_v1,frag_02483,class_001,hybrid_optimized_tree,"[""rule_lookup""]",1.0,28.0,0.857,1.0,0.1788,-0.1201
+tree_frag_02486_v1,frag_02486,class_001,hybrid_optimized_tree,"[""effective_date_lookup"", ""rule_lookup""]",1.0,23.3,0.857,1.0,0.162,-0.1295
+tree_frag_02487_v1,frag_02487,class_001,hybrid_optimized_tree,"[""rule_lookup""]",1.0,28.0,0.857,1.0,0.1788,-0.1201
+tree_frag_02488_v1,frag_02488,class_001,hybrid_optimized_tree,"[""effective_date_lookup""]",1.0,12.0,0.857,1.0,0.1128,-0.1861
+tree_frag_02493_v1,frag_02493,class_003,question_intent_tree,"[""metric_lookup""]",2.0,21.0,0.75,1.0,0.2227,-0.0323
+tree_frag_02496_v1,frag_02496,class_001,hybrid_optimized_tree,"[""rule_lookup""]",1.0,28.0,0.857,1.0,0.1788,-0.1201
+tree_frag_02498_v1,frag_02498,class_005,hybrid_optimized_tree,"[""threshold_lookup""]",1.0,11.0,0.857,1.0,0.1118,-0.1871
+tree_frag_02502_v1,frag_02502,class_001,question_intent_tree,"[""exception_lookup""]",2.0,52.0,0.75,1.0,0.2537,-0.0013
+tree_frag_02503_v1,frag_02503,class_005,hybrid_optimized_tree,"[""threshold_lookup""]",1.0,10.0,0.857,1.0,0.1108,-0.1881
+tree_frag_02504_v1,frag_02504,class_005,hybrid_optimized_tree,"[""threshold_lookup""]",1.0,10.0,0.857,1.0,0.1108,-0.1881
+tree_frag_02516_v1,frag_02516,class_001,question_intent_tree,"[""exception_lookup"", ""metric_lookup""]",2.0,20.2,0.75,1.0,0.2294,-0.0031
+tree_frag_02517_v1,frag_02517,class_003,question_intent_tree,"[""metric_lookup""]",2.0,24.0,0.75,1.0,0.2257,-0.0293
+tree_frag_02518_v1,frag_02518,class_001,hybrid_optimized_tree,"[""metric_lookup"", ""rule_lookup""]",1.559,23.5,0.75,1.0,0.2123,-0.0352
+tree_frag_02519_v1,frag_02519,class_003,question_intent_tree,"[""metric_lookup""]",2.0,22.0,0.75,1.0,0.2237,-0.0313
+tree_frag_02520_v1,frag_02520,class_005,question_intent_tree,"[""metric_lookup"", ""threshold_lookup""]",2.0,21.3,0.75,1.0,0.2304,-0.0021
+tree_frag_02521_v1,frag_02521,class_003,question_intent_tree,"[""metric_lookup""]",2.0,20.0,0.75,1.0,0.2217,-0.0333
+tree_frag_02522_v1,frag_02522,class_005,hybrid_optimized_tree,"[""metric_lookup"", ""threshold_lookup""]",1.457,15.1,0.75,1.0,0.1732,-0.0743
+tree_frag_02541_v1,frag_02541,class_001,hybrid_optimized_tree,"[""rule_lookup""]",1.0,28.0,0.857,1.0,0.1788,-0.1201
+tree_frag_02545_v1,frag_02545,class_005,hybrid_optimized_tree,"[""threshold_lookup""]",1.0,11.0,0.857,1.0,0.1118,-0.1871
+tree_frag_02546_v1,frag_02546,class_005,hybrid_optimized_tree,"[""threshold_lookup""]",1.0,11.0,0.857,1.0,0.1118,-0.1871
+tree_frag_02547_v1,frag_02547,class_005,hybrid_optimized_tree,"[""threshold_lookup""]",1.0,9.0,0.857,1.0,0.1098,-0.1891
+tree_frag_02548_v1,frag_02548,class_005,hybrid_optimized_tree,"[""threshold_lookup""]",1.0,11.0,0.857,1.0,0.1118,-0.1871
+tree_frag_02549_v1,frag_02549,class_005,hybrid_optimized_tree,"[""threshold_lookup""]",1.0,9.0,0.857,1.0,0.1098,-0.1891
+tree_frag_02557_v1,frag_02557,class_001,question_intent_tree,"[""exception_lookup""]",2.0,19.0,0.75,1.0,0.2207,-0.0343
+tree_frag_02560_v1,frag_02560,class_005,hybrid_optimized_tree,"[""threshold_lookup""]",1.0,9.0,0.857,1.0,0.1098,-0.1891
+tree_frag_02561_v1,frag_02561,class_005,hybrid_optimized_tree,"[""threshold_lookup""]",1.0,9.0,0.857,1.0,0.1098,-0.1891
+tree_frag_02568_v1,frag_02568,class_005,hybrid_optimized_tree,"[""threshold_lookup""]",1.0,10.0,0.857,1.0,0.1108,-0.1881
+tree_frag_02581_v1,frag_02581,class_005,hybrid_optimized_tree,"[""threshold_lookup""]",1.0,11.0,0.857,1.0,0.1118,-0.1871
+tree_frag_02585_v1,frag_02585,class_004,question_intent_tree,"[""variance_explanation""]",2.0,31.0,0.75,1.0,0.2327,-0.0223
+tree_frag_02586_v1,frag_02586,class_004,hybrid_optimized_tree,"[""variance_explanation""]",1.0,20.0,0.857,1.0,0.1708,-0.1281
+tree_frag_02591_v1,frag_02591,class_005,hybrid_optimized_tree,"[""threshold_lookup""]",1.0,9.0,0.857,1.0,0.1098,-0.1891
+tree_frag_02605_v1,frag_02605,class_003,question_intent_tree,"[""metric_lookup""]",2.0,22.0,0.75,1.0,0.2237,-0.0313
+tree_frag_02606_v1,frag_02606,class_003,hybrid_optimized_tree,"[""metric_lookup"", ""variance_explanation""]",1.679,22.6,0.75,1.0,0.2156,-0.0319
+tree_frag_02607_v1,frag_02607,class_003,question_intent_tree,"[""metric_lookup"", ""variance_explanation""]",2.0,25.1,0.75,1.0,0.2343,0.0018
+tree_frag_02608_v1,frag_02608,class_003,question_intent_tree,"[""metric_lookup""]",2.0,20.0,0.75,1.0,0.2217,-0.0333
+tree_frag_02609_v1,frag_02609,class_003,question_intent_tree,"[""metric_lookup""]",2.0,20.0,0.75,1.0,0.2217,-0.0333
+tree_frag_02610_v1,frag_02610,class_003,question_intent_tree,"[""metric_lookup"", ""variance_explanation""]",2.0,24.5,0.75,1.0,0.2337,0.0012
+tree_frag_02611_v1,frag_02611,class_003,question_intent_tree,"[""metric_lookup"", ""variance_explanation""]",2.0,23.2,0.75,1.0,0.2324,-0.0001
+tree_frag_02612_v1,frag_02612,class_003,question_intent_tree,"[""metric_lookup""]",2.0,20.0,0.75,1.0,0.2217,-0.0333
+tree_frag_02616_v1,frag_02616,class_003,question_intent_tree,"[""metric_lookup""]",2.0,20.0,0.75,1.0,0.2217,-0.0333
+tree_frag_02617_v1,frag_02617,class_001,hybrid_optimized_tree,"[""metric_lookup"", ""rule_lookup""]",1.559,23.5,0.75,1.0,0.2123,-0.0352
+tree_frag_02619_v1,frag_02619,class_001,hybrid_optimized_tree,"[""rule_lookup""]",1.0,28.0,0.857,1.0,0.1788,-0.1201
+tree_frag_02626_v1,frag_02626,class_001,question_intent_tree,"[""applicability_check""]",2.0,27.0,0.75,1.0,0.2287,-0.0263
+tree_frag_02629_v1,frag_02629,class_001,question_intent_tree,"[""exception_lookup""]",2.0,52.0,0.75,1.0,0.2537,-0.0013
+tree_frag_02634_v1,frag_02634,class_003,question_intent_tree,"[""metric_lookup""]",2.0,20.0,0.75,1.0,0.2217,-0.0333
+tree_frag_02636_v1,frag_02636,class_003,question_intent_tree,"[""metric_lookup""]",2.0,20.0,0.75,1.0,0.2217,-0.0333
+tree_frag_02639_v1,frag_02639,class_003,question_intent_tree,"[""metric_lookup""]",2.0,20.0,0.75,1.0,0.2217,-0.0333
+tree_frag_02641_v1,frag_02641,class_001,hybrid_optimized_tree,"[""exception_lookup"", ""rule_lookup""]",1.777,35.3,0.75,0.703,0.2528,0.0498
+tree_frag_02642_v1,frag_02642,class_001,hybrid_optimized_tree,"[""applicability_check"", ""exception_lookup"", ""rule_lookup""]",1.828,33.4,0.75,0.771,0.2554,0.0647
+tree_frag_02648_v1,frag_02648,class_004,hybrid_optimized_tree,"[""variance_explanation""]",1.0,28.0,0.857,1.0,0.1288,-0.1701
+tree_frag_02657_v1,frag_02657,class_005,hybrid_optimized_tree,"[""threshold_lookup""]",1.0,9.0,0.857,1.0,0.1098,-0.1891
+tree_frag_02658_v1,frag_02658,class_005,hybrid_optimized_tree,"[""threshold_lookup""]",1.0,9.0,0.857,1.0,0.1098,-0.1891
+tree_frag_02659_v1,frag_02659,class_003,question_intent_tree,"[""metric_lookup""]",2.0,20.0,0.75,1.0,0.2217,-0.0333
+tree_frag_02660_v1,frag_02660,class_004,question_intent_tree,"[""variance_explanation""]",2.0,36.0,0.75,1.0,0.2377,-0.0173
+tree_frag_02671_v1,frag_02671,class_001,hybrid_optimized_tree,"[""effective_date_lookup"", ""owner_lookup""]",1.0,11.3,0.857,1.0,0.1147,-0.1768
+tree_frag_02673_v1,frag_02673,class_002,hybrid_optimized_tree,"[""approval_lookup"", ""rule_lookup""]",1.216,21.6,0.75,1.0,0.2248,-0.0077
+tree_frag_02675_v1,frag_02675,class_001,hybrid_optimized_tree,"[""rule_lookup"", ""variance_explanation""]",1.0,20.4,0.857,1.0,0.2064,-0.0775
+tree_frag_02677_v1,frag_02677,class_001,hybrid_optimized_tree,"[""owner_lookup""]",1.0,10.0,0.857,1.0,0.1108,-0.1881
+tree_frag_02679_v1,frag_02679,class_002,question_intent_tree,"[""approval_lookup""]",2.0,22.0,0.75,1.0,0.2237,-0.0313
+tree_frag_02680_v1,frag_02680,class_002,question_intent_tree,"[""approval_lookup""]",2.0,23.0,0.75,1.0,0.2247,-0.0303
+tree_frag_02681_v1,frag_02681,class_002,question_intent_tree,"[""approval_lookup""]",2.0,20.0,0.75,1.0,0.2217,-0.0333
+tree_frag_02682_v1,frag_02682,class_002,question_intent_tree,"[""approval_lookup""]",2.0,22.0,0.75,1.0,0.2237,-0.0313
+tree_frag_02683_v1,frag_02683,class_002,question_intent_tree,"[""approval_lookup""]",2.0,23.0,0.75,1.0,0.2247,-0.0303
+tree_frag_02684_v1,frag_02684,class_002,question_intent_tree,"[""approval_lookup""]",2.0,20.0,0.75,1.0,0.2217,-0.0333
+tree_frag_02685_v1,frag_02685,class_002,question_intent_tree,"[""approval_lookup""]",2.0,23.0,0.75,1.0,0.2247,-0.0303
+tree_frag_02686_v1,frag_02686,class_002,question_intent_tree,"[""approval_lookup""]",2.0,23.0,0.75,1.0,0.2247,-0.0303
+tree_frag_02687_v1,frag_02687,class_001,question_intent_tree,"[""metric_lookup"", ""owner_lookup""]",2.0,21.1,0.75,1.0,0.2304,-0.0021
+tree_frag_02690_v1,frag_02690,class_003,class_objective_tree,"[""metric_lookup""]",2.0,25.9,0.75,1.0,0.332,0.0995
+tree_frag_02692_v1,frag_02692,class_003,class_objective_tree,"[""metric_lookup"", ""variance_explanation""]",2.0,24.6,0.75,1.0,0.2973,0.0798
+tree_frag_02694_v1,frag_02694,class_003,class_objective_tree,"[""metric_lookup""]",2.0,24.9,0.75,1.0,0.331,0.0985
+tree_frag_02696_v1,frag_02696,class_003,hybrid_optimized_tree,"[""approval_lookup"", ""metric_lookup""]",1.801,20.1,0.75,0.918,0.3045,0.0918
+tree_frag_02699_v1,frag_02699,class_001,hybrid_optimized_tree,"[""applicability_check"", ""effective_date_lookup""]",1.563,20.4,0.75,1.0,0.1874,-0.0601
+tree_frag_02701_v1,frag_02701,class_001,hybrid_optimized_tree,"[""approval_lookup"", ""rule_lookup""]",1.0,24.1,0.857,1.0,0.2081,-0.0758
+tree_frag_02703_v1,frag_02703,class_002,hybrid_optimized_tree,"[""approval_lookup"", ""owner_lookup"", ""rule_lookup""]",1.0,23.0,0.857,1.0,0.1624,-0.1215
+tree_frag_02705_v1,frag_02705,class_001,hybrid_optimized_tree,"[""approval_lookup"", ""exception_lookup"", ""rule_lookup""]",1.673,31.8,0.75,0.743,0.2652,0.0712
+tree_frag_02708_v1,frag_02708,class_001,hybrid_optimized_tree,"[""applicability_check"", ""effective_date_lookup""]",1.563,20.0,0.75,1.0,0.187,-0.0605
+tree_frag_02710_v1,frag_02710,class_002,hybrid_optimized_tree,"[""approval_lookup"", ""rule_lookup""]",1.344,24.9,0.75,1.0,0.3004,0.1279
+tree_frag_02712_v1,frag_02712,class_001,hybrid_optimized_tree,"[""exception_lookup"", ""rule_lookup"", ""sla_lookup""]",1.693,32.6,0.75,0.736,0.3112,0.1259
+tree_frag_02714_v1,frag_02714,class_001,hybrid_optimized_tree,"[""owner_lookup""]",1.0,14.0,0.857,1.0,0.1148,-0.1841
+tree_frag_02717_v1,frag_02717,class_001,hybrid_optimized_tree,"[""applicability_check"", ""effective_date_lookup""]",1.563,28.3,0.75,1.0,0.1953,-0.0522
+tree_frag_02719_v1,frag_02719,class_005,hybrid_optimized_tree,"[""rule_lookup"", ""threshold_lookup""]",1.326,25.7,0.75,1.0,0.2063,-0.0412
+tree_frag_02721_v1,frag_02721,class_005,hybrid_optimized_tree,"[""approval_lookup"", ""rule_lookup"", ""threshold_lookup""]",1.64,17.6,0.75,1.0,0.2639,0.0239
+tree_frag_02723_v1,frag_02723,class_002,class_objective_tree,"[""approval_lookup"", ""exception_lookup"", ""owner_lookup"", ""rule_lookup""]",2.0,37.1,0.75,0.94,0.259,0.0505
+tree_frag_02729_v1,frag_02729,class_001,hybrid_optimized_tree,"[""applicability_check"", ""effective_date_lookup"", ""owner_lookup""]",1.46,18.5,0.75,1.0,0.1793,-0.0607
+tree_frag_02732_v1,frag_02732,class_001,hybrid_optimized_tree,"[""rule_lookup"", ""sla_lookup""]",1.0,23.5,0.857,1.0,0.1678,-0.1237
+tree_frag_02734_v1,frag_02734,class_001,hybrid_optimized_tree,"[""rule_lookup""]",1.0,21.0,0.857,1.0,0.1718,-0.1271
+tree_frag_02735_v1,frag_02735,class_001,hybrid_optimized_tree,"[""owner_lookup""]",1.0,11.0,0.857,1.0,0.1118,-0.1871
+tree_frag_02738_v1,frag_02738,class_001,hybrid_optimized_tree,"[""escalation_lookup"", ""sla_lookup""]",1.0,13.0,0.857,1.0,0.1164,-0.1751
+tree_frag_02743_v1,frag_02743,class_001,hybrid_optimized_tree,"[""effective_date_lookup"", ""owner_lookup""]",1.0,11.7,0.857,1.0,0.115,-0.1764
+tree_frag_02746_v1,frag_02746,class_001,hybrid_optimized_tree,"[""sla_lookup""]",1.0,10.0,0.857,1.0,0.1108,-0.1881
+tree_frag_02751_v1,frag_02751,class_001,hybrid_optimized_tree,"[""escalation_lookup"", ""rule_lookup""]",1.0,17.9,0.857,1.0,0.1617,-0.1297
+tree_frag_02752_v1,frag_02752,class_001,hybrid_optimized_tree,"[""sla_lookup""]",1.0,10.0,0.857,1.0,0.1108,-0.1881
+tree_frag_02754_v1,frag_02754,class_001,hybrid_optimized_tree,"[""escalation_lookup"", ""rule_lookup"", ""sla_lookup""]",1.0,22.7,0.857,1.0,0.1997,-0.0767
+tree_frag_02759_v1,frag_02759,class_001,hybrid_optimized_tree,"[""applicability_check"", ""effective_date_lookup"", ""owner_lookup""]",1.46,20.2,0.75,1.0,0.181,-0.059
+tree_frag_02765_v1,frag_02765,class_002,hybrid_optimized_tree,"[""approval_lookup"", ""rule_lookup""]",1.0,19.8,0.857,1.0,0.1623,-0.1292
+tree_frag_02768_v1,frag_02768,class_001,hybrid_optimized_tree,"[""escalation_lookup"", ""rule_lookup"", ""sla_lookup""]",1.0,20.0,0.857,1.0,0.1602,-0.1237

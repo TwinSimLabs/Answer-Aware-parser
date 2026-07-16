@@ -1,0 +1,6 @@
+class_id,class_name,class_density,member_prototypes
+class_001,Policy-like Fragments,0.3167,7
+class_002,Approval Lookup Subspace,0.1749,4
+class_003,Metric Lookup Subspace,0.4809,2
+class_004,Variance Explanation Subspace,0.2741,2
+class_005,Threshold Lookup Subspace,0.6437,2

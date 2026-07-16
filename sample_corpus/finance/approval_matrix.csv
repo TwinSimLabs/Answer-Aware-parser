@@ -1,0 +1,9 @@
+region,transaction_type,amount_threshold,approver,effective_date
+India,purchase,10000,Finance Director,2025-07-01
+United States,purchase,25000,Regional VP,2025-07-01
+Global,purchase,50000,CFO,2025-07-01
+India,expense,2500,Finance Manager,2025-03-15
+United States,entertainment,500,Regional VP,2025-03-15
+Global,budget_reallocation,100000,CFO,2026-02-01
+Global,data_access,10000,Chief Data Officer,2026-01-01
+Global,vendor_high_risk,0,Chief Risk Officer,2025-09-01

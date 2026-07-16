@@ -1,0 +1,18 @@
+prototype_id,canonical_name,class_id,support_fragment_count,support_document_count,synthetic_frequency,observed_frequency,inferred_importance,risk_weight,final_density
+qproto_001_threshold_lookup,threshold_lookup(amount_threshold),class_005,234,123,0.2319,0.0,0.925,0.85,0.9737
+qproto_002_metric_lookup,metric_lookup(metric),class_003,212,105,0.2101,0.0,0.6925,0.5,0.8208
+qproto_003_rule_lookup,rule_lookup(subject),class_001,154,73,0.1526,0.0,0.6661,0.7,0.648
+qproto_004_exception_lookup,exception_lookup(condition),class_001,99,66,0.0981,0.0,0.6342,0.8,0.5197
+qproto_005_variance_explanation,variance_explanation(metric),class_004,85,37,0.0842,0.0,0.4691,0.6,0.3878
+qproto_006_applicability_check,applicability_check(audience),class_001,63,38,0.0624,0.0,0.4676,0.65,0.3466
+qproto_008_threshold_lookup,"threshold_lookup(amount_threshold, region)",class_005,39,33,0.0387,0.0,0.5287,0.85,0.3137
+qproto_007_effective_date_lookup,effective_date_lookup(document),class_001,48,35,0.0476,0.0,0.3434,0.45,0.2694
+qproto_014_approval_lookup,approval_lookup(transaction_type),class_002,6,4,0.0059,0.0,0.4642,0.9,0.1805
+qproto_013_approval_lookup,"approval_lookup(region, transaction_type)",class_002,8,1,0.0079,0.0,0.4619,0.9,0.1787
+qproto_015_approval_lookup,"approval_lookup(amount_threshold, transaction_type)",class_002,5,4,0.005,0.0,0.4629,0.9,0.1781
+qproto_017_approval_lookup,"approval_lookup(amount_threshold, region, transaction_type)",class_002,1,1,0.001,0.0,0.4529,0.9,0.1621
+qproto_010_variance_explanation,variance_explanation(metric),class_004,15,9,0.0149,0.0,0.3339,0.6,0.1603
+qproto_016_escalation_lookup,escalation_lookup(trigger),class_001,4,3,0.004,0.0,0.4,0.78,0.1526
+qproto_012_sla_lookup,sla_lookup(step),class_001,9,6,0.0089,0.0,0.3313,0.62,0.143
+qproto_009_metric_lookup,"metric_lookup(metric, period)",class_003,17,6,0.0168,0.0,0.2816,0.5,0.141
+qproto_011_owner_lookup,owner_lookup(object),class_001,10,8,0.0099,0.0,0.3008,0.55,0.1375

@@ -1,0 +1,13 @@
+digraph T {
+  rankdir=TB;
+  node [shape=box, style=rounded, fontsize=10];
+  "root" [label="Root", shape=box];
+  "h0_0" [label="rule: Priority 1 incidents must be acknowledg…", shape=ellipse];
+  "h0_1" [label="rule: If an incident is not resolved within t…", shape=ellipse];
+  "h1_0" [label="sla: 15 minutes", shape=ellipse];
+  "h2_0" [label="escalation_target: Incident Commander", shape=ellipse];
+  "root" -> "h0_0";
+  "root" -> "h0_1";
+  "root" -> "h1_0";
+  "root" -> "h2_0";
+}

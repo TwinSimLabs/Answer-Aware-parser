@@ -1,0 +1,21 @@
+digraph T {
+  rankdir=TB;
+  node [shape=box, style=rounded, fontsize=10];
+  "root" [label="Root", shape=box];
+  "o0" [label="Objective: metric_lookup", shape=box];
+  "omisc" [label="Objective: other", shape=box];
+  "e0" [label="metric: Services revenue", shape=ellipse];
+  "e1" [label="value: 8 percent", shape=ellipse];
+  "e2" [label="variance: 8 percent", shape=ellipse];
+  "e3" [label="variance_driver: delayed customer renewals in the India …", shape=ellipse];
+  "e4" [label="metric: Subscription revenue", shape=ellipse];
+  "e5" [label="value: 4 percent", shape=ellipse];
+  "root" -> "o0";
+  "root" -> "omisc";
+  "o0" -> "e0";
+  "o0" -> "e1";
+  "o0" -> "e4";
+  "o0" -> "e5";
+  "omisc" -> "e2";
+  "omisc" -> "e3";
+}

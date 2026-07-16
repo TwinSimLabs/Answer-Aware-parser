@@ -1,0 +1,17 @@
+{
+  "timestamp": "2026-07-01T23:09:04",
+  "project_root": "C:\\Work\\Answer-Aware-parser",
+  "elapsed_seconds": 30.21,
+  "counts": {
+    "documents": 559,
+    "fragments": 2761,
+    "direct_questions": 1023,
+    "partial_questions": 558,
+    "prototypes": 17,
+    "classes": 5,
+    "evidence_units": 1525,
+    "trees": 768,
+    "simulations": 40
+  },
+  "used_llm": false
+}

@@ -1,0 +1,33 @@
+digraph T {
+  rankdir=TB;
+  node [shape=box, style=rounded, fontsize=10];
+  "root" [label="Root", shape=box];
+  "h0_0" [label="rule: Purchases over $10,000 in India require…", shape=ellipse];
+  "h0_1" [label="rule: All software purchases regardless of am…", shape=ellipse];
+  "hg1" [label="Co-demanded: approver, region, amount_threshold", shape=box];
+  "hg1_approver_0" [label="approver: Line Manager", shape=ellipse];
+  "hg1_approver_1" [label="approver: Finance Director", shape=ellipse];
+  "hg1_approver_2" [label="approver: Regional VP", shape=ellipse];
+  "hg1_approver_3" [label="approver: CFO", shape=ellipse];
+  "hg1_region_0" [label="region: India", shape=ellipse];
+  "hg1_region_1" [label="region: United States", shape=ellipse];
+  "hg1_region_2" [label="region: any region", shape=ellipse];
+  "hg1_amount_threshold_0" [label="amount_threshold: $2,000", shape=ellipse];
+  "hg1_amount_threshold_1" [label="amount_threshold: $10,000", shape=ellipse];
+  "hg1_amount_threshold_2" [label="amount_threshold: $25,000", shape=ellipse];
+  "hg1_amount_threshold_3" [label="amount_threshold: $50,000", shape=ellipse];
+  "root" -> "h0_0";
+  "root" -> "h0_1";
+  "root" -> "hg1";
+  "hg1" -> "hg1_approver_0";
+  "hg1" -> "hg1_approver_1";
+  "hg1" -> "hg1_approver_2";
+  "hg1" -> "hg1_approver_3";
+  "hg1" -> "hg1_region_0";
+  "hg1" -> "hg1_region_1";
+  "hg1" -> "hg1_region_2";
+  "hg1" -> "hg1_amount_threshold_0";
+  "hg1" -> "hg1_amount_threshold_1";
+  "hg1" -> "hg1_amount_threshold_2";
+  "hg1" -> "hg1_amount_threshold_3";
+}

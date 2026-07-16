@@ -1,0 +1,18 @@
+prototype_id,class_id,class_name
+qproto_003_rule_lookup,class_001,Policy-like Fragments
+qproto_004_exception_lookup,class_001,Policy-like Fragments
+qproto_006_applicability_check,class_001,Policy-like Fragments
+qproto_007_effective_date_lookup,class_001,Policy-like Fragments
+qproto_011_owner_lookup,class_001,Policy-like Fragments
+qproto_012_sla_lookup,class_001,Policy-like Fragments
+qproto_016_escalation_lookup,class_001,Policy-like Fragments
+qproto_013_approval_lookup,class_002,Approval Lookup Subspace
+qproto_014_approval_lookup,class_002,Approval Lookup Subspace
+qproto_015_approval_lookup,class_002,Approval Lookup Subspace
+qproto_017_approval_lookup,class_002,Approval Lookup Subspace
+qproto_002_metric_lookup,class_003,Metric Lookup Subspace
+qproto_009_metric_lookup,class_003,Metric Lookup Subspace
+qproto_005_variance_explanation,class_004,Variance Explanation Subspace
+qproto_010_variance_explanation,class_004,Variance Explanation Subspace
+qproto_001_threshold_lookup,class_005,Threshold Lookup Subspace
+qproto_008_threshold_lookup,class_005,Threshold Lookup Subspace

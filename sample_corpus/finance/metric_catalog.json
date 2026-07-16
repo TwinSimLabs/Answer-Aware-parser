@@ -1,0 +1,35 @@
+{
+  "title": "Finance Metric Catalog",
+  "effective_date": "2026-02-01",
+  "owner": "FP&A Team",
+  "metrics": [
+    {
+      "metric": "Total Revenue",
+      "period": "Q2 2026",
+      "value": "$48.2M",
+      "source_table": "consolidated_gl_revenue",
+      "owner": "FP&A Team"
+    },
+    {
+      "metric": "Subscription Revenue",
+      "period": "Q2 2026",
+      "value": "$34.5M",
+      "source_table": "consolidated_gl_revenue",
+      "owner": "FP&A Team"
+    },
+    {
+      "metric": "Gross Margin",
+      "period": "Q2 2026",
+      "value": "71%",
+      "source_table": "margin_summary",
+      "owner": "FP&A Team"
+    },
+    {
+      "metric": "Operating Expenses",
+      "period": "Q2 2026",
+      "value": "$22.1M",
+      "source_table": "opex_ledger",
+      "owner": "FP&A Team"
+    }
+  ]
+}

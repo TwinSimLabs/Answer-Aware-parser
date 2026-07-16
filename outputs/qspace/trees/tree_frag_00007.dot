@@ -1,0 +1,11 @@
+digraph T {
+  rankdir=TB;
+  node [shape=box, style=rounded, fontsize=10];
+  "root" [label="Root", shape=box];
+  "h0_0" [label="rule: Any budget variance over 10 percent mus…", shape=ellipse];
+  "h0_1" [label="rule: The variance driver and corrective acti…", shape=ellipse];
+  "h1_0" [label="variance: 10 percent", shape=ellipse];
+  "root" -> "h0_0";
+  "root" -> "h0_1";
+  "root" -> "h1_0";
+}

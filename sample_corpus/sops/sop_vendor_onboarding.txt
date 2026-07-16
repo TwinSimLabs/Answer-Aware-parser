@@ -1,0 +1,17 @@
+# SOP: Vendor Onboarding and Risk Review
+
+## Owner
+The Vendor Management Office owns this SOP. It is effective September 1, 2025
+and applies to all new vendor engagements.
+
+## Steps
+Step 1: Collect vendor documentation. The Procurement Analyst is responsible.
+Step 2: Perform a risk assessment. The Risk team is responsible for scoring
+vendor risk as low, medium, or high.
+Step 3: Approve the vendor. Low risk vendors are approved by the Procurement
+Manager. High risk vendors require Chief Risk Officer approval.
+Step 4: Set up the vendor in the ERP system.
+
+## SLA and Escalation
+Vendor risk reviews must be completed within 5 business days. Overdue reviews
+are escalated to the Vendor Management Office lead.

@@ -1,0 +1,13 @@
+# Core scientific stack used by the Qspace pipeline.
+pandas
+numpy
+matplotlib
+networkx
+scikit-learn
+scipy
+
+# Optional loaders (pipeline degrades gracefully if these are absent):
+# pypdf        # .pdf text extraction
+# python-docx  # .docx
+# openpyxl     # .xlsx
+# python-pptx  # .pptx

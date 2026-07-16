@@ -1,0 +1,329 @@
+﻿[OVERNIGHT-RUN] started=20260701_230832
+[OVERNIGHT-RUN] cwd=C:\Work\Answer-Aware-parser
+
+no tests ran in 0.18s
+
+======================================================================
+[START] Question-Space Driven Knowledge Compilation
+======================================================================
+[START] Run at 2026-07-01 23:08:33
+[START] Project root: C:\Work\Answer-Aware-parser
+[START] Outputs: C:\Work\Answer-Aware-parser\outputs\qspace
+
+======================================================================
+[SCAN] Corpus discovery
+======================================================================
+[SCAN] Project root: C:\Work\Answer-Aware-parser
+[SCAN] Candidate corpus directories found: ['sample_corpus']
+[SCAN] Selected corpus directory: C:\Work\Answer-Aware-parser\sample_corpus
+[SCAN] File counts by extension:
+    .json    275
+    .pdf     274
+    .md      7
+    .txt     2
+    .csv     1
+[SCAN] Total candidate documents: 559
+[SCAN] Assumptions:
+    - Selected 'sample_corpus' as the primary corpus directory because it contains the most candidate documents (559). All discovered documents across the project are still inventoried.
+
+======================================================================
+[INVENTORY] Corpus inventory
+======================================================================
+[INVENTORY] Inventoried 559 candidate documents.
+[INVENTORY] Median sampled length: 2,000 chars
+[INVENTORY] Longest sampled document: 003755794bbbbcffd0667b9600aeb0be.json
+[INVENTORY] Saved: C:\Work\Answer-Aware-parser\outputs\qspace\corpus_inventory.csv
+
+======================================================================
+[LOAD] Document loading
+======================================================================
+[LOAD] Loaded 285 / 559 documents with usable text.
+[LOAD] Non-loaded / empty files: 274
+    - 003755794bbbbcffd0667b9600aeb0be.pdf (empty)
+    - 0069c940cfca223b2789cbbcc846b038.pdf (empty)
+    - 0112773c37b09547b87270583b651784.pdf (empty)
+    - 012e9f2fb194f89501f65735bc4aca62.pdf (empty)
+    - 018ba3b4adee47eef3555fc300cbde94.pdf (empty)
+    - 01cbb28d73f2117a2bf155814a46806c.pdf (empty)
+    - 028ee763c1f90a74df4736ce7b5ffba4.pdf (empty)
+    - 0431c0120abe739c6a106cce515f3108.pdf (empty)
+    - 04517855d313cc5e0e3fa1b43dcfd99c.pdf (empty)
+    - 04aea9b8928c7258bd119ad0d4ac68be.pdf (empty)
+[LOAD] Sample loaded snippets:
+    doc_0001 [{]: "pages.[0].bbox.[0] = 0 pages.[0].bbox.[1] = 0 pages.[0].bbox.[2] = 1240 pages.[0].bbox.[3] = 1754 pages.[0].bà"
+    doc_0003 [{]: "pages.[0].bbox.[0] = 0 pages.[0].bbox.[1] = 0 pages.[0].bbox.[2] = 1240 pages.[0].bbox.[3] = 1753 pages.[0].bà"
+    doc_0005 [{]: "pages.[0].bbox.[0] = 0 pages.[0].bbox.[1] = 0 pages.[0].bbox.[2] = 1240 pages.[0].bbox.[3] = 1605 pages.[0].bà"
+[LOAD] Saved: C:\Work\Answer-Aware-parser\outputs\qspace\intermediate\loaded_documents.jsonl
+
+======================================================================
+[FRAGMENT] Fragmentation
+======================================================================
+[FRAGMENT] Documents processed: 559
+[FRAGMENT] Total fragments: 2761
+[FRAGMENT] Fragment types:
+    paragraph: 2700
+    section: 40
+    list_item: 13
+    table_row: 8
+[FRAGMENT] Average fragments per document: 9.7
+[FRAGMENT] Sample fragments:
+    frag_00001 [paragraph]: "pages.[0].bbox.[0] = 0 pages.[0].bbox.[1] = 0 pages.[0].bbox.[2] = 1240 pages.[0].bbox.[3à"
+    frag_00002 [paragraph]: "Order intake represents commitments from customers to purchase goods and/or services thatà"
+    frag_00003 [paragraph]: "Adjusted basic earnings per share is based on adjusted earnings as set out in note 11 of à"
+    frag_00004 [paragraph]: "The final dividend proposed for 2019 of 3.45 cents per Ordinary Share is equivalent to 2.à"
+[FRAGMENT] Saved: C:\Work\Answer-Aware-parser\outputs\qspace\intermediate\fragments.jsonl
+
+======================================================================
+[AFFORDANCE] Answer-affordance detection (heuristic fallback)
+======================================================================
+[AFFORDANCE] No LLM/API configured -> using transparent rule-based detectors. Every direct question is span-validated.
+[AFFORDANCE] Fragments with affordances: 1006
+[AFFORDANCE] Direct questions: 1023 | Partial questions: 558
+[AFFORDANCE] Span-validation rejects: 0
+[AFFORDANCE] Top intents:
+    threshold_lookup: 275
+    metric_lookup: 231
+    rule_lookup: 160
+    exception_lookup: 100
+    variance_explanation: 100
+    applicability_check: 63
+    effective_date_lookup: 48
+    approval_lookup: 23
+[AFFORDANCE] Fragment frag_00004
+    Text: "The final dividend proposed for 2019 of 3.45 cents per Ordinary Share is equivalent to 2.à"
+    - What was revenue?
+      intent=metric_lookup evidence_roles=['metric', 'value']
+[AFFORDANCE] Saved: C:\Work\Answer-Aware-parser\outputs\qspace\intermediate\answer_affordances.jsonl
+
+======================================================================
+[QPROTO] Question prototype normalization
+======================================================================
+[QPROTO] Raw questions generated: 1023
+[QPROTO] Normalized prototypes: 17
+[QPROTO] Fragment-question edges: 1581
+[QPROTO] Top prototypes by supporting fragments:
+    threshold_lookup(amount_threshold): 234 fragments
+    metric_lookup(metric): 212 fragments
+    rule_lookup(subject): 154 fragments
+    exception_lookup(condition): 99 fragments
+    variance_explanation(metric): 85 fragments
+    applicability_check(audience): 63 fragments
+    effective_date_lookup(document): 48 fragments
+    threshold_lookup(amount_threshold, region): 39 fragments
+    metric_lookup(metric, period): 17 fragments
+    variance_explanation(metric): 15 fragments
+    owner_lookup(object): 10 fragments
+    sla_lookup(step): 9 fragments
+    approval_lookup(region, transaction_type): 8 fragments
+    approval_lookup(transaction_type): 6 fragments
+    approval_lookup(amount_threshold, transaction_type): 5 fragments
+    escalation_lookup(trigger): 4 fragments
+    approval_lookup(amount_threshold, region, transaction_type): 1 fragments
+[QPROTO] Saved: C:\Work\Answer-Aware-parser\outputs\qspace\question_prototypes.json
+
+======================================================================
+[CLASS] Class / question-subspace discovery
+======================================================================
+[CLASS] Clustering method: agglomerative
+[CLASS] Proposed classes: 5
+    class_001: Policy-like Fragments (status=proposed)
+        prototypes: 7 | fragments: 332
+        dominant intents: rule_lookup, exception_lookup, applicability_check, effective_date_lookup
+        evidence roles: condition, rule, exception, audience, scope
+    class_002: Approval Lookup Subspace (status=proposed)
+        prototypes: 4 | fragments: 19
+        dominant intents: approval_lookup
+        evidence roles: approver, region, amount_threshold
+    class_003: Metric Lookup Subspace (status=proposed)
+        prototypes: 2 | fragments: 226
+        dominant intents: metric_lookup
+        evidence roles: metric, value, period
+    class_004: Variance Explanation Subspace (status=proposed)
+        prototypes: 2 | fragments: 99
+        dominant intents: variance_explanation
+        evidence roles: variance, variance_driver
+    class_005: Threshold Lookup Subspace (status=proposed)
+        prototypes: 2 | fragments: 273
+        dominant intents: threshold_lookup
+        evidence roles: amount_threshold, region
+[CLASS] Saved: C:\Work\Answer-Aware-parser\outputs\qspace\classes.json
+
+======================================================================
+[DENSITY] Question density estimation (synthetic)
+======================================================================
+[DENSITY] Top dense question prototypes:
+    threshold_lookup(amount_threshold) density=0.9737
+    metric_lookup(metric) density=0.8208
+    rule_lookup(subject) density=0.648
+    exception_lookup(condition) density=0.5197
+    variance_explanation(metric) density=0.3878
+    applicability_check(audience) density=0.3466
+[DENSITY] Saved: C:\Work\Answer-Aware-parser\outputs\qspace\question_density.csv
+
+======================================================================
+[PROXIMITY] Question proximity estimation
+======================================================================
+[PROXIMITY] Nearest neighbors (top similar pairs):
+    variance_explanation(metric)
+        -> variance_explanation(metric) score=0.801
+    approval_lookup(amount_threshold, transaction_type)
+        -> approval_lookup(amount_threshold, region, transaction_type) score=0.7867
+    approval_lookup(region, transaction_type)
+        -> approval_lookup(amount_threshold, region, transaction_type) score=0.7667
+    metric_lookup(metric)
+        -> metric_lookup(metric, period) score=0.7347
+    threshold_lookup(amount_threshold)
+        -> threshold_lookup(amount_threshold, region) score=0.7
+    approval_lookup(region, transaction_type)
+        -> approval_lookup(transaction_type) score=0.7
+    approval_lookup(transaction_type)
+        -> approval_lookup(amount_threshold, transaction_type) score=0.7
+    approval_lookup(region, transaction_type)
+        -> approval_lookup(amount_threshold, transaction_type) score=0.6333
+[PROXIMITY] Saved: C:\Work\Answer-Aware-parser\outputs\qspace\question_proximity.csv
+
+======================================================================
+[EVIDENCE] Evidence-role extraction
+======================================================================
+[EVIDENCE] Evidence units extracted: 1525
+[EVIDENCE] Evidence role frequency:
+    amount_threshold: 284
+    metric: 231
+    value: 231
+    rule: 160
+    exception: 100
+    condition: 100
+    variance_driver: 85
+    scope: 63
+    audience: 63
+    region: 50
+    effective_date: 48
+    variance: 47
+[EVIDENCE] frag_00004
+    metric = revenue
+    value = $4.3
+[EVIDENCE] Saved: C:\Work\Answer-Aware-parser\outputs\qspace\evidence_roles.jsonl
+
+======================================================================
+[CODEMAND] Evidence co-demand matrix
+======================================================================
+[CODEMAND] Strong evidence co-demand pairs:
+    metric <-> value: 0.168
+    condition <-> rule: 0.113
+    condition <-> exception: 0.091
+    amount_threshold <-> region: 0.083
+    variance <-> variance_driver: 0.068
+    audience <-> scope: 0.061
+    region <-> approver: 0.060
+    amount_threshold <-> approver: 0.060
+[CODEMAND] Saved: C:\Work\Answer-Aware-parser\outputs\qspace\evidence_codemand.csv
+
+======================================================================
+[QSPACE] Qspace tracker + graph
+======================================================================
+[QSPACE] Nodes:
+    prototypes: 17
+    fragments: 1006
+    evidence roles: 17
+    classes: 5 | documents: 234
+[QSPACE] Edges:
+    fragment_evidence: 1525
+    prototype_fragment: 1023
+    fragment_document: 768
+    prototype_evidence: 29
+    prototype_class: 17
+[QSPACE] Highest-degree prototypes:
+    threshold_lookup(amount_threshold): 236 fragments
+    metric_lookup(metric): 214 fragments
+    rule_lookup(subject): 160 fragments
+    exception_lookup(condition): 100 fragments
+    variance_explanation(metric): 85 fragments
+[QSPACE] Saved: C:\Work\Answer-Aware-parser\outputs\qspace\qspace_tracker.json
+
+======================================================================
+[TREE] Retrieval tree compiler
+======================================================================
+[TREE] Fragments compiled into trees: 768
+[TREE] Selected tree type distribution:
+    hybrid_optimized_tree: 480
+    question_intent_tree: 284
+    class_objective_tree: 4
+[TREE] Average total_cost by candidate type:
+    source_order_tree: 0.195
+    evidence_role_tree: 0.270
+    question_intent_tree: 0.232
+    class_objective_tree: 0.239
+    hybrid_optimized_tree: 0.183
+[TREE] Fragment frag_00004 candidate scorecard (objective J):
+    source_order_tree: J=0.0032
+    evidence_role_tree: J=0.1308
+    question_intent_tree: J=-0.0333
+    class_objective_tree: J=-0.0333
+    hybrid_optimized_tree: J=-0.0333
+    SELECTED: question_intent_tree
+[TREE] Rendered 12 representative tree visuals in C:\Work\Answer-Aware-parser\outputs\qspace\trees
+[TREE] Saved: C:\Work\Answer-Aware-parser\outputs\qspace\retrieval_trees.jsonl
+
+======================================================================
+[PLANNER] Retrieval objective planner (query simulation)
+======================================================================
+[PLANNER] Simulated 40 query traversals.
+    Q: What was revenue?
+       tree=tree_frag_00004_v1 nodes_visited=4 tokens=80
+       answer: metric = revenue
+    Q: What rule applies to These APMs?
+       tree=tree_frag_00005_v1 nodes_visited=2 tokens=40
+       answer: rule = These APMs are not defined under IFRS aà
+    Q: What was Revenue?
+       tree=tree_frag_00006_v1 nodes_visited=4 tokens=80
+       answer: metric = Revenue
+[PLANNER] Saved: C:\Work\Answer-Aware-parser\outputs\qspace\retrieval_simulations.jsonl
+
+======================================================================
+[EVAL] Baseline comparison
+======================================================================
+[EVAL] Silver queries evaluated: 1023
+[EVAL] Baseline comparison:
+    fixed_size_chunking:
+        evidence_recall=0.904 avg_context_tokens=512.0 avg_path_length=N/A
+    source_order_fragments:
+        evidence_recall=0.904 avg_context_tokens=7327.325 avg_path_length=3.699
+    heading_based_tree:
+        evidence_recall=0.904 avg_context_tokens=141.935 avg_path_length=3.5
+    generic_fragment_search:
+        evidence_recall=0.664 avg_context_tokens=135.572 avg_path_length=2.0
+    qspace_optimized_tree:
+        evidence_recall=0.904 avg_context_tokens=59.961 avg_path_length=1.483
+[EVAL] Qspace tree reduced context tokens by 88.3% vs fixed_size_chunking.
+[EVAL] Qspace tree reduced path length by 57.6% vs heading_based_tree.
+[EVAL] Saved: C:\Work\Answer-Aware-parser\outputs\qspace\evaluation\baseline_comparison.csv
+
+======================================================================
+[REPORT] Report + dashboard generation
+======================================================================
+[REPORT] final_report.md, run_summary.md, dashboard.html written to C:\Work\Answer-Aware-parser\outputs\qspace\reports / C:\Work\Answer-Aware-parser\outputs\qspace
+
+======================================================================
+[DONE] Qspace pipeline completed
+======================================================================
+[DONE] Elapsed: 30.2s
+
+Main reports:
+    - outputs/qspace/reports/run_summary.md
+    - outputs/qspace/reports/final_report.md
+    - outputs/qspace/dashboard.html
+
+Key data:
+    - outputs/qspace/question_prototypes.csv
+    - outputs/qspace/classes.csv
+    - outputs/qspace/retrieval_trees.jsonl
+    - outputs/qspace/evaluation/baseline_comparison.csv
+
+Key plots:
+    - outputs/qspace/plots/question_prototype_frequency.png
+    - outputs/qspace/plots/class_intent_heatmap.png
+    - outputs/qspace/plots/question_proximity_heatmap.png
+    - outputs/qspace/plots/candidate_tree_cost_comparison.png
+    - outputs/qspace/plots/baseline_vs_qspace_context_tokens.png
+
+[OVERNIGHT-RUN] completed=20260701_230904

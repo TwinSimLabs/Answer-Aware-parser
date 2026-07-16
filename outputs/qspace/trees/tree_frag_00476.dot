@@ -1,0 +1,15 @@
+digraph T {
+  rankdir=TB;
+  node [shape=box, style=rounded, fontsize=10];
+  "root" [label="Root", shape=box];
+  "h0_0" [label="rule: The unvested awards are subject to the …", shape=ellipse];
+  "hg1" [label="Co-demanded: metric, value", shape=box];
+  "hg1_metric_0" [label="metric: revenue", shape=ellipse];
+  "hg1_value_0" [label="value: $1,180", shape=ellipse];
+  "h2_0" [label="amount_threshold: $1,180", shape=ellipse];
+  "root" -> "h0_0";
+  "root" -> "hg1";
+  "root" -> "h2_0";
+  "hg1" -> "hg1_metric_0";
+  "hg1" -> "hg1_value_0";
+}
